@@ -1,0 +1,593 @@
+<?php
+set_time_limit(600);
+header('Content-Type:text/html;charset=utf-8');
+require_once './config/functions.php';
+
+$config=require_once './config.php';
+$config['server_url']="http://www.monxin.com/";
+$index_config=require_once './program/index/config.php';
+
+$timeoffset=($config['other']['timeoffset']>0)? "-".$config['other']['timeoffset']:str_replace("-","+",$config['other']['timeoffset']);
+date_default_timezone_set("Etc/GMT$timeoffset");
+$language=require_once './language/'.$config['web']['language'].'.php';
+$_GET['auto_install']=false;
+if(is_file('./install_config.php')){
+	$install_config=require('./install_config.php');
+	$_GET['act']='step3';
+	$_GET['auto_install']=true;
+	$_POST['database_host']='127.0.0.1';	
+	$_POST['database_username']=$install_config['db_username'];	
+	$_POST['database_password']=$install_config['db_password'];	
+	$_POST['database_name']=$install_config['db_name'];	
+	$_POST['database_prefix']='monxin_';	
+	$_POST['administrator_username']=$install_config['username'];
+	$_POST['administrator_email']=$install_config['email'];	
+	$_POST['administrator_password']=$install_config['password'];
+	$_POST['confirm_password']=$install_config['password'];
+	@unlink('./install_config.php');
+	@unlink('install_monxin.php_lock');
+	rename('install_monxin.php','install_monxin.php_lock');
+	//var_dump($install_config);
+	
+}
+
+
+
+$act=@$_GET['act'];
+$step=intval(@$_GET['step']);
+if($step==0){$step=1;}
+
+if($act=='step3'){
+	if(file_exists('./install.sql')==false){exit("{'state':'fail','info':'./install.sql ".$language['not_exist']."','id':''}");}
+	$del_old=@$_GET['del_old'];
+	//var_dump($_POST);	
+	foreach($_POST as $key=>$v){
+			if($v=='' && $key!='database_password'){exit("{'state':'fail','info':'<span class=fail>".$language['is_null']."</span>','id':'".$key."'}");}
+			$_POST[$key]=trim($_POST[$key]);
+	}
+	$mb=file_get_contents('./lib/mb_ConnectPDO.class.php');
+	$mb=str_replace('{host}',$_POST['database_host'],$mb);
+	$mb=str_replace('{user}',$_POST['database_username'],$mb);
+	$mb=str_replace('{password}',$_POST['database_password'],$mb);
+	$mb=str_replace('{dbname}',$_POST['database_name'],$mb);
+	$mb=str_replace('{sys_pre}',$_POST['database_prefix'],$mb);
+	$mb2=str_replace('echo "<br />database connect err：".$e->getMessage();exit;','',$mb);
+	$mb2=str_replace('class ConnectPDO','class ConnectPDO_temp',$mb2);
+	$database_state=true;
+	if(file_put_contents('./lib/ConnectPDO_temp.class.php',$mb2)){
+		require('./lib/ConnectPDO_temp.class.php');
+		$pdo=new ConnectPDO_temp();
+		if($pdo==null){
+			$database_state=false;
+						
+			class create_database extends PDO{
+				function __construct(){
+					try{
+						if(!defined('PDO::MYSQL_ATTR_INIT_COMMAND')){exit('pdo_mysql not exist');}
+						$driver_opts=array(PDO::MYSQL_ATTR_INIT_COMMAND=>"SET NAMES'UTF8'",PDO::MYSQL_ATTR_USE_BUFFERED_QUERY=>true);
+						parent::__construct("mysql:host=".$_POST['database_host'].";charset=UTF8",$_POST['database_username'],$_POST['database_password'],$driver_opts);
+					}catch(PDOException $e){
+						exit("{'state':'fail','info':'<span class=fail>db username or password err</span>','id':''}");
+					}
+					
+				}
+				function __toString(){
+					return '';
+					}
+				
+			}
+			
+			$pdo=new create_database();
+			if($pdo){
+				$sql="SELECT * FROM information_schema.SCHEMATA where SCHEMA_NAME='".$_POST['database_name']."';";
+				$r=$pdo->query($sql,2)->fetch(2);
+				if($r==false){
+					$sql="CREATE DATABASE ".$_POST['database_name'].";";
+					$r=$pdo->exec($sql);
+					if($r){
+						$pdo=new ConnectPDO_temp();
+						if($pdo!=null){$database_state=true;}
+					}
+				}
+			}
+			if(!$database_state){exit("{'state':'fail','info':'<span class=fail>".$language['database'].$language['info'].$language['err']."</span>','id':''}");}
+			
+		}
+		if($database_state){
+			if(file_put_contents('./lib/ConnectPDO.class.php',$mb)){
+				//var_dump($del_old);
+				if($del_old=='true'){
+					$statments=$pdo->query("show tables like '".$_POST['database_prefix']."%'");	
+					foreach ($statments as $value) {
+						if($value!=''){
+							$sql="DROP TABLE IF EXISTS `".$value[0]."`";	
+							//echo $sql;
+							$pdo->exec($sql);
+						}
+					}
+					exit("{'state':'fail','info':'<span class=fail>".$language['del'].$language['success']."</span>','id':'database_prefix'}");
+				}
+				
+				//
+				
+				$statments=$pdo->query("show tables like '".$_POST['database_prefix']."%'");	
+				foreach ($statments as $value) {
+					if($value!=''){exit("{'state':'fail','info':'<span class=fail>".$language['already_exists'].$del_old."</span> <a href=# onClick=\"return del_old();\">".$language['del'].$language['old_data']."</a>','id':'database_prefix'}");}
+				}
+				
+				if(!is_email($_POST['administrator_email'])){exit("{'state':'fail','info':'<span class=fail>".$language['email_pattern_err']."</span>','id':'administrator_email'}");}
+				if($_POST['administrator_password']!=$_POST['confirm_password']){exit("{'state':'fail','info':'<span class=fail>".$language['twice_password_not_same']."</span>','id':'confirm_password'}");}
+				$_POST['administrator_password']=md5($_POST['administrator_password']);
+				
+				$sql=file_get_contents('./install.sql');
+				$sql=str_replace('`monxin_','`'.$_POST['database_prefix'].'',$sql);
+				if(file_put_contents('./install_temp.sql',$sql)){
+					if(input_table($pdo,'./install_temp.sql')){
+						//unlink('./install_temp.sql');
+						$pdo=new ConnectPDO();
+						//$sql="delete from ".$pdo->index_pre."user";
+						//$pdo->exec($sql);
+						$sql="";
+						$time=time();
+						$ip=get_ip();
+						//echo $manager;
+						$sql="update ".$pdo->index_pre."user set `nickname`='".$_POST['administrator_username']."',`email`='".$_POST['administrator_email']."',`username`='".$_POST['administrator_username']."',`password`='".$_POST['administrator_password']."',`reg_time`=".$time.",`reg_ip`='".$ip."',`group`=1,`state`=1,`manager`=0 order by id asc  limit 1";
+						
+						if($pdo->exec($sql)){
+							$sql="update ".$pdo->index_pre."user set `openid`=''";
+							$pdo->exec($sql);
+							$config=require('./config.php');
+							$url=get_url();
+							$url=explode('install_monxin.php',$url);
+							$config['web']['domain']=trim($url[0],'/');
+							if($config['web']['site_id']!=0){
+								$url='http://www.monxin.com/receive.php?target=server::synchronization&act=add_site&domain='.$config['web']['domain'];
+								$r=file_get_contents($url);
+								$r=trim($r);
+								$r=json_decode($r,true);
+								if($r['state']=='success'){
+									$config['web']['site_id']=$r['site_id'];	
+									$config['web']['site_key']=$r['site_key'];	
+								}else{
+									$config['web']['site_id']='0';	
+									$config['web']['site_key']='0';									
+								}
+							}
+							
+							$config['web']['domain']=$_SERVER['HTTP_HOST'];
+							file_put_contents('./config.php','<?php return '.var_export($config,true).'?>');
+							
+							if(function_exists('apache_get_modules')){
+								 $result = apache_get_modules();
+								 file_put_contents('line.txt','119');
+								 if(in_array('mod_rewrite', $result)) {
+										$ht_mb=@file_get_contents('./m.htaccess');
+										$ht=str_replace('{url}',$config['web']['domain'],$ht_mb);
+										file_put_contents('./.htaccess',$ht);
+								  }
+							}
+							
+												  
+							
+							
+							if(!$_GET['auto_install']){
+								exit("{'state':'success','info':'<span class=success>".$language['success']."</span>','id':''}");
+							}else{
+								header('location:./index.php');exit;
+							}
+							
+						}else{
+							exit("{'state':'fail','info':'insert administrator ".$language['fail']."','id':''}");	
+						}
+						
+						
+						
+						
+					}else{
+						exit("{'state':'fail','info':'<span class=fail>".$language['import_database'].$language['fail']."</span>','id':''}");	
+					}
+				}else{
+					exit("{'state':'fail','info':'replace database prefix ".$language['fail']."','id':''}");
+				}
+				
+				
+				
+				
+			}else{
+				exit("{'state':'fail','info':'write ./lib/ConnectPDO.class.php ".$language['fail']."','id':''}");
+			}
+		}
+		
+	}else{
+		exit("{'state':'fail','info':'write ./lib/ConnectPDO_temp.class.php ".$language['fail']."','id':''}");
+	}
+	
+	
+	
+	
+	exit;
+}
+
+
+function get_state_span($v,$text=''){
+	if($v=='success'){return '<span class=success>&nbsp;'.$text.'</span>';}	
+	if($v=='fail'){return '<span class=fail>&nbsp;'.$text.'</span>';}	
+	if($v=='warning'){return '<span class=warning>&nbsp;'.$text.'</span>';}
+	return '<span class=other>&nbsp;'.$text.'</span>';;	
+}
+?>
+
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8" />
+<title><?php echo $language['install_monxin_os'];?></title>
+<meta name="renderer" content="webkit" />
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1;" />
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;" name="viewport" />
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+<link href="./public/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link href="./public/animate.min.css" rel="stylesheet" type="text/css">
+<link href="./templates/bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="./templates/0/index/<?php echo $index_config['program']['template_0']?>/pc/main.css" type="text/css">
+<link rel="stylesheet" href="./templates/0/index/<?php echo $index_config['program']['template_0']?>/pc/install.css" type="text/css">
+
+<script src="./public/jquery.js"></script>
+<script src="./public/jquery-ui.min.js"></script>
+<script src="./public/blocksit.min.js"></script>
+<script src="./templates/bootstrap/js/bootstrap.js" type="text/javascript"></script>
+<script src="./public/sys_head.js"></script>
+<script src="./public/top_ajax_form.js"></script>
+<script>
+$(document).ready(function(){
+	$("#step_<?php echo $step;?>").css('display','block');		
+        
+    });
+    </script>
+    
+
+<style>
+.current_environment{ text-align:left;} 
+.unable span{opacity:0.5; filter:alpha(opacity=50);}
+
+</style>
+</head>
+<body>
+
+
+<div class="page-header" monxin_layout="head">
+	<div class='container  head_div'><table><tr><td><a href="http://www.monxin.com" class="logo" target="_blank"><img src=./logo.png /></a></td><td ><span class=version>v<?php echo $config['no_update']['monxin_version'];?><?php echo $language['installation_wizard'];?></span></td><td><span class=monxin_slogan><?php echo $language['monxin_slogan'];?></span></td></tr></table></div>
+</div>
+
+<div class="page-container">
+   <div class="page-content">
+	    <div class="container" monxin_layout="full" m_container="m_container" > 
+			<div  class="portlet light" user_color='container'>
+			
+	       <div class=step_div>
+       		<div class="current_step_<?php echo $step;?>">
+					<span class=step_1>1、<?php echo $language['license_agreement'];?></span><span class=step_2>2、<?php echo $language['environmental_tesing'];?></span><span class=step_3>3、<?php echo $language['parameter_settings'];?></span><span class=step_4>4、<?php echo $language['installation_complete'];?></span>
+				</div>
+			</div>	
+		
+			<div class=main_div>
+				<div id=step_1>
+					<?php echo str_replace("\r\n",'<br />',file_get_contents('./license.txt'));?>
+					<div class=button_div><a href="install_monxin.php?step=2" class=consent_agreement user_color='button'><?php echo $language['consent_agreement'];?></a></div>
+				</div> 
+
+				<div id=step_2  align="center">
+					
+					<script>
+					$(document).ready(function(){
+						if(get_param('step')=='2'){
+							//$(".main_div").css('border','none').css('padding','0px');
+						}
+						$("#step2_table .function_effect .fail").each(function(index, element) {
+							//monxin_alert($(this).attr('class'));
+							$('#step_2_next').attr('onclick','return alert_info();');
+							$('#step_2_next').addClass('unable');
+						});		
+						
+					});
+					
+					function alert_info(){
+						tr_id=($(".fail").parent().parent().attr('id'));
+						monxin_alert($("#"+tr_id+" TD:first").html()+' <?php echo $language['failure_to_comply_with_the_requirements'];?>');
+						return false;	
+					}
+					
+					</script>
+					<table  class="table table-striped table-bordered table-hover dataTable no-footer"  role="grid"   id="step2_table" cellpadding="0" cellspacing="0">
+						<thead>
+							<tr>
+								<td class="name">&nbsp;<?php echo $language['check_item'];?></td>
+								<td ><?php echo $language['current_environment'];?></td>
+								<td ><?php echo $language['monxin_suggestions'];?></td>
+								<td ><?php echo $language['function_effect'];?></td>
+							</tr>
+						</thead>
+						<tbody>
+					<tr id='operation_system'>
+						<td class=check_item ><?php echo $language['operation_system'];?></td>
+						<td class=current_environment><?php echo PHP_OS;?></td>
+						<td class=monxin_suggestions>Windows_NT/Linux/Freebsd</td>
+						<td class=function_effect><?php echo get_state_span('success');?></td>
+					</tr>
+					<tr id='WEB_server'>
+						<td class=check_item ><?php echo $language['WEB_server'];?></td>
+						<td class=current_environment><?php echo $_SERVER['SERVER_SOFTWARE'];?></td>
+						<td class=monxin_suggestions>Apache/Nginx/IIS</td>
+						<td class=function_effect><?php echo get_state_span('success');?></td>
+					</tr>
+					<tr id='disk_free_space'>
+						<td class=check_item ><?php echo $language['disk_free_space'];?></td>
+						<td class=current_environment><?php echo formatSize(@disk_free_space('./'));?></td>
+						<td class=monxin_suggestions>>100M</td>
+						<td class=function_effect><?php if(@disk_free_space('./')>(100*1024*1024)){echo get_state_span('success');}else{echo get_state_span('warning');}?></td>
+					</tr>
+					<tr id='php_version'>
+						<td class=check_item >PHP <?php echo $language['version'];?></td>
+						<td class=current_environment><?php echo PHP_VERSION;?></td>
+						<td class=monxin_suggestions>5.2-5.6</td>
+						<td class=function_effect>
+                        <?php 
+							$temp=explode('.',PHP_VERSION);
+							$temp=$temp[0].'.'.$temp[1];
+							$all_version=array('5.2','5.3','5.4','5.5','5.6');
+							if(in_array($temp,$all_version)){
+								echo get_state_span('success');
+							}else{
+								echo get_state_span('fail');	
+							}
+						?>
+                        </td>
+					</tr> 
+					<tr id='safe_mode'>
+						<td class=check_item >safe_mode</td>
+						<td class=current_environment><?php if(get_cfg_var('safe_mode')){ echo 'On';}else{ echo 'Off';}?></td>
+						<td class=monxin_suggestions>Off</td>
+						<td class=function_effect><?php if(get_cfg_var('safe_mode')){ echo get_state_span('fail');}else{ echo get_state_span('success');}?></td>
+					</tr> 
+					<tr id='PDO'>
+						<td class=check_item >PDO</td>
+						<td class=current_environment><?php if(class_exists('pdo',false)){echo get_state_span('success');}else{echo get_state_span('fail');}?></td>
+						<td class=monxin_suggestions><?php echo $language['must_be_open'];?></td>
+						<td class=function_effect><?php if(class_exists('pdo',false)){echo get_state_span('success');}else{echo get_state_span('fail');}?></td>
+					</tr>
+					<tr id='pdo_mysql'>
+						<td class=check_item >pdo_mysql</td>
+						<td class=current_environment><?php 
+						class check_pdo_mysql extends PDO{
+							function __construct(){	
+								if(!defined('PDO::MYSQL_ATTR_INIT_COMMAND')){$_POST['pdo_mysql']=false;}else{$_POST['pdo_mysql']=true;}					 
+							}	
+						}
+						new check_pdo_mysql();
+						if($_POST['pdo_mysql']){echo get_state_span('success');}else{echo get_state_span('fail');}
+						?></td>
+						<td class=monxin_suggestions><?php echo $language['must_be_open'];?></td>
+						<td class=function_effect><?php if($_POST['pdo_mysql']){echo get_state_span('success');}else{echo get_state_span('fail');}?></td>
+					</tr>
+					<tr id='libxml_disable_entity_loader'>
+						<td class=check_item >libxml_disable_entity_loader</td>
+						<td class=current_environment><?php if(function_exists('libxml_disable_entity_loader')){echo get_state_span('success');}else{echo get_state_span('fail');}?></td>
+						<td class=monxin_suggestions><?php echo $language['must_be_open'];?></td>
+						<td class=function_effect><?php if(function_exists('libxml_disable_entity_loader')){echo get_state_span('success');}else{echo get_state_span('fail');}?></td>
+					</tr>
+					<tr id='opensll'>
+						<td class=check_item >opensll</td>
+						<td class=current_environment><?php if(function_exists('openssl_pkey_get_private')){echo get_state_span('success');}else{echo get_state_span('fail');}?></td>
+						<td class=monxin_suggestions><?php echo $language['must_be_open'];?></td>
+						<td class=function_effect><?php if(function_exists('openssl_pkey_get_private')){echo get_state_span('success');}else{echo get_state_span('fail');}?></td>
+					</tr>
+					<tr id='GD'>
+						<td class=check_item >GD</td>
+						<td class=current_environment><?php if(function_exists('gd_info')){echo get_state_span('success');}else{echo get_state_span('fail');}?></td>
+						<td class=monxin_suggestions><?php echo $language['must_be_open'];?></td>
+						<td class=function_effect><?php if(function_exists('gd_info')){echo get_state_span('success');}else{echo get_state_span('fail');}?></td>
+					</tr>
+					<tr id='ZipArchive'>
+						<td class=check_item >ZipArchive</td>
+						<td class=current_environment><?php if(class_exists('ZipArchive',false)){echo get_state_span('success');}else{echo get_state_span('fail');}?></td>
+						<td class=monxin_suggestions><?php echo $language['must_be_open'];?></td>
+						<td class=function_effect><?php if(class_exists('ZipArchive',false)){echo get_state_span('success');}else{echo get_state_span('fail');}?></td>
+					</tr>
+					<tr id='power'>
+						<td class=check_item ><?php echo $language['dir'];?>、<?php echo $language['file'];?><?php echo $language['power'];?></td>
+						<td class=current_environment align="left" style="text-align:left"><?php 
+						$dir=new Dir();
+						$r=$dir->show_dir('./',array('test'),$sub=false,true);
+						$check_dir=array('cache','config','data','editor','language','payment','plugin','program','temp','temp_dir','templates',);
+						$write_able=true;
+						foreach($r as $v){
+							$v=str_replace('./','',$v);
+							if(in_array($v,$check_dir)){
+								if(file_put_contents('./'.$v.'/write.test',' ')){
+									unlink('./'.$v.'/write.test');
+									$state="<span class=success>&nbsp;</span>";	
+								}else{
+									$write_able=false;
+									$state="<span class=fail>&nbsp;</span>";
+								}
+								echo '<span class=dir>'.$v.'</span> '.$state.'<br />';	
+							}	
+						}
+						
+						?></td>
+						<td class=monxin_suggestions><?php echo $language['writable'];?></td>
+						<td class=function_effect><?php if($write_able){echo get_state_span('success');}else{echo get_state_span('fail',$language['does_not_work']);}?></td>
+					</tr>
+							</tbody>
+					</table>
+								
+								
+								
+					<div class=button_div><a href="install_monxin.php?step=1" class=previous user_color=button><?php echo $language['previous'];?></a><a href="install_monxin.php?step=3" class=next id=step_2_next user_color=button><?php echo $language['next'];?></a></div>
+				</div>
+
+								
+				<div id=step_3>
+				<style>
+				
+				</style> 
+				<script>
+					function exe_check(){
+						//表单输入值检测... 如果非法则返回 false
+						$("#monxin_form table span").html('');
+						$(".previous").css('display','none');
+						$("#submit").css('display','none');
+						$("#submit_state").html('<span class=loading><?php echo $language['installing_please_wait'];?></span>');
+						$("#monxin_form").attr('action','install_monxin.php?act=step3');
+						top_ajax_form('monxin_form','submit_state','show_result');
+						return false;
+						}
+					
+					function del_old(){
+						database_host=$("#database_host").val();
+						database_name=$("#database_name").val();
+						database_prefix=$("#database_prefix").val();
+						database_username=$("#database_username").val();
+						database_password=$("#database_password").val();
+						$.post("install_monxin.php?act=step3&del_old=true", { database_host:database_host, database_name:database_name, database_prefix:database_prefix, database_username:database_username, database_password:database_password, },
+						   function(data){
+							 //monxin_alert(data);
+							 json=eval("("+data+")");
+							 $("#database_prefix_state").html(json.info);
+						   });		
+						return false;
+					} 
+						
+					
+					function show_result(){
+						v=$("#submit_state").html();
+						//alert(v);
+						json=eval("("+v+")");
+						
+
+						$("#submit_state").html('');
+						if(json.state!='success'){
+							$("#submit").css('display','inline-block').css('width',150);
+							$("#"+json.id).focus();
+							$("#"+json.id+"_state").html(json.info);
+							if(json.id==''){$("#submit_state").html(json.info);}
+						}else{
+							window.location.href='install_monxin.php?step=4';
+						}
+						
+					}
+					
+					</script>
+					<form id="monxin_form" name="monxin_form" method="POST" action="install_monxin.php?act=step3" onSubmit="return exe_check();"> 
+							<fieldset><legend><?php echo $language['database'];?></legend>
+							<table>
+							  <tr>
+								<td class=m_label><?php echo $language['database'];?><?php echo $language['server'];?></td>
+								 <td class=input><input type="text" name="database_host" id="database_host" value="127.0.0.1" /></span><span id=database_host_state></span></td>
+							  </tr>
+							  <tr>
+								<td class=m_label><?php echo $language['database'];?><?php echo $language['name'];?></td>
+								<td class=input><input type="text" name="database_name" id="database_name" value="" /></span><span id=database_name_state></span></td>
+							  </tr>
+							  <tr>
+								<td class=m_label><?php echo $language['data_table_prefix'];?></td>
+								<td class=input><input type="text" name="database_prefix" id="database_prefix" value="monxin_" /></span><span id=database_prefix_state></span></td>
+							  </tr>
+							  <tr>
+								<td class=m_label><?php echo $language['database'];?><?php echo $language['username'];?></td>
+								<td class=input><input type="text" name="database_username" id="database_username" value="" /></span><span id=database_username_state></span></td>
+							  </tr>
+							  <tr>
+								<td class=m_label><?php echo $language['database'];?><?php echo $language['password'];?></td>
+								<td class=input><input type="text" name="database_password" id="database_password" value="" /></span><span id=database_password_state></span></td>
+							  </tr>
+							</table>    
+							</fieldset>  
+							 <fieldset><legend><?php echo $language['administrator'];?></legend>   
+							 
+							<table>
+							  <tr>
+								<td class=m_label><?php echo $language['administrator'];?><?php echo $language['email'];?></td>
+								 <td class=input><input type="text" name="administrator_email" id="administrator_email" value="" /></span><span id=administrator_email_state></span></td>
+							  </tr>
+							  <tr>
+								<td class=m_label><?php echo $language['administrator'];?><?php echo $language['username'];?></td>
+								<td class=input><input type="text" name="administrator_username" id="administrator_username" value="" /></span><span id=administrator_username_state></span></td>
+							  </tr>
+							  <tr>
+								<td class=m_label><?php echo $language['administrator'];?><?php echo $language['password'];?></td>
+								<td class=input><input type="text" name="administrator_password" id="administrator_password" value="" /></span><span idadministrator_password_state></span></td>
+							  </tr>
+							  <tr>
+								<td class=m_label><?php echo $language['confirm'];?><?php echo $language['password'];?></td>
+								<td class=input><input type="text" name="confirm_password" id="confirm_password" value="" /></span><span id=confirm_password_state></span></td>
+							  </tr>
+							  <tr>
+								<td class=m_label>&nbsp;</td>
+								<td class=input>&nbsp;</td>
+							  </tr>
+							</table>    
+							 </fieldset>        
+            
+            
+            
+						<div class=button_div><a href="install_monxin.php?step=2" class=previous user_color=button><?php echo $language['previous'];?></a><a href="#" class=next id=submit onClick="return exe_check();" user_color=button><?php echo $language['next'];?></a><span id=submit_state></span></div>
+						</form>
+					
+					</div>		
+
+					
+				
+					<div id=step_4 align="center" >
+						<?php 
+						if($step==4){
+							$pdo=new ConnectPDO();
+							if($pdo!=null){
+								@unlink('install_monxin.php_lock');
+								rename('install_monxin.php','install_monxin.php_lock');
+								echo '<div class=install_succee>'.$language['install'].$language['success'].'</div>';	
+							}	
+						}
+						?>
+						<div class=button_div><a href="index.php" class=go_home user_color=button><?php echo $language['go_home'];?></a>&nbsp; &nbsp; <a href="index.php?monxin=index.login" class=go_home user_color=button><?php echo $language['login'];?><?php echo $language['backstage'];?></a></div>
+					</div>				
+				</div>
+			</div>	
+        </div>
+    </div>
+</div>
+
+<div class="page-footer" monxin_layout="bottom">
+    <div class=bottom_div>Copyright © 2014-2024,www.monxin.com,All rights reserved</div>
+
+</div>
+
+	
+<div class="ie_warning modal fade"  tabindex="-1" role="dialog"   aria-labelledby="myModalLabel" aria-hidden="true">
+     <div class="modal-dialog">
+          <div class="modal-content">
+             <div class="modal-header">
+                <button type="button" class="close" 
+                   data-dismiss="modal" aria-hidden="true">
+                      &times;
+                </button>
+                <h4 class="modal-title" id="myModalLabel">
+                   <b>亲！您的浏览器太out了，很多功能无法正常使用。	</b>
+                </h4>
+             </div>
+             <div class="modal-body">
+                换个潮点的浏览器吧，您会发现网页会更有趣哦！ <a href=http://www.baidu.com/s?wd=chrome target=_blank>点击搜索谷歌浏览器</a>
+             </div>
+             <div class="modal-footer">
+                <button type="button" class="btn btn-default" 
+                   data-dismiss="modal">不，我偏要用这个悲催的浏览器 > ></button>
+                
+             </div>
+          </div> 
+      </div>
+</div>   
+
+
+
+</body>
+</html>

@@ -1,0 +1,23 @@
+登录账号/密码 
+
+总管理员: 安装时，自设的
+
+连锁总部：李一 123456
+
+店主：平台自营店 123456 
+
+收银员：张一 123456 
+
+买家: 张三 123456 
+
+默认开店邀请码：228 
+
+支付及第三方登录网站正式上后才能配置测试
+
+功能列表：http://www.monxin.com/index.php?monxin=doc.show&key=mall_function
+
+使用说明：http://www.monxin.com/index.php?monxin=doc.show&id=510&type=0
+
+
+批量清空系统自带数据 SQL
+http://www.monxin.com/index.php?monxin=doc.show&id=194

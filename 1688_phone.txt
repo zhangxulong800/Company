@@ -1,0 +1,535 @@
+HTTP/1.1 200 OK
+Date: Fri, 27 Jul 2018 07:08:12 GMT
+Content-Type: text/html;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+Vary: Accept-Encoding
+X-Powered-By: naga
+Set-Cookie: ctoken=90Nhvz9CHOCyQBCSDdw6naga; path=/; domain=.1688.com
+Set-Cookie: cn_tmp=; path=/; expires=Fri, 27 Jul 2018 07:08:11 GMT; domain=.1688.com; secure; httponly
+Set-Cookie: cn_tmp.sig=jX6HFIizrzzyZJ7-cyL1I4G55r7_b2qKrGHrYbZLlBc; path=/; expires=Fri, 27 Jul 2018 07:08:11 GMT; domain=.1688.com; secure; httponly
+Set-Cookie: cn_m_s=; path=/; expires=Fri, 27 Jul 2018 07:08:11 GMT; domain=.1688.com; secure; httponly
+Set-Cookie: cn_m_s.sig=Ne9nMZHvrFmlfq1E3k-hIYorG15m5yUqGOVYf722RvE; path=/; expires=Fri, 27 Jul 2018 07:08:11 GMT; domain=.1688.com; secure; httponly
+Set-Cookie: ali_apache_track=; path=/; expires=Fri, 27 Jul 2018 07:08:11 GMT; domain=.1688.com; secure; httponly
+Set-Cookie: ali_apache_track.sig=5-OY0IQ8qR66AA4I0prr2PurwMcsqCH5tqz5dsToAzQ; path=/; expires=Fri, 27 Jul 2018 07:08:11 GMT; domain=.1688.com; secure; httponly
+Set-Cookie: tbsnid=; path=/; expires=Fri, 27 Jul 2018 07:08:11 GMT; domain=.1688.com; secure; httponly
+Set-Cookie: tbsnid.sig=h5ce5xyW_nNZj-r3V0JfsraOmISEMKEIZoW_F7PlVbo; path=/; expires=Fri, 27 Jul 2018 07:08:11 GMT; domain=.1688.com; secure; httponly
+Set-Cookie: __cn_logon__=false; path=/; domain=.1688.com; httponly
+Set-Cookie: __cn_logon__.sig=i6UL1cVhdIpbPPA_02yGiEyKMeZR2hBfnaoYK1CcrF4; path=/; domain=.1688.com; httponly
+Set-Cookie: unb=; path=/; expires=Fri, 27 Jul 2018 07:08:11 GMT; domain=.1688.com; secure; httponly
+Set-Cookie: unb.sig=K-z27seEXdGHCGNrbb5sPkxx4F0nGqxPfKWDsPKmItE; path=/; expires=Fri, 27 Jul 2018 07:08:11 GMT; domain=.1688.com; secure; httponly
+Set-Cookie: cookie2=; path=/; expires=Fri, 27 Jul 2018 07:08:11 GMT; domain=.1688.com; secure; httponly
+Set-Cookie: cookie2.sig=tZFKHlKanHU6pVmgdt5rXmHlV0vfgnw0KGD7H-tUWSo; path=/; expires=Fri, 27 Jul 2018 07:08:11 GMT; domain=.1688.com; secure; httponly
+Set-Cookie: __cn_logon_id__=; path=/; expires=Fri, 27 Jul 2018 07:08:11 GMT; domain=.1688.com; secure; httponly
+Set-Cookie: __cn_logon_id__.sig=J80Gzs_pE0al2xA7M7JQxYHqsjmNC2YDnHhh5A05jDw; path=/; expires=Fri, 27 Jul 2018 07:08:11 GMT; domain=.1688.com; secure; httponly
+Set-Cookie: ali-ss=eyJ1c2VySWQiOm51bGwsImxvZ2luSWQiOm51bGwsInNpZCI6bnVsbCwiZWNvZGUiOm51bGwsIm1lbWJlcklkIjpudWxsLCJzZWNyZXQiOiJwWGs3dzB6UXp4RTkxT1dBUG9kS3RkelEiLCJfZXhwaXJlIjoxNTMyNzYxNjkyNTQyLCJfbWF4QWdlIjo4NjQwMDAwMH0=; path=/; expires=Sat, 28 Jul 2018 07:08:12 GMT; domain=.1688.com; httponly
+Set-Cookie: ali-ss.sig=TOjLBhHUKpfRJ5317zm1jdBjIVCl7ucrRuaHoeKZ6bE; path=/; expires=Sat, 28 Jul 2018 07:08:12 GMT; domain=.1688.com; httponly
+_oriUrl_: https://m.1688.com/offer/551775873248.html
+_requestUrl_: http://m.1688.com/offer/551775873248.html
+at_auid: 551775873248
+at_autype: 6_b2b-1990686575
+X-Frame-Options: ALLOW-FROM m.1688.com
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Download-Options: noopen
+Strict-Transport-Security: max-age=31536000
+X-Server-Id: naga010176103108.et2
+X-Readtime: 182
+Server: Tengine/Aserver
+EagleEye-TraceId: 0be42f6015326752923552719eb83b
+Strict-Transport-Security: max-age=0
+Timing-Allow-Origin: *
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+
+
+    <meta name="viewport" content="width=device-width,initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <meta name="apple-touch-fullscreen" content="yes"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+    <meta name="format-detection" content="telephone=no" />
+    <title>纯棉背心_2018早夏新款儿童珠地拉架纯棉背心套装 男女童宝宝运动篮球 - 阿里巴巴</title>
+    <meta name="keywords" content="纯棉背心,拉架纯棉背心,篮球套装,拉架背心" />
+    <meta name="description" content="阿里巴巴为您提供了2018早夏新款儿童珠地拉架纯棉背心套装 男女童宝宝运动篮球套装等产品，这里云集了众多的供应商，采购商，制造商。欲了解更多2018早夏新款儿童珠地拉架纯棉背心套装 男女童宝宝运动篮球套装信息，请访问阿里巴巴批发网！" />
+    <meta name="location" content="province=浙江;city=湖州">
+    
+
+    <link rel="apple-touch-icon-precomposed" href="http://a.tbcdn.cn/mw/s/hi/tbtouch/images/touch-icon.png" >
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <title>detail/pages/index/view</title>
+        <style>
+            body {
+                -webkit-touch-callout: none;
+                -webkit-user-select: none;
+                -khtml-user-select: none;
+                -moz-user-select: none;
+                -ms-user-select: none;
+                user-select: none;
+            }
+        </style>
+  <meta name="applicable-device" content="mobile">
+<link rel="canonical" href="https://m.1688.com/offer/551775873248.html"/>
+<link rel="shortcut icon" type="image/x-icon" href="//cbu01.alicdn.com/favicon.ico"/>
+<link rel="apple-touch-icon-precomposed" sizes="57x57" href="/57px.png" /><link rel="apple-touch-icon-precomposed" sizes="114x114" href="/114px.png" /><link rel="apple-touch-icon-precomposed" sizes="72x72" href="/72px.png" /><link rel="apple-touch-icon-precomposed" sizes="144x144" href="/144px.png" /> <meta name="data-spm" content="a26g8">
+<link rel="dns-prefetch" href="//astyle.alicdn.com"><link rel="dns-prefetch" href="//style.c.aliimg.com"><link rel="dns-prefetch" href="//astyle-src.alicdn.com"><link rel="dns-prefetch" href="//auto.alicdn.com"><link rel="dns-prefetch" href="//g.alicdn.com"><link rel="dns-prefetch" href="//cui.m.1688.com"><link rel="stylesheet" href="//astyle.alicdn.com/m/roc/wap/css/pcmatch.css?_v=4050217433c5f335b73295cb241f38b6.css" />
+<link rel="stylesheet" href="//astyle.alicdn.com/??m/lofty/wap/port/lofty.css,m/lofty/wap/ui/button/1.0/button.css,m/lofty/wap/ui/loading/1.0/loading.css,m/lofty/wap/ui/iconfont/1.0/iconfont.css,m/detail/wap/lib/page/asset/iconfont.css,m/detail/wap/lib/page/css/dpl.css,m/detail/wap/lib/page/css/animate.css,m/detail/wap/pages/index/css/view.css,m/detail/wap/modules/header/css/view.css,m/detail/wap/modules/mainInfo/css/view.css,m/detail/wap/modules/gallery/css/view.css,m/detail/wap/modules/title/css/view.css,m/detail/wap/modules/price/css/view.css,m/detail/wap/modules/logistics/css/view.css,m/detail/wap/modules/mainInfo/css/vue-view.css?_v=a4c8f6cf6600c105d35a5a0765fe198b.css" /></head>
+
+
+  <body data-spm="7664810"><script>
+with(document)with(body)with(insertBefore(createElement("script"),firstChild))setAttribute("exparams","category=&userid=&b2c_auction=551775873248&at_autype=6%5fb2b%2d1990686575&aplus&asid=AQAAAADcxFpbkMJUEQAAAAD+iqpAOSePhw==&aat=&abb=&c_signed=&hn=naga010176103108%2eet2&at_bu=cbu&sidx=jPtQ7nikBnZohgKciOG9XOg/HDw5Y5sJ3pRdFZitAaliSShSenAUzAtNiTu9POqNFZ7tvbBV5bVeWf9IOM22qNDc5XC+tIOvufc+osnamUQhqm6+mjxsRU0JdGsLvaAseqKoMAwzVsqANUfvvsdwzTWf2jXPi7+roWXLgcZZ/Pc=",id="tb-beacon-aplus",async="async",src="//g.alicdn.com/alilog/??/aplus_plugin_b2bfront/index.js,mlog/aplus_wap.js")
+</script>
+    <div id="wing-page-content"><div data-wing-action-info="pages/index/view" class="wing-page-view-index" data-wing-view="detail.pages.index.View" data-wing-guid="1532675292388"><div class="m-page-layout-container m-detail">
+    
+
+    <!-- 页面顶部内容 -->
+    <div class="m-page-layout-header">
+        <div class="wing-layout-top">
+            <div data-wing-action-info="modules/header/view" class="wing-view-header" data-wing-view="detail.modules.header.View" data-wing-guid="1532675292381">
+<div class="m-detail-header">
+	
+	<div class="back  ">
+		<i class="icon icon-back">&#xe60c;</i><span class="pagename"></span>
+	</div>
+	
+	<div class="cart"><a href="//m.1688.com/page/cart.html"></a></div>
+</div>
+
+<script>window.wingxViewData=window.wingxViewData||{};window.wingxViewData[1532675292381]={"info":{"package":"modules","module":"header","action":"view","url":"detail/modules/header/view","type":"view"}}</script></div>
+        </div>
+    </div>
+    
+
+    <!-- 页面中部和底部内容 -->
+    <div data-wing-action-info="modules/mainInfo/view" class="wing-view-mainInfo" data-wing-view="detail.modules.mainInfo.View" data-wing-guid="1532675292387"><!-- 页面中心部分 -->
+<div class="m-page-layout-center "  >
+    <div class="wing-layout-center m-page-layout-center-main" id="J_M_Detail_PageLayoutContent">
+
+        <!-- main info start -->
+        
+        <div class=" ">
+            <div data-wing-action-info="modules/gallery/view" class="wing-view-gallery" data-wing-view="detail.modules.gallery.View" data-wing-guid="1532675292382">
+<div class="m-detail-gallery">
+    <div class="d-content">
+        
+        <div id="d-swipe" class="d-swipe">
+            <div class="swipe-content">
+                
+                <div class="swipe-pane">
+                    
+                    <img src="https://cbu01.alicdn.com/img/ibank/2017/374/260/4252062473_1537267193.jpg_200x200xzq60.jpg" swipe-lazy-src="https://cbu01.alicdn.com/img/ibank/2017/374/260/4252062473_1537267193.460x460xz.jpg" class="swipe-image" alt="2018早夏新款儿童珠地拉架纯棉背心套装 男女童宝宝运动篮球套装"/>
+
+                    
+                </div>
+                
+                <div class="swipe-pane">
+                    
+                    <img src="//cbu01.alicdn.com/cms/upload/other/lazyload.png" swipe-lazy-src="https://cbu01.alicdn.com/img/ibank/2017/448/312/4249213844_1537267193.460x460xz.jpg" class="swipe-image" />
+                    
+                </div>
+                
+                <div class="swipe-pane">
+                    
+                    <img src="//cbu01.alicdn.com/cms/upload/other/lazyload.png" swipe-lazy-src="https://cbu01.alicdn.com/img/ibank/2017/591/567/4247765195_1537267193.460x460xz.jpg" class="swipe-image" />
+                    
+                </div>
+                
+                <div class="swipe-pane">
+                    
+                    <img src="//cbu01.alicdn.com/cms/upload/other/lazyload.png" swipe-lazy-src="https://cbu01.alicdn.com/img/ibank/2017/256/957/4247759652_1537267193.460x460xz.jpg" class="swipe-image" />
+                    
+                </div>
+                
+                <div class="swipe-pane">
+                    
+                    <img src="//cbu01.alicdn.com/cms/upload/other/lazyload.png" swipe-lazy-src="https://cbu01.alicdn.com/img/ibank/2017/791/522/4249225197_1537267193.460x460xz.jpg" class="swipe-image" />
+                    
+                </div>
+                
+                <div class="swipe-pane">
+                    
+                    <img src="//cbu01.alicdn.com/cms/upload/other/lazyload.png" swipe-lazy-src="https://cbu01.alicdn.com/img/ibank/2017/271/312/4249213172_1537267193.460x460xz.jpg" class="swipe-image" />
+                    
+                </div>
+                
+                <div class="swipe-pane">
+                    
+                    <img src="//cbu01.alicdn.com/cms/upload/other/lazyload.png" swipe-lazy-src="https://cbu01.alicdn.com/img/ibank/2017/471/950/4252059174_1537267193.460x460xz.jpg" class="swipe-image" />
+                    
+                </div>
+                
+                <div class="swipe-pane">
+                    
+                    <img src="//cbu01.alicdn.com/cms/upload/other/lazyload.png" swipe-lazy-src="https://cbu01.alicdn.com/img/ibank/2017/245/650/4252056542_1537267193.460x460xz.jpg" class="swipe-image" />
+                    
+                </div>
+                
+                <div class="swipe-pane">
+                    
+                    <img src="//cbu01.alicdn.com/cms/upload/other/lazyload.png" swipe-lazy-src="https://cbu01.alicdn.com/img/ibank/2017/935/357/4247753539_1537267193.460x460xz.jpg" class="swipe-image" />
+                    
+                </div>
+                
+                <div class="swipe-pane">
+                    
+                    <img src="//cbu01.alicdn.com/cms/upload/other/lazyload.png" swipe-lazy-src="https://cbu01.alicdn.com/img/ibank/2017/419/891/4249198914_1537267193.460x460xz.jpg" class="swipe-image" />
+                    
+                </div>
+                
+            </div>
+            <ul class="swipe-nav">
+                
+                <li></li>
+                
+                <li></li>
+                
+                <li></li>
+                
+                <li></li>
+                
+                <li></li>
+                
+                <li></li>
+                
+                <li></li>
+                
+                <li></li>
+                
+                <li></li>
+                
+                <li></li>
+                
+            </ul>
+        </div>
+        <div id="d-swipe-popup" class="d-swipe-popup fd-hide">
+            <div class="swipe-content">
+                
+                <div class="swipe-pane">
+                    
+                    <img src="//cbu01.alicdn.com/cms/upload/other/lazyload.png" swipe-lazy-src="https://cbu01.alicdn.com/img/ibank/2017/374/260/4252062473_1537267193.jpg" class="swipe-image">
+                    
+                </div>
+                
+                <div class="swipe-pane">
+                    
+                    <img src="//cbu01.alicdn.com/cms/upload/other/lazyload.png" swipe-lazy-src="https://cbu01.alicdn.com/img/ibank/2017/448/312/4249213844_1537267193.jpg" class="swipe-image">
+                    
+                </div>
+                
+                <div class="swipe-pane">
+                    
+                    <img src="//cbu01.alicdn.com/cms/upload/other/lazyload.png" swipe-lazy-src="https://cbu01.alicdn.com/img/ibank/2017/591/567/4247765195_1537267193.jpg" class="swipe-image">
+                    
+                </div>
+                
+                <div class="swipe-pane">
+                    
+                    <img src="//cbu01.alicdn.com/cms/upload/other/lazyload.png" swipe-lazy-src="https://cbu01.alicdn.com/img/ibank/2017/256/957/4247759652_1537267193.jpg" class="swipe-image">
+                    
+                </div>
+                
+                <div class="swipe-pane">
+                    
+                    <img src="//cbu01.alicdn.com/cms/upload/other/lazyload.png" swipe-lazy-src="https://cbu01.alicdn.com/img/ibank/2017/791/522/4249225197_1537267193.jpg" class="swipe-image">
+                    
+                </div>
+                
+                <div class="swipe-pane">
+                    
+                    <img src="//cbu01.alicdn.com/cms/upload/other/lazyload.png" swipe-lazy-src="https://cbu01.alicdn.com/img/ibank/2017/271/312/4249213172_1537267193.jpg" class="swipe-image">
+                    
+                </div>
+                
+                <div class="swipe-pane">
+                    
+                    <img src="//cbu01.alicdn.com/cms/upload/other/lazyload.png" swipe-lazy-src="https://cbu01.alicdn.com/img/ibank/2017/471/950/4252059174_1537267193.jpg" class="swipe-image">
+                    
+                </div>
+                
+                <div class="swipe-pane">
+                    
+                    <img src="//cbu01.alicdn.com/cms/upload/other/lazyload.png" swipe-lazy-src="https://cbu01.alicdn.com/img/ibank/2017/245/650/4252056542_1537267193.jpg" class="swipe-image">
+                    
+                </div>
+                
+                <div class="swipe-pane">
+                    
+                    <img src="//cbu01.alicdn.com/cms/upload/other/lazyload.png" swipe-lazy-src="https://cbu01.alicdn.com/img/ibank/2017/935/357/4247753539_1537267193.jpg" class="swipe-image">
+                    
+                </div>
+                
+                <div class="swipe-pane">
+                    
+                    <img src="//cbu01.alicdn.com/cms/upload/other/lazyload.png" swipe-lazy-src="https://cbu01.alicdn.com/img/ibank/2017/419/891/4249198914_1537267193.jpg" class="swipe-image">
+                    
+                </div>
+                
+            </div>
+            <ul class="swipe-nav fd-hide">
+                
+                <li></li>
+                
+                <li></li>
+                
+                <li></li>
+                
+                <li></li>
+                
+                <li></li>
+                
+                <li></li>
+                
+                <li></li>
+                
+                <li></li>
+                
+                <li></li>
+                
+                <li></li>
+                
+            </ul>
+            <p class="page-num"><span class="cur-page">1</span>/10</p>
+        </div>
+        
+
+        
+
+        
+    </div>
+</div>
+
+<script>window.wingxViewData=window.wingxViewData||{};window.wingxViewData[1532675292382]={"info":{"package":"modules","module":"gallery","action":"view","url":"detail/modules/gallery/view","type":"view"}}</script></div>
+
+            <div data-wing-action-info="modules/baseInfo/view" class="wing-view-baseInfo">
+
+
+
+    <div class="m-detail-region">
+        <div data-wing-action-info="modules/title/view" class="wing-view-title" data-wing-view="detail.modules.title.View" data-wing-guid="1532675292383"><div class="m-detail-title px-border">
+
+    
+
+    <div class="d-content">
+        <h1 class="d-title">
+            <span>2018早夏新款儿童珠地拉架纯棉背心套装 男女童宝宝运动篮球套装</span>
+        </h1>
+
+        
+    </div>
+</div>
+<script>window.wingxViewData=window.wingxViewData||{};window.wingxViewData[1532675292383]={"info":{"package":"modules","module":"title","action":"view","url":"detail/modules/title/view","type":"view"}}</script></div>
+
+        <!-- 判断是否有活动倒计时时间 -->
+        
+
+        <div data-wing-action-info="modules/price/view" class="wing-view-price" data-wing-view="detail.modules.price.View" data-wing-guid="1532675292384"><div class="px-border">
+    <div class="m-detail-price ">
+        <div class="d-content fd-clr">
+
+            <!-- 无线代销 -->
+            
+
+                
+                    <div data-type="skuPrice">
+    
+        
+        <dl class="d-price-discount larger nobottom" data-index="1">
+            <dt>3套 起批 </dt>
+            <dd>
+                <span class="fd-cny">&yen;</span>27.72
+                
+                
+                <span class="original-sku"><span class="fd-cny">&yen;</span><del>28.00</del></span>
+                
+            </dd>
+        </dl>
+        
+    
+</div>
+
+                
+
+            
+
+
+        </div>
+
+
+        <div class="offer-mark">
+            
+
+            
+         </div>
+    </div>
+</div>
+<script>window.wingxViewData=window.wingxViewData||{};window.wingxViewData[1532675292384]={"info":{"package":"modules","module":"price","action":"view","url":"detail/modules/price/view","type":"view"}}</script></div>
+
+        <div data-wing-action-info="modules/logistics/view" class="wing-view-logistics" data-wing-view="detail.modules.logistics.View" data-wing-guid="1532675292385"><div class="m-detail-logistics">
+    <div class="d-content">
+        <ul>
+            <li class="freight">
+                
+                    <span class="i-left">快递</span>
+                    <span class="i-right"><span class="fd-cny">¥</span>0</span>
+                
+            </li>
+            <li>
+                <span class="i-left">成交</span>
+                <span class="i-right">
+                <span class="saled-count">
+                    2211</span>套
+                </span>
+            </li>
+            <li>
+                <span class="i-left">发货</span>
+                <span class="i-right">
+                    浙江湖州
+                </span>
+            </li>
+        </ul>
+    </div>
+</div>
+<script>window.wingxViewData=window.wingxViewData||{};window.wingxViewData[1532675292385]={"info":{"package":"modules","module":"logistics","action":"view","url":"detail/modules/logistics/view","type":"view"}}</script></div>
+    </div>
+
+</div>
+
+            <div id="J_M_Detail_MainInfo">
+
+                <div class="fui-loading-l m-detail-main-loading">
+                    <div class="fui-loading-bg"></div>
+                    <div class="fui-loading-logo"></div>
+                </div>
+
+
+            </div>
+        </div>
+        
+        <!-- main info end -->
+    </div>
+</div>
+
+
+<!-- 页面底部 -->
+
+
+<div class="" id="J_M_Detail_Footer">
+    <div class="m-page-layout-footer m-detail-action-operator ">
+
+        <div class="d-content loading-disable-status">
+            <div class="unit-d-btn">
+                <span class="d-fav" data-trace="collection">
+                    <i class="icon icon-fav">&#xe613;</i><em class="fav-txt">收藏</em>
+                </span>
+                <span class="d-wangwang" data-trace="wangwang">
+                    <i class="icon icon-wangwang">&#xe619;</i><em>客服</em>
+                </span>
+                <span class="d-winport" data-trace="winport">
+                    <i class="icon icon-winport">&#xe616;</i><em>旺铺</em>
+                </span>
+            </div>
+
+            <div class="unit-d-order-action">
+                <button class="do-cart do-order detail-btn-hint" data-type="cart" data-trace="order">加入进货单</button>
+                <button class="do-purchase do-order detail-btn-important" data-type="purchase" data-trace="purchase">立即订购</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<script>window.wingxViewData=window.wingxViewData||{};window.wingxViewData[1532675292387]={"info":{"package":"modules","module":"mainInfo","action":"view","url":"detail/modules/mainInfo/view","type":"view"}}</script></div>
+
+</div>
+
+
+
+
+
+
+<script>window.wingxViewData=window.wingxViewData||{};window.wingxViewData[1532675292388]={"info":{"package":"pages","module":"index","action":"view","main":true,"url":"detail/pages/index/view","type":"view"}}</script><script>window.wingxViewData=window.wingxViewData||{};window.wingxViewData[0]={"beginAmount":"3","canBookedAmount":"191994","carriageDetail":null,"cashOnDeliveryOffer":"false","companyName":"湖州织里乖小孩制衣厂","countdown":"0","coupons":[{"couponName":"专享优惠券","label":"\u0026yen;5.00","isApply":"false","condition":"满108元可用，2018.05.06-2019.01.31","requestLink":"http://marketing.1688.com/coupon/apply_product_coupon.htm?couponType=0\u0026sellerId=1990686575\u0026couponId=1216817701\u0026couponSpreadId=1862742878","couponType":"0","sellerId":"1990686575","couponId":"1216817701"}],"detailUrl":"//img.alicdn.com/tfscom/TB198kYuDXYBeNkHFrdXXciuVXa","discount":"9.9","discountPriceRanges":[{"price":"28.00","convertPrice":"28.00","begin":"3"}],"freeDeliverFee":"false","freightCost":[{"subTemplateType":"0","subTemplateName":"快递","totalCost":"0"}],"freightInfo":{"unitWeight":"0.01","freightTemplateId":"10227123","deliveryFee":"TEMPLATED","location":"浙江湖州"},"guaranteeLogoList":[{"serviceName":"交期保障","description":"该卖家已开通交期保障服务，承诺会在双方确定的交期内发货。"},{"serviceName":"15天包换","description":"该卖家已开通15天包换服务，您可在签收货物后的15天内更换商品。"},{"serviceName":"8天无理由包退（仅向淘货源买家提供）","description":"该服务仅向淘货源市场买家提供。卖家向特定买家承诺该商品8天无理由包退货。"},{"serviceName":"破损补寄","description":"该卖家已开通破损补寄服务，承诺若商品在运输途中出现破损，将为您补寄，补寄运费由卖家承担。"},{"serviceName":"无货必赔","description":"卖家承诺该产品有一定的库存，若买家下单后无货发出，卖家将对买家赔偿。"}],"hasCart":"true","hasPromotionDiscount":"true","hasSps":"true","imageList":[{"size310x310URL":"https://cbu01.alicdn.com/img/ibank/2017/374/260/4252062473_1537267193.310x310.jpg","originalImageURI":"https://cbu01.alicdn.com/img/ibank/2017/374/260/4252062473_1537267193.jpg"},{"size310x310URL":"https://cbu01.alicdn.com/img/ibank/2017/448/312/4249213844_1537267193.310x310.jpg","originalImageURI":"https://cbu01.alicdn.com/img/ibank/2017/448/312/4249213844_1537267193.jpg"},{"size310x310URL":"https://cbu01.alicdn.com/img/ibank/2017/591/567/4247765195_1537267193.310x310.jpg","originalImageURI":"https://cbu01.alicdn.com/img/ibank/2017/591/567/4247765195_1537267193.jpg"},{"size310x310URL":"https://cbu01.alicdn.com/img/ibank/2017/256/957/4247759652_1537267193.310x310.jpg","originalImageURI":"https://cbu01.alicdn.com/img/ibank/2017/256/957/4247759652_1537267193.jpg"},{"size310x310URL":"https://cbu01.alicdn.com/img/ibank/2017/791/522/4249225197_1537267193.310x310.jpg","originalImageURI":"https://cbu01.alicdn.com/img/ibank/2017/791/522/4249225197_1537267193.jpg"},{"size310x310URL":"https://cbu01.alicdn.com/img/ibank/2017/271/312/4249213172_1537267193.310x310.jpg","originalImageURI":"https://cbu01.alicdn.com/img/ibank/2017/271/312/4249213172_1537267193.jpg"},{"size310x310URL":"https://cbu01.alicdn.com/img/ibank/2017/471/950/4252059174_1537267193.310x310.jpg","originalImageURI":"https://cbu01.alicdn.com/img/ibank/2017/471/950/4252059174_1537267193.jpg"},{"size310x310URL":"https://cbu01.alicdn.com/img/ibank/2017/245/650/4252056542_1537267193.310x310.jpg","originalImageURI":"https://cbu01.alicdn.com/img/ibank/2017/245/650/4252056542_1537267193.jpg"},{"size310x310URL":"https://cbu01.alicdn.com/img/ibank/2017/935/357/4247753539_1537267193.310x310.jpg","originalImageURI":"https://cbu01.alicdn.com/img/ibank/2017/935/357/4247753539_1537267193.jpg"},{"size310x310URL":"https://cbu01.alicdn.com/img/ibank/2017/419/891/4249198914_1537267193.310x310.jpg","originalImageURI":"https://cbu01.alicdn.com/img/ibank/2017/419/891/4249198914_1537267193.jpg"}],"isCentralized":"false","isDiscountBetween0and10":"false","isDressProcessing":"false","isEasyOffer":"false","isFreePostage":"false","isHottiming":"false","isLimitedGroup":"false","isLimitedTimePromotion":"false","isMemberSupply":"false","isOfferSupportMobileTrade":"true","isOfferSupportOnlineTrade":"true","isOffSale":"false","isProcessing":"false","isRangePriceSku":"false","isSellerPayFreight":"false","isSKUOffer":"true","isSpecialSupply":"false","isSupportMix":"true","isSupportWirelessOnly":"false","isTP":"true","laputaServer":"http://laputa.1688.com","loginId":"poppet04","ltPromotionPriceDisplay":"27.72","ltPromotionType":"全店手机折扣","memberId":"b2b-1990686575","mixAmount":"1","mixBegin":null,"mixNumber":"1","mobileOrderDesc":null,"mobileSharingScope":null,"offerId":"551775873248","personLimitCount":"-1","price":"28.00","priceDisplay":"28.00","priceRanges":[{"price":"28.00","convertPrice":"28.00","begin":"3"}],"priceUnit":"元","productFeatureList":[{"name":"品牌","value":"亲亲baby","unit":null},{"name":"货号","value":"DJ-1729","unit":null},{"name":"货源类别","value":"现货","unit":null},{"name":"适用性别","value":"中性/男女均可","unit":null},{"name":"风格","value":"运动","unit":null},{"name":"套装类型","value":"裤套装","unit":null},{"name":"套装件数","value":"两件套","unit":null},{"name":"礼盒内容","value":"服装","unit":null},{"name":"产地","value":"浙江","unit":null},{"name":"适合年龄段","value":"中小童(3~8岁，100~140cm)","unit":null},{"name":"适合季节","value":"夏季","unit":null},{"name":"袖长","value":"无袖","unit":null},{"name":"是否连帽","value":"不连帽","unit":null},{"name":"裤长","value":"短裤","unit":null},{"name":"面料工艺","value":"柔软处理","unit":null},{"name":"厚薄","value":"薄款","unit":null},{"name":"图案","value":"字母","unit":null},{"name":"图片实拍","value":"实拍有模特","unit":null},{"name":"是否库存","value":"是","unit":null},{"name":"上市年份季节","value":"2017年夏季","unit":null},{"name":"元素","value":"可开档,套装,运动","unit":null},{"name":"AQL抽检标准","value":"1.0","unit":null},{"name":"平车针距12~14针/3cm","value":"是","unit":null},{"name":"毛头/杂余线头是否修剪","value":"全部修剪干净","unit":null},{"name":"面料名称","value":"纯棉珠地拉架","unit":null},{"name":"主面料成分","value":"棉","unit":null},{"name":"主面料成分含量","value":"95","unit":"%"},{"name":"安全等级","value":"A类","unit":null},{"name":"闭合款式","value":"套头衫","unit":null},{"name":"颜色","value":"蓝色库里,白色哈登,红色詹姆斯,黑色韦德,黄色科比","unit":null},{"name":"适合身高","value":"80cM (5#),90CM(7#),100CM（9#,110cm(11#),120CM（13#）","unit":null},{"name":"是否跨境货源","value":"是","unit":null},{"name":"是否外贸","value":"否","unit":null}],"promotionLimitCount":"-1","rateAverageStarLevel":"4.9","rateDsrItems":[{"avgScore":"4.8","name":"货品与描述相符","indScorePer":"-4","shortName":"描述相符"},{"avgScore":"4.8","name":"卖家的服务态度","indScorePer":"0","shortName":"服务态度"},{"avgScore":"4.8","name":"卖家到货的速度","indScorePer":"0","shortName":"到货速度"},{"avgScore":"4.7","name":"继续购买","indScorePer":"0","shortName":"继续购买"}],"rateImprStats":[{"name":"面料","impression":[{"name":"符合预期","percent":"100"},{"name":"以次充好","percent":"0"}],"shortName":null},{"name":"色牢度","impression":[{"name":"不掉色","percent":"100"},{"name":"轻微掉色","percent":"0"},{"name":"严重掉色","percent":"0"}],"shortName":null}],"rateStarLevelMap":{"1":"0","2":"0","3":"1","4":"3","5":"69"},"rateTotals":"73","saledCount":"2211","scale":null,"sellunit":null,"showDestinationArea":"true","showGuarantee":"true","skuDiscountPrice":"27.72","skuDiscountPriceRanges":[],"skuMap":{"黑色韦德\u0026gt;120CM（13#）":{"skuId":"3539511167904","specId":"42e3f5e2ad33b90db320d49531670af3","price":"28.00","retailPrice":"","discountPrice":"27.72","canBookCount":"9847","saleCount":"294","standardPrice":"","discountStandardPrice":"","storageInfos":[]},"黑色韦德\u0026gt;90CM(7#)":{"skuId":"3539511167901","specId":"3f7746b7c9b295f180013edbd17711f3","price":"28.00","retailPrice":"","discountPrice":"27.72","canBookCount":"781","saleCount":"345","standardPrice":"","discountStandardPrice":"","storageInfos":[]},"黑色韦德\u0026gt;110cm(11#)":{"skuId":"3539511167903","specId":"e91ad7e52fbd2e2b5cdc3db2c9ccd819","price":"28.00","retailPrice":"","discountPrice":"27.72","canBookCount":"786","saleCount":"300","standardPrice":"","discountStandardPrice":"","storageInfos":[]},"蓝色库里\u0026gt;100CM（9#":{"skuId":"3539511167884","specId":"f30c4c135af8ccd18e4c222cc8e35cb7","price":"28.00","retailPrice":"","discountPrice":"27.72","canBookCount":"9287","saleCount":"1587","standardPrice":"","discountStandardPrice":"","storageInfos":[]},"蓝色库里\u0026gt;120CM（13#）":{"skuId":"3539511167886","specId":"05fc527891fa5d02e5a6c32f23d941e8","price":"28.00","retailPrice":"","discountPrice":"27.72","canBookCount":"9482","saleCount":"722","standardPrice":"","discountStandardPrice":"","storageInfos":[]},"黄色科比\u0026gt;90CM(7#)":{"skuId":"3539511167907","specId":"f435de3ca3c1220f82c16aeb392f5c30","price":"28.00","retailPrice":"","discountPrice":"27.72","canBookCount":"9137","saleCount":"1184","standardPrice":"","discountStandardPrice":"","storageInfos":[]},"白色哈登\u0026gt;110cm(11#)":{"skuId":"3539511167891","specId":"0eb1a0e1a74842b87c4ef2edebd80f03","price":"28.00","retailPrice":"","discountPrice":"27.72","canBookCount":"9566","saleCount":"557","standardPrice":"","discountStandardPrice":"","storageInfos":[]},"黑色韦德\u0026gt;100CM（9#":{"skuId":"3539511167902","specId":"143682549b3a43ed414fd12b747b240b","price":"28.00","retailPrice":"","discountPrice":"27.72","canBookCount":"786","saleCount":"391","standardPrice":"","discountStandardPrice":"","storageInfos":[]},"白色哈登\u0026gt;100CM（9#":{"skuId":"3539511167890","specId":"1f59d383745ecdcaad1368d9c2837dd0","price":"28.00","retailPrice":"","discountPrice":"27.72","canBookCount":"9398","saleCount":"801","standardPrice":"","discountStandardPrice":"","storageInfos":[]},"白色哈登\u0026gt;120CM（13#）":{"skuId":"3539511167892","specId":"27f0a71a812c534194dd185271798c04","price":"28.00","retailPrice":"","discountPrice":"27.72","canBookCount":"9667","saleCount":"430","standardPrice":"","discountStandardPrice":"","storageInfos":[]},"红色詹姆斯\u0026gt;90CM(7#)":{"skuId":"3539511167895","specId":"3a2b5375a05a6e3e40503032a3c76825","price":"28.00","retailPrice":"","discountPrice":"27.72","canBookCount":"9462","saleCount":"872","standardPrice":"","discountStandardPrice":"","storageInfos":[]},"红色詹姆斯\u0026gt;110cm(11#)":{"skuId":"3539511167897","specId":"256ad8cc206545c0e84cfbb0673a316d","price":"28.00","retailPrice":"","discountPrice":"27.72","canBookCount":"9531","saleCount":"729","standardPrice":"","discountStandardPrice":"","storageInfos":[]},"蓝色库里\u0026gt;90CM(7#)":{"skuId":"3539511167883","specId":"689d970474fb5fdd2971271db7d66ec1","price":"28.00","retailPrice":"","discountPrice":"27.72","canBookCount":"9198","saleCount":"1570","standardPrice":"","discountStandardPrice":"","storageInfos":[]},"黄色科比\u0026gt;120CM（13#）":{"skuId":"3539511167910","specId":"a420c17808691da741982fbe060535b5","price":"28.00","retailPrice":"","discountPrice":"27.72","canBookCount":"9437","saleCount":"700","standardPrice":"","discountStandardPrice":"","storageInfos":[]},"黑色韦德\u0026gt;80cM (5#)":{"skuId":"3539511167900","specId":"8fdc986b8bb7b5f4f450f88c19b07953","price":"28.00","retailPrice":"","discountPrice":"27.72","canBookCount":"9845","saleCount":"249","standardPrice":"","discountStandardPrice":"","storageInfos":[]},"白色哈登\u0026gt;80cM (5#)":{"skuId":"3539511167888","specId":"1dbec4f1de9e7ff38855ecf2abe806ab","price":"28.00","retailPrice":"","discountPrice":"27.72","canBookCount":"9688","saleCount":"417","standardPrice":"","discountStandardPrice":"","storageInfos":[]},"红色詹姆斯\u0026gt;100CM（9#":{"skuId":"3539511167896","specId":"544e028f61f839ea728ca8f922b8648e","price":"28.00","retailPrice":"","discountPrice":"27.72","canBookCount":"9170","saleCount":"1186","standardPrice":"","discountStandardPrice":"","storageInfos":[]},"蓝色库里\u0026gt;80cM (5#)":{"skuId":"3539511167882","specId":"9b3baa7a3bb2bcb9dae49d9ee02cbdcd","price":"28.00","retailPrice":"","discountPrice":"27.72","canBookCount":"9228","saleCount":"1276","standardPrice":"","discountStandardPrice":"","storageInfos":[]},"白色哈登\u0026gt;90CM(7#)":{"skuId":"3539511167889","specId":"e163daad593490aed495a05c792775af","price":"28.00","retailPrice":"","discountPrice":"27.72","canBookCount":"113","saleCount":"990","standardPrice":"","discountStandardPrice":"","storageInfos":[]},"红色詹姆斯\u0026gt;80cM (5#)":{"skuId":"3539511167894","specId":"0dd98ec935115446ebfd7211bbbc82a8","price":"28.00","retailPrice":"","discountPrice":"27.72","canBookCount":"9349","saleCount":"827","standardPrice":"","discountStandardPrice":"","storageInfos":[]},"黄色科比\u0026gt;110cm(11#)":{"skuId":"3539511167909","specId":"bce124913c9d0cce93b7ea3376cc789e","price":"28.00","retailPrice":"","discountPrice":"27.72","canBookCount":"9271","saleCount":"929","standardPrice":"","discountStandardPrice":"","storageInfos":[]},"红色詹姆斯\u0026gt;120CM（13#）":{"skuId":"3539511167898","specId":"df4d60b412ff9b64002a271d1c3652f6","price":"28.00","retailPrice":"","discountPrice":"27.72","canBookCount":"9646","saleCount":"536","standardPrice":"","discountStandardPrice":"","storageInfos":[]},"黄色科比\u0026gt;80cM (5#)":{"skuId":"3539511167906","specId":"eabe34864ffa9f1eaf2b00535c66f454","price":"28.00","retailPrice":"","discountPrice":"27.72","canBookCount":"9660","saleCount":"501","standardPrice":"","discountStandardPrice":"","storageInfos":[]},"黄色科比\u0026gt;100CM（9#":{"skuId":"3539511167908","specId":"83c998a06a3872420a26a6cc044be7cf","price":"28.00","retailPrice":"","discountPrice":"27.72","canBookCount":"9046","saleCount":"1291","standardPrice":"","discountStandardPrice":"","storageInfos":[]},"蓝色库里\u0026gt;110cm(11#)":{"skuId":"3539511167885","specId":"d356e589ce011b1e22271d392443c1f8","price":"28.00","retailPrice":"","discountPrice":"27.72","canBookCount":"613","saleCount":"949","standardPrice":"","discountStandardPrice":"","storageInfos":[]}},"skuPrice":"28.00","skuPriceRanges":[["3","28"]],"skuProps":[{"unit":null,"prop":"颜色","value":[{"imageUrl":"https://cbu01.alicdn.com/img/ibank/2017/419/891/4249198914_1537267193.jpg","name":"蓝色库里"},{"imageUrl":"https://cbu01.alicdn.com/img/ibank/2017/271/312/4249213172_1537267193.jpg","name":"白色哈登"},{"imageUrl":"https://cbu01.alicdn.com/img/ibank/2017/471/950/4252059174_1537267193.jpg","name":"红色詹姆斯"},{"imageUrl":"https://cbu01.alicdn.com/img/ibank/2017/245/650/4252056542_1537267193.jpg","name":"黑色韦德"},{"imageUrl":"https://cbu01.alicdn.com/img/ibank/2017/935/357/4247753539_1537267193.jpg","name":"黄色科比"}]},{"unit":null,"prop":"适合身高","value":[{"imageUrl":null,"name":"80cM (5#)"},{"imageUrl":null,"name":"90CM(7#)"},{"imageUrl":null,"name":"100CM（9#"},{"imageUrl":null,"name":"110cm(11#)"},{"imageUrl":null,"name":"120CM（13#）"}]}],"subject":"2018早夏新款儿童珠地拉架纯棉背心套装 男女童宝宝运动篮球套装","tpLogoUrl":"https://cbu01.alicdn.com/cms/upload/2016/790/696/2696097_1254399316.png","tpYear":"5","unit":"套","userId":"1990686575","visitorDiscountAuth":"noDiscount","visitorPicAuth":"open","visitorPriceAuth":"open","wirelessVideoInfo":{"coverUrl":null,"videoUrl":null,"videoId":"0","state":"0","title":null},"catids":"","pageid":1532675292536,"action":{"package":"modules","module":"logistics","action":"view","url":"detail/modules/logistics/view","type":"view"},"offerSign":{"isSample":"true","isBuyerProtection":"true","isSkuTradeSupported":"true","isSearchOffer":"true","isConsignMarketOffer":"true","isPartnerOffer":"true","isCrossBorderOffer":"true","isSupportMix":"true","isWholesaleOffer":"true","isCBDistribution":"true","hasFreightTemplate":"true","isZeroWholesaleOffer":"true","isAlipaySupported":"true","isTHYSample":"true","isAbroadOffer":"true","isYtdfOffer":"true","isPromoted":"true","hasSearchPicture":"true","hasOrder":"true","isTbDistributionOffer":"true","isSupportStock":"true","isAegisTrade":"true","isSwtbh":"true","hasSendGoodsAddress":"true"},"isYunMarketOffer":"false","isYunMarketMember":"false","platform":"Wap","isLstMember":"false","isAlipay":false,"isSlsj":"false","postCategoryId":"1037192","isConsignMobilePage":"false","isConsignOffer":"true","isQianniu":false,"isBigProm":"false","globalRuleContents":null,"scene":"wtz","isLstApp":false,"isBigPromOfferForMobile":"false","isBigPromSellerForMobile":"false","isConsignBigPromForMobile":"false","isFreshmanActivity":"false","serverTime":"1532675292391","isOfferDetailShielding":"false","isConsignOfferAndNotSheilding":"true","pr_offerDetailBanner":null,"pr_isSourcePromotion":"false","pr_offerDetailBannerUrl":null,"isConsignOfferForMobile":"true","isSupportIssuingForMobile":"true","rateStarLevelMapOfMerge":{"oneOrTwo":"0","fourOrFiveHaveContent":"22","three":"1","fourOrFive":"72","haveContent":"23"},"isSellerSupportDistribution":"true","isDistribution":"true","canBookedAmountOriginal":"191994","pageTitle":"纯棉背心_2018早夏新款儿童珠地拉架纯棉背心套装 男女童宝宝运动篮球 - 阿里巴巴","chengYiSheList":[{"creditSource":"creditbuy_seller","serviceName":"免费赊账","buyerUserId":"0","sellerUserId":"1990686575","hoverMsg":"该产品已支持诚e赊， 为买家提供确认收货后30天免费赊账。","link":"https://rongzi.1688.com/creditbuy/index.htm?role=buyer\u0026tracelog=ces_offerdetail_wkt","logoUrl":"https://cbu01.alicdn.com/cms/upload/2015/188/805/2508881_1265251585.png"}],"canShowHeader":"Y"}</script></div></div>
+    <script>Wing=window.Wing||{};Wing.config={"productName":"detail","package":"pages","module":"index","action":"view","query":{"spm":"a260k.635.201611281604.127.6633436c2yKax6","offerId":"551775873248"},"networkType":-1,"meta":{"server":{"port":80},"login":{"isLogin":false},"csrf":"q9ZCmYR4-LjMSlQ1OYGfhsABlrxn54sqAHPs","products":{"activity":{"assetsRoot":"//astyle-src.alicdn.com/m/activity/wap","productUrl":"http://activity.m.1688.com","domain":"activity.m.1688.com"},"alitk":{"assetsRoot":"//astyle-src.alicdn.com/m/alitk/wap","productUrl":"http://alitk.m.1688.com","domain":"alitk.m.1688.com"},"alitop":{"assetsRoot":"//astyle-src.alicdn.com/m/alitop/wap","productUrl":"http://alitop.m.1688.com","domain":"alitop.m.1688.com"},"appfactory":{"assetsRoot":"//astyle-src.alicdn.com/m/appfactory/wap/1.0.2","productUrl":"http://appfactory.m.1688.com","domain":"appfactory.m.1688.com"},"butterfly":{"assetsRoot":"//astyle-src.alicdn.com/m/butterfly/wap/2.9.12","productUrl":"http://undefined"},"cart":{"assetsRoot":"//astyle-src.alicdn.com/m/cart/wap","productUrl":"http://cart.m.1688.com","domain":"cart.m.1688.com"},"club":{"assetsRoot":"//astyle-src.alicdn.com/m/club/wap","productUrl":"http://club.m.1688.com","domain":"club.m.1688.com"},"community":{"assetsRoot":"//astyle-src.alicdn.com/m/community/wap","productUrl":"http://community.m.1688.com","domain":"community.m.1688.com"},"complain":{"assetsRoot":"//astyle-src.alicdn.com/m/complain/wap","productUrl":"http://complain.m.1688.com","domain":"complain.m.1688.com"},"consign":{"assetsRoot":"//astyle-src.alicdn.com/m/consign/wap","productUrl":"http://undefined"},"creditbuy":{"assetsRoot":"//astyle-src.alicdn.com/m/creditbuy/wap","productUrl":"http://creditbuy.m.1688.com","domain":"creditbuy.m.1688.com"},"cxt":{"assetsRoot":"//astyle-src.alicdn.com/m/cxt/wap","productUrl":"http://cxt.m.1688.com","domain":"cxt.m.1688.com"},"detail":{"assetsRoot":"//astyle-src.alicdn.com/m/detail/wap","productUrl":"http://detail.m.1688.com","domain":"detail.m.1688.com"},"doit":{"assetsRoot":"//astyle-src.alicdn.com/m/doit/wap","productUrl":"http://undefined"},"favorite":{"assetsRoot":"//astyle-src.alicdn.com/m/favorite/wap","productUrl":"http://favorite.m.1688.com","domain":"favorite.m.1688.com"},"fish":{"assetsRoot":"//astyle-src.alicdn.com/m/fish/wap","productUrl":"http://fish.m.1688.com","domain":"fish.m.1688.com"},"gmember":{"assetsRoot":"//astyle-src.alicdn.com/m/gmember/wap","productUrl":"http://gmember.m.1688.com","domain":"gmember.m.1688.com"},"grown":{"assetsRoot":"//astyle-src.alicdn.com/m/grown/wap","productUrl":"http://grown.m.1688.com","domain":"grown.m.1688.com"},"import":{"assetsRoot":"//astyle-src.alicdn.com/m/import/wap","productUrl":"http://import.m.1688.com","domain":"import.m.1688.com"},"insurance":{"assetsRoot":"//astyle-src.alicdn.com/m/insurance/wap","productUrl":"http://insurance.m.1688.com","domain":"insurance.m.1688.com"},"integrity":{"assetsRoot":"//astyle-src.alicdn.com/m/integrity/wap","productUrl":"http://integrity.m.1688.com","domain":"integrity.m.1688.com"},"inward":{"assetsRoot":"//astyle-src.alicdn.com/m/inward/wap","productUrl":"http://inward.m.1688.com","domain":"inward.m.1688.com"},"just":{"assetsRoot":"//astyle-src.alicdn.com/m/just/wap","productUrl":"http://undefined"},"lift":{"assetsRoot":"//astyle-src.alicdn.com/m/lift/wap","productUrl":"http://lift.m.1688.com","domain":"lift.m.1688.com"},"lofty":{"assetsRoot":"//astyle-src.alicdn.com/m/lofty/wap","productUrl":"http://undefined"},"loftyui":{"assetsRoot":"//astyle-src.alicdn.com/m/loftyui/wap","productUrl":"http://loftyui.m.1688.com","domain":"loftyui.m.1688.com"},"make":{"assetsRoot":"//astyle-src.alicdn.com/m/make/wap","productUrl":"http://make.m.1688.com","domain":"make.m.1688.com"},"marketing":{"assetsRoot":"//astyle-src.alicdn.com/m/marketing/wap","productUrl":"http://marketing.m.1688.com","domain":"marketing.m.1688.com"},"meta":{"assetsRoot":"//astyle-src.alicdn.com/m/meta/wap","productUrl":"http://meta.m.1688.com","domain":"meta.m.1688.com"},"mysource":{"assetsRoot":"//astyle-src.alicdn.com/m/mysource/wap","productUrl":"http://undefined"},"o2o":{"assetsRoot":"//astyle-src.alicdn.com/m/o2o/wap","productUrl":"http://o2o.m.1688.com","domain":"o2o.m.1688.com"},"p4p":{"assetsRoot":"//astyle-src.alicdn.com/m/p4p/wap","productUrl":"http://p4p.m.1688.com","domain":"p4p.m.1688.com"},"pagelab":{"assetsRoot":"//astyle-src.alicdn.com/m/pagelab/wap/1.1.5","productUrl":"//pagelab.m.1688.com","domain":"pagelab.m.1688.com"},"payment":{"assetsRoot":"//astyle-src.alicdn.com/m/payment/wap","productUrl":"http://payment.m.1688.com","domain":"payment.m.1688.com"},"proton":{"assetsRoot":"//astyle-src.alicdn.com/m/proton/wap","productUrl":"http://undefined"},"rate":{"assetsRoot":"//astyle-src.alicdn.com/m/rate/wap","productUrl":"http://rate.m.1688.com","domain":"rate.m.1688.com"},"rb":{"assetsRoot":"//astyle-src.alicdn.com/m/rb/wap","productUrl":"http://rb.m.1688.com","domain":"rb.m.1688.com"},"refund":{"assetsRoot":"//astyle-src.alicdn.com/m/refund/wap","productUrl":"http://refund.m.1688.com","domain":"refund.m.1688.com"},"retail":{"assetsRoot":"//astyle-src.alicdn.com/m/retail/wap","productUrl":"http://retail.m.1688.com","domain":"retail.m.1688.com"},"search":{"assetsRoot":"//astyle-src.alicdn.com/m/search/wap","productUrl":"http://search.m.1688.com","domain":"search.m.1688.com"},"sem":{"assetsRoot":"//astyle-src.alicdn.com/m/sem/wap","productUrl":"http://sem.m.1688.com","domain":"sem.m.1688.com"},"sxy":{"assetsRoot":"//astyle-src.alicdn.com/m/sxy/wap","productUrl":"http://sxy.m.1688.com","domain":"sxy.m.1688.com"},"tbmicrosale":{"assetsRoot":"//astyle-src.alicdn.com/m/tbmicrosale/wap","productUrl":"http://tbmicrosale.m.1688.com","domain":"tbmicrosale.m.1688.com"},"trade":{"assetsRoot":"//astyle-src.alicdn.com/m/trade/wap","productUrl":"http://trade.m.1688.com","domain":"trade.m.1688.com"},"wap":{"assetsRoot":"//astyle-src.alicdn.com/m/wap/wap","productUrl":"http://wap.m.1688.com","domain":"wap.m.1688.com"},"wiki":{"assetsRoot":"//astyle-src.alicdn.com/m/wiki/wap","productUrl":"http://wiki.m.1688.com","domain":"wiki.m.1688.com"},"winport":{"assetsRoot":"//astyle-src.alicdn.com/m/winport/wap/1.0.42","productUrl":"//winport.m.1688.com","domain":"winport.m.1688.com"},"ww":{"assetsRoot":"//astyle-src.alicdn.com/m/ww/wap","productUrl":"http://ww.m.1688.com","domain":"ww.m.1688.com"},"yun":{"assetsRoot":"//astyle-src.alicdn.com/m/yun/wap/1.1.15","productUrl":"http://yun.m.1688.com","domain":"yun.m.1688.com"},"yuncore":{"assetsRoot":"//astyle-src.alicdn.com/m/yuncore/wap/1.0.32","productUrl":"http://yuncore.m.1688.com","domain":"yuncore.m.1688.com"},"yunku":{"assetsRoot":"//astyle-src.alicdn.com/m/yunku/wap","productUrl":"http://yunku.m.1688.com","domain":"yunku.m.1688.com"}},"config":{}}}</script>
+
+    
+
+    
+
+    
+
+    
+      
+      
+      
+      
+      
+    
+
+    
+
+    <script src="//g.alicdn.com/mtb/lib-promise/3.1.1/polyfillB.js" data-sc-pos="footer"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+<script type="text/javascript" src="//astyle.alicdn.com/??m/proton/wap/gallery/jquery/jquery-latest.js,m/butterfly/wap/2.9.12/lib/port/wingwap-context.js,m/butterfly/wap/2.9.12/lib/config/lofty.js,m/lofty/wap/ui/widget/1.0/widget.js,m/detail/wap/lib/util/js/jump.js,m/detail/wap/lib/util/js/app4detail.js,m/detail/wap/lib/util/js/vue.min.js,m/detail/wap/pages/index/js/view.js,m/detail/wap/modules/header/js/view.js,m/detail/wap/modules/mainInfo/js/view.js,m/detail/wap/modules/gallery/js/view.js,m/detail/wap/modules/title/js/view.js,m/detail/wap/modules/price/js/view.js,m/detail/wap/modules/logistics/js/view.js,m/detail/wap/modules/mainInfo/js/vue-view.js,m/roc/wap/static/sceneentry.js,m/roc/wap/static/imageControl.js?_v=79223db9e294b8c4d95eb95570eb6bf3.js"></script></body>
+<img src="//c.cnzz.com/wapstat.php?siteid=1000282312&amp;r=&amp;rnd=872829408" width="0" height="0" style="display:none;"/><script>var _easytrace_spmc={".m-detail-action-operator":{"value":"1998861725"},".m-detail-button":{"value":"1998861712"},".m-detail-gallery":{"value":"1998861645"},".m-detail-header":{"value":"1998861645"},".m-detail-tabs":{"value":"1998861645"},".m-detail-winport":{"value":"1998861645"},".topbanner-content":{"value":"1998650475"}};
+var _easytrace_hjlj={"#wing-page-content button.do-cart":"d_7664810_cart","#wing-page-content button.do-purchase":"d_7664810_buy",".back":"d_7664810_detailback",".btn-aliww":"d_7664810_detailwangwang",".btn-description":"d_7664810_detaildesc",".btn-enter":"d_7664810_inwangpubutton",".btn-goods":"d_7664810_allgoods",".cart":"d_7664810_detailtocart",".d-fav":"d_7664810_detailfav",".d-share":"d_7664810_detailshare",".d-wangwang":"d_7664810_detailww",".do-cart":"d_7664810_addcart",".do-confirm":"d_7664810_detailconfirm",".do-purchase":"d_7664810_detailorder",".m-detail-winport dl":"d_7664810_titlewangpu",".swipe-pane":"d_7664810_picdetail","[data-trace=attributes]":"d_7664810_proattr","[data-trace=description]":"d_7664810_desctab","[data-trace=recommend]":"d_7664810_samewinport"};
+var spmLoad=function(){try{var flag=false;var isString = function(s) {return Object.prototype.toString.call(s) == "[object String]";};if(typeof _easytrace_spmc!="undefined"){for(var i in _easytrace_spmc){var item = jQuery(i);if(item.size()>0){if(isString(_easytrace_spmc[i])){jQuery(i).attr("data-spm",_easytrace_spmc[i]);}else{jQuery(i).attr("data-spm",_easytrace_spmc[i].value);}delete _easytrace_spmc[i];}else{flag=true}}}if(typeof _easytrace_hjlj!="undefined"){for(var i in _easytrace_hjlj){var item = jQuery(i);if(item.size()>0){item.attr("data-spm-click","gostr=/1688hjlj;locaid="+_easytrace_hjlj[i]);delete _easytrace_hjlj[i];}else{flag=true}}}if(flag){setTimeout(spmLoad,300);}}catch(e){}};jQuery().ready(spmLoad);</script>
+<script>var pageLength = 45977 ;var pageSpeedConfig={"quality":"500:q75:;300:q75;200:q75;100:q60;50:q50;20:q30;0:q30;","dpr":"300","percent":100,"apkVersion":"20170508","autoFixFlag":false,"globalSwitch":false}</script></html>

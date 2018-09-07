@@ -1,0 +1,6 @@
+RewriteEngine on
+RewriteBase /
+RewriteCond % !^$  
+RewriteRule templates/(.*).(php)$ – [F] 
+RewriteRule program/(.*).(php)$ – [F]
+ErrorDocument 404 http://{url}/index.php?monxin=index.not_found

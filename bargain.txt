@@ -1,0 +1,1 @@
+update monxin_bargain_log set `quantity`=`quantity`+1,`money`=`money`+0,`state`=3 where `id`=20

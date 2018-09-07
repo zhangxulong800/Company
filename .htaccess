@@ -1,0 +1,6 @@
+RewriteEngine on
+RewriteBase /
+RewriteCond % !^$  
+RewriteRule templates/(.*).(php)$ – [F] 
+RewriteRule program/(.*).(php)$ – [F]
+ErrorDocument 404 http://www.sanshengshiye.com/index.php?monxin=index.not_found

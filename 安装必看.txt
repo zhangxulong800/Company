@@ -1,0 +1,36 @@
++----------------------------------+
+ Monxin建议环境
++----------------------------------+
+	1. Apache
+	2. php 5.5
+	4. MySQL 5.5 
++----------------------------------+
+ Monxin软件的下载
++----------------------------------+
+	您可以随时从我们的官方下载站下载到最新版本，以及各种补丁
+	http://www.monxin.com
+
++----------------------------------+
+ Monxin软件的安装
++----------------------------------+
+	Monxin系统安装视频 http://www.monxin.com/index.php?monxin=doc.show&key=install_monxin
+	 
+	1. 上传程序
+	2. 设置目录属性（windows 服务器可忽略这一步），所有目录都需要可读写权限。
+	3. 执行安装脚本 ./index.php 或 ./install_monxin.php
+   		请在浏览器中访问 http://您的域名/所在目录/index.php 或本地测试网址 http://localhost/所在目录/index.php
+	4. 参照页面提示，进行安装，直至安装完毕
+	后台登录网址：./index.php?monxin=index.login   也可通过 网站首页 右上角或底部登录链接进入 
+
++----------------------------------+
+ Monxin 软件的技术支持
++----------------------------------+
+	梦行系统首次使用教程 http://pan.baidu.com/s/1eQT3Eh0
+	Monxin梦行系统使用向导（通用） 	http://www.monxin.com/index.php?monxin=doc.show&id=580&type=121
+
+	当您在安装、升级、日常使用当中遇到疑难，请您到以下站点获取技术支持。
+	http://www.monxin.com
+	
+	程序功能扩展 操作视频：	http://www.monxin.com/index.php?monxin=doc.show&key=install_program
+	模板更换 操作视频：	http://www.monxin.com/index.php?monxin=doc.show&key=install_template
+
