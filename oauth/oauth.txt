@@ -1,0 +1,1 @@
+<a href=./oauth/wx/?backurl={backurl} class=wx target=_blank><img src=./oauth/wx/icon.png /></a>

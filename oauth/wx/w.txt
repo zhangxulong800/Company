@@ -1,0 +1,1 @@
+select `id`,`subscribe` from monxin_weixin_user where `wid`='gh_884ec6229ffd' and `openid`='oUXjn0x9VBWBjxn4p8h2d0NtoNow' limit 0,1
