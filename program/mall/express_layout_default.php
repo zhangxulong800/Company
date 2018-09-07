@@ -1,0 +1,24 @@
+<?php
+return array(
+  	'width'=>'230',
+  	'height'=>'127',
+  	'background'=>'0',
+  	'shipper_name'=>'{"left":14.5,"top":18.5,"width":8,"height":5}',
+  	'shipper_tel'=>'{"left":28.2,"top":42,"width":8,"height":5}',
+  	'shipper_phone'=>'{"left":28.2,"top":42,"width":8,"height":5}',
+  	'shipper_company'=>'{"left":28.2,"top":42,"width":8,"height":5}',
+  	'shipper_address'=>'{"left":28.2,"top":42,"width":8,"height":5}',
+  	'shipper_city'=>'{"left":28.2,"top":42,"width":8,"height":5}',
+  	'shipper_postcode'=>'{"left":28.2,"top":42,"width":8,"height":5}',
+  	'shipper_signature'=>'{"left":28.2,"top":42,"width":8,"height":5}',
+  	'shipper_time'=>'{"left":28.2,"top":42,"width":8,"height":5}',
+  	'shipper_remark'=>'{"left":28.2,"top":42,"width":8,"height":5}',
+  	'consignee_name'=>'{"left":28.2,"top":42,"width":8,"height":5}',
+  	'consignee_tel'=>'{"left":28.2,"top":42,"width":8,"height":5}',
+  	'consignee_phone'=>'{"left":28.2,"top":42,"width":8,"height":5}',
+  	'consignee_company'=>'{"left":28.2,"top":42,"width":8,"height":5}',
+  	'consignee_address'=>'{"left":28.2,"top":42,"width":8,"height":5}',
+  	'consignee_city'=>'{"left":28.2,"top":42,"width":8,"height":5}',
+  	'consignee_postcode'=>'{"left":28.2,"top":42,"width":8,"height":5}',
+	);
+?>

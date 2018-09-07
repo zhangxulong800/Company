@@ -1,0 +1,67 @@
+<?php return array (
+  'feedback.index' => 
+  array (
+    'url' => 'feedback.index',
+    'layout' => 'full',
+    'head' => 'index.top_bar,index.head,index.user_position',
+    'left' => '',
+    'right' => '',
+    'full' => 'feedback.index',
+    'bottom' => 'index.foot,index.device',
+    'require_login' => '1',
+    'target' => '_self',
+    'tutorial' => '1',
+  ),
+  'feedback.list' => 
+  array (
+    'url' => 'feedback.list',
+    'layout' => 'full',
+    'head' => 'index.navigation,index.visitor_position',
+    'left' => '',
+    'right' => '',
+    'full' => 'feedback.add,feedback.list(id:undefined|field:time/ip/answer_time|quantity:10)',
+    'bottom' => 'index.foot,index.device',
+    'require_login' => '0',
+    'target' => '_self',
+    'tutorial' => '1',
+  ),
+  'feedback.admin' => 
+  array (
+    'url' => 'feedback.admin',
+    'layout' => 'full',
+    'head' => 'index.top_bar,index.head,index.user_position',
+    'left' => '',
+    'right' => '',
+    'full' => 'feedback.admin',
+    'bottom' => 'index.foot,index.device',
+    'require_login' => '1',
+    'target' => '_self',
+    'tutorial' => '1',
+  ),
+  'feedback.config' => 
+  array (
+    'url' => 'feedback.config',
+    'layout' => 'full',
+    'head' => 'index.top_bar,index.head,index.user_position',
+    'left' => '',
+    'right' => '',
+    'full' => 'feedback.config',
+    'bottom' => 'index.foot,index.device',
+    'require_login' => '1',
+    'target' => '_self',
+    'tutorial' => '1',
+  ),
+  'feedback.list_set' => 
+  array (
+    'url' => 'feedback.list_set',
+    'layout' => 'full',
+    'head' => 'index.head,index.user_position',
+    'left' => '',
+    'right' => '',
+    'full' => 'feedback.list_set',
+    'bottom' => 'index.foot,index.device',
+    'require_login' => '1',
+    'target' => '_self',
+    'tutorial' => '1',
+  ),
+)?>

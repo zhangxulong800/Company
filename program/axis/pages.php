@@ -1,0 +1,67 @@
+<?php return array (
+  'axis.show' => 
+  array (
+    'url' => 'axis.show',
+    'layout' => 'full',
+    'head' => 'index.top_bar,index.navigation,index.visitor_position',
+    'left' => '',
+    'right' => '',
+    'full' => 'axis.show',
+    'bottom' => 'index.foot,index.device',
+    'require_login' => '0',
+    'target' => '_self',
+    'tutorial' => '0',
+  ),
+  'axis.admin' => 
+  array (
+    'url' => 'axis.admin',
+    'layout' => 'full',
+    'head' => 'index.admin_nv,index.user_position,',
+    'left' => '',
+    'right' => '',
+    'full' => 'axis.admin',
+    'bottom' => 'index.foot,index.device',
+    'require_login' => '1',
+    'target' => '_self',
+    'tutorial' => '1',
+  ),
+  'axis.my' => 
+  array (
+    'url' => 'axis.my',
+    'layout' => 'full',
+    'head' => 'index.admin_nv,index.user_position,',
+    'left' => '',
+    'right' => '',
+    'full' => 'axis.my',
+    'bottom' => 'index.foot,index.device',
+    'require_login' => '1',
+    'target' => '_self',
+    'tutorial' => '1',
+  ),
+  'axis.log' => 
+  array (
+    'url' => 'axis.log',
+    'layout' => 'full',
+    'head' => 'index.admin_nv,index.user_position,',
+    'left' => '',
+    'right' => '',
+    'full' => 'axis.log',
+    'bottom' => 'index.foot,index.device',
+    'require_login' => '1',
+    'target' => '_self',
+    'tutorial' => '1',
+  ),
+  'axis.content' => 
+  array (
+    'url' => 'axis.content',
+    'layout' => 'full',
+    'head' => '',
+    'left' => '',
+    'right' => '',
+    'full' => 'axis.content',
+    'bottom' => '',
+    'require_login' => '1',
+    'target' => '_self',
+    'tutorial' => '1',
+  ),
+)?>

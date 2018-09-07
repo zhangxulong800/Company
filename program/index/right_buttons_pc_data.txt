@@ -1,0 +1,104 @@
+<a href=&#34;program/diypage/attachd/image/20180711/20180711155107_46834.jpg&#34; id=&#34;wx&#34; d_t=&#34;关注我们&#34; i_class=&#34;fa fa-weixin&#34; ><i class=&#34;fa fa-weixin&#34;></i></a>
+<a href=&#34;./index.php?monxin=im.talk&#34; id=&#34;im_talk_show&#34; d_t=&#34;站内信息&#34; i_class=&#34;fa fa-comments-o&#34; ><i class=&#34;fa fa-comments-o&#34;></i></a>
+<a href=&#34;#&#34; id=&#34;edit_page_layout_button&#34; d_t=&#34;编辑网页&#34;  i_class=&#34;fa fa-pen2&#34; ></a>
+
+
+<a href=&#34;./index.php?monxin=index.my_recommend_qr&#34; class=my_recommend_qr d_t=&#34;我的会员推荐码&#34;><i></i></a>
+<a href=&#34;./index.php?monxin=mall.my_cart&#34; class=my_cart d_t=&#34;我的购物车&#34;><i></i></a>
+<a href=&#34;./index.php?monxin=mall.my_visit&#34; class=my_visit d_t=&#34;我看过的商品&#34; ><i></i></a>
+<a href=&#34;./index.php?monxin=mall.my_order&#34; class=my_order d_t=&#34;我的订单&#34; ><i></i></a>
+<a href=&#34;./index.php?monxin=mall.my_collect&#34; class=my_collect d_t=&#34;我的收藏夹&#34; ><i></i></a>
+
+<a href=&#34;#&#34; id=&#34;print_page&#34; d_t=&#34;打印网页&#34; i_class=&#34;fa fa-print&#34; ><i class=&#34;fa fa-print&#34;></i></a>
+<a href=&#34;#&#34; target=&#34;_blank&#34; d_t=&#34;查看教程&#34; i_class=&#34;fa fa-question&#34; id=&#34;tutorial_button_a&#34; ><i class=&#34;fa fa-question&#34;></i></a>
+<a href=&#34;#&#34; target=&#34;_blank&#34; d_t=&#34;分享有奖&#34; id=&#34;share_button&#34; i_class=&#34;fa fa-share-alt&#34; ><i class=&#34;fa fa-share-alt&#34;></i></a>
+<a href=&#34;#&#34; d_t=&#34;返回顶部&#34; id=&#34;return_top&#34; i_class=&#34;fa fa-chevron-up&#34; ><i class=&#34;fa fa-chevron-up&#34;></i></a>  
+
+<img src=&#34;program/diypage/attachd/image/20180711/20180711155107_46834.jpg&#34; alt=&#34;&#34; style=&#34;display:none;&#34;  id=wx_qr />
+<script src=&#34;./public/clipboard.min.js&#34;></script>
+<script>
+var hide_share;
+function hide_share_div(){
+	$(&#34;.fixed_right_div .share_div&#34;).css(&#39;display&#39;,&#39;none&#39;);
+}
+
+$(document).ready(function(){
+	var copy_share = new Clipboard(&#39;.copy_share&#39;);
+    copy_share.on(&#39;success&#39;, function(e) {$(&#34;.copy_state&#34;).html(&#39;成功&#39;);});
+    copy_share.on(&#39;error&#39;, function(e) {$(&#34;.copy_state&#34;).html(&#39;失败&#39;);});
+
+			$(&#34;#return_top&#34;).click(function(){
+                $(&#39;body,html&#39;).animate({scrollTop:0},100);
+                return false;
+            });
+
+$(&#34;#print_page&#34;).click(function(){window.print();return false;});
+	$(&#34;.fixed_right_div #share_button&#34;).click(function(){return false;});
+	
+	$(&#34;.fixed_right_div #share_button&#34;).hover(function(){
+		clearTimeout(hide_share);
+		$(&#34;.fixed_right_div .share_div&#34;).css(&#39;display&#39;,&#39;block&#39;);
+		$(&#34;.fixed_right_div .share_div&#34;).css(&#39;top&#39;,$(this).offset().top-$(window).scrollTop()-($(&#34;.fixed_right_div .share_div&#34;).height()/2-20));
+		//$(&#34;.fixed_right_div .share_div&#34;).css(&#39;bottom&#39;,20);
+		if($(&#34;#index_admin_nv&#34;).attr(&#39;id&#39;)){
+			$(&#34;.fixed_right_div .share_div&#34;).css(&#39;right&#39;,$(this).parent().width()+15);
+		}else{
+			$(&#34;.fixed_right_div .share_div&#34;).css(&#39;right&#39;,$(this).parent().width());
+		}
+		
+		},function(){
+			hide_share=setTimeout(&#34;hide_share_div()&#34;, 300);
+	});
+	$(&#34;.fixed_right_div .share_div&#34;).hover(function(){
+		clearTimeout(hide_share);
+		},function(){
+			hide_share=setTimeout(&#34;hide_share_div()&#34;, 300);
+	});
+		$(&#34;.fixed_right_div #wx&#34;).hover(function(){
+			a_m=$(this).offset().top+$(this).height()/2 -$(document).scrollTop() ;
+			$(&#34;.fixed_right_div #wx_qr&#34;)
+				$(&#34;.fixed_right_div #wx_qr&#34;).css(&#39;display&#39;,&#39;block&#39;).css(&#39;top&#39;,a_m-($(&#34;.fixed_right_div #wx_qr&#34;).height()/2)).css(&#39;right&#39;,&#39;36px&#39;);
+			},function(){
+				$(&#34;.fixed_right_div #wx_qr&#34;).css(&#39;display&#39;,&#39;none&#39;);		
+		});
+
+    
+
+		
+});
+</script>
+<style>
+.share_div{display:none; position:fixed;  height:auto; line-height:40px; width:300px; background-color:#ccc; padding:10px; border-radius:5px; }
+.share_div .share_text_input{ font-size:0.8rem; width:100%; height:70px;}
+.share_div a{ background-color:transparent;}
+ #wx_qr{position:fixed; z-index:999;height:210px;display:none;}
+#return_top{display:none;}
+.copy_share{ display:inline-block; cursor:pointer;}
+.copy_state{ color:red; font-size:0.9rem; padding-left:3px;}
+</style>
+<div class=&#34;share_div&#34;>
+	<div class=&#34;share_text_div&#34;><textarea class=share_text_input id=share_text_input></textarea></div>
+	<div class=&#34;bdsharebuttonbox&#34; data-tag=&#34;share_1&#34;>
+	
+	<a class=&#34;bds_weixin&#34; data-cmd=&#34;weixin&#34;></a>
+	<a class=&#34;bds_qzone&#34; data-cmd=&#34;qzone&#34; href=&#34;#&#34;></a>
+	<a class=&#34;bds_sqq&#34; data-cmd=&#34;sqq&#34;></a>
+	<a class=&#34;bds_tieba&#34; data-cmd=&#34;tieba&#34;></a>
+	<a class=&#34;bds_tqq&#34; data-cmd=&#34;tqq&#34;></a>
+<span  class=&#34;copy_share&#34; data-clipboard-action=&#34;copy&#34; data-clipboard-target=&#34;#share_text_input&#34; href=&#34;#&#34;>复制</span><span class=copy_state></span>
+</div>
+<script>
+	
+	window._bd_share_config = {
+		common : {
+			bdUrl : window.location.href+&#39;#&share=&#39;+getCookie(&#39;monxin_id&#39;)+&#39;&&#39;, 
+			bdPic : &#39;http://&#39;+window.location.host+&#39;/logo.png&#39;
+		},
+		share : [{
+			&#34;bdSize&#34; : 32
+		}]
+
+	}
+	with(document)0[(getElementsByTagName(&#39;head&#39;)[0]||body).appendChild(createElement(&#39;script&#39;)).src=&#39;http://bdimg.share.baidu.com/static/api/js/share.js?cdnversion=&#39;+~(-new Date()/36e5)];
+</script>
+</div>

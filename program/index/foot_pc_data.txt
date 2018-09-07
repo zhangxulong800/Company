@@ -1,0 +1,3 @@
+<div style=&#34;text-align:center;&#34;>
+	<a href=&#34;index.php?monxin=axis.show&id=4&#34;>关于我们</a> ‖ <a href=&#34;index.php?monxin=diypage.show&id=83&#34;>联系我们</a> ‖ <a href=&#34;index.php?monxin=diypage.show&id=162&#34;>招聘信息</a> ‖ <a href=&#34;index.php?monxin=feedback.list&#34;>留言反馈</a> ‖ <a href=&#34;http://sighttp.qq.com/msgrd?v=1&uin=925434309&#34; target=&#34;_blank&#34;>在线客服</a> 
+</div>

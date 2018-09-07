@@ -1,0 +1,17 @@
+<style>
+.logo-default img{width:17rem;}
+.logo-default img:hover{opacity:0.8;}
+</style>
+<table style=&#34;width:100%;&#34; class=&#34;ke-zeroborder&#34; border=&#34;0&#34; cellspacing=&#34;0&#34; bordercolor=&#34;#ffffff&#34; cellpadding=&#34;2&#34;>
+	<tbody>
+		<tr>
+			<td style=&#34;text-align:left;&#34;>
+				<a href=&#34;index.php&#34; class=&#34;logo-default&#34;> <img src=&#34;logo.png&#34; /><span style=&#34;font-size:10px;&#34;>开源·共享·互联网应用平台</span></a> 
+			</td>
+			<td style=&#34;text-align:right;&#34;>
+				<span style=&#34;color:#999999;line-height:40px;font-family:&#34; microsoft=&#34;&#34; yahei&#34;;font-size:18px;font-weight:bold;white-space:normal;widows:1;background-color:#ffffff;&#34;=&#34;&#34;><i class=&#34;fa fa-phone&#34;></i> 服务热线：0745-2587299&nbsp;</span><br />
+			</td>
+		</tr>
+	</tbody>
+</table>
+<br />

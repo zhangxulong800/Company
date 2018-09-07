@@ -1,0 +1,96 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <script type="text/javascript" src="IDCRead.js"></script>
+    <title>二代身份证阅读插件测试（支持火狐、谷歌chrome、360浏览器、百度浏览器、QQ浏览器、IE）</title>
+    <script>
+        var objTIDCR = new TIDCReader();
+
+        function SFZRead() {
+            objTIDCR.IDCRead(function (dat) {
+                if (dat.STAT == -1) {
+                    alert("未接入阅读器，请检查阅读器与电脑的连接是否正常！\n\n确认连接后刷新页面重试");
+                    objTIDCR.stopIDCRead();
+                }
+                //if (dat.STAT == -9) {
+                //    alert("您尚未注册，请联系管理员注册");
+                //    objTIDCR.stopIDCRead();
+                //}
+                //if (dat.STAT == -99) {
+                //    if(confirm("您未安装身份证阅读控件，请下载安装")){
+                //        location = "/Files/TIDCReader.exe";
+                //    }
+                //    objTIDCR.stopIDCRead();
+                //}
+                if (dat.STAT == 1) {
+                    window.focus();
+                    //sfzhm: dat.IDC_CARDNO, //身份证号码
+                    //xm: dat.IDC_NAME, //姓名
+                    //xb: dat.IDC_SEX,  //性别
+                    //mz: dat.IDC_MINZU, //民族
+                    //csrq: dat.IDC_BIRTH,  //出生日期
+                    //addr: dat.IDC_ADDRESS,   //地址 
+                    //pub: dat.IDC_PUBLISHER,  //发证机关
+                    //yxqs: dat.IDC_YXQS,   //有效期
+                    //yxqe: dat.IDC_YXQE,
+                    //naddr: dat.IDC_RECENTADDR,
+                    //photo:dat.IDC_PHOTOB64    //图像base64编码
+                    document.getElementById("jtxt").value = JSON.stringify(dat, null, "  ");
+                    document.getElementById("idcimg").src = objTIDCR.getZPUrl();
+                }
+            })
+        }
+
+        //插件保护产品保护 需要注册（收费）:）
+        objTIDCR.Register("a1d48c9dd32bc99747f200d5c80af8478affc6249851853cf523240e5208ae0b6e4ac1942b1daeaaff2b61ad3298536bd69ee39a31e3e41da51058efc045c05dac2b2cc02a5b00cb", function (dat) {
+            if (dat.STAT == -99) {
+                if (confirm("您未安装身份证阅读控件，请下载安装")) {
+                    location = "/Files/TIDCReader.exe";
+                }
+            } else {
+                objTIDCR.closeIDCComm();
+                SFZRead();
+            }
+        })
+
+    </script>
+    <style type="text/css">
+        body {
+            margin-left: 0px;
+            margin-top: 0px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <table width="1070" border="0" align="center" cellpadding="0" cellspacing="0" background="qiandao/mainbg.gif">
+        <tr>
+            <td width="17" align="center" background=""></td>
+            <td width="1036" align="center">
+                请连接中控ID100 阅读器，安装包中已包含驱动，安装完成后连接电脑放置身份证<br />
+                <a href="/Files/TIDCReader.exe">控件下载</a>
+            </td>
+            <td width="17" align="center"></td>
+        </tr>
+        <tr>
+            <td width="17" align="center" background=""></td>
+            <td width="1036" align="center">
+                <table width="100%">
+                    <tr>
+                        <td>
+                            <textarea style="width:100%;height:300px;" id="jtxt"></textarea>
+                        </td>
+                        <td id="iSfzimg" width="200">
+                            <img src="" id="idcimg" alt="" width="102" height="126" />
+                        </td>
+                    </tr>
+                </table>
+            </td>
+            <td width="17" align="center"></td>
+        </tr>
+    </table>
+    
+</body>
+</html>

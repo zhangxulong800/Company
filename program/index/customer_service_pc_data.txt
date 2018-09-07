@@ -1,0 +1,15 @@
+<div class=web_name>Monxin在线客服</div>
+
+<div class=w_list><a class=w_name>客服微信</a><div class=w_qr><img src=&#34;program/diymodule/attachd/image/20180515/20180515114213_41467.jpg&#34; /></div></div>
+
+<div class=w_list><a class=w_name>技术微信</a><div class=w_qr><img src=&#34;program/diymodule/attachd/image/20180515/20180515112234_10469.png&#34; /></div></div>
+
+<div class=c_line><a target=&#34;_blank&#34; href=&#34;http://wpa.qq.com/msgrd?v=3&uin=1925647796&site=qq&menu=yes&#34;><img border=&#34;0&#34; src=&#34;http://wpa.qq.com/pa?p=2:925434309:52&#34; alt=&#34;点击这里给我发消息&#34; title=&#34;点击这里给我发消息&#34;/>售前木兰</a></div>
+
+<div class=c_line><a target=&#34;_blank&#34; href=&#34;http://wpa.qq.com/msgrd?v=3&uin=925434309&site=qq&menu=yes&#34;><img border=&#34;0&#34; src=&#34;http://wpa.qq.com/pa?p=2:925434309:52&#34; alt=&#34;点击这里给我发消息&#34; title=&#34;点击这里给我发消息&#34;/>售后梁工</a></div>
+
+<div class=c_line>手机：18074507509</div>
+
+<div class=c_line>电话：400 609 6309</div>
+
+<div class=c_line><a href=./index.php?monxin=feedback.list  target=&#34;_blank&#34;>留言反馈 </a></div>

@@ -1,0 +1,18 @@
+<a href=&#34;#&#34; id=&#34;edit_page_layout_button&#34; title=&#34;编辑网页&#34; i_class=&#34;fa fa-pencil&#34; ></a> <a href=&#34;#&#34; target=&#34;_blank&#34; title=&#34;查看教程&#34; i_class=&#34;fa fa-question&#34; id=&#34;tutorial_button_a&#34; ><i class=&#34;fa fa-question&#34;></i></a> <a href=&#34;#&#34; title=&#34;返回顶部&#34; id=&#34;return_top&#34; i_class=&#34;fa fa-chevron-up&#34; ><i class=&#34;fa fa-chevron-up&#34;></i></a> 
+<script>
+$(document).ready(function(){
+	$(&#34;#return_top&#34;).click(function(){
+		$(&#39;body,html&#39;).animate({scrollTop:0},100);
+		return false;
+	});
+	$(&#34;.fixed_right_div&#34;).attr(&#39;ontouchstart&#39;,&#39;touch_drag_start(this)&#39;);
+	$(&#34;.fixed_right_div&#34;).attr(&#39;ontouchmove&#39;,&#39;touch_drag_move()&#39;);
+	$(&#34;.fixed_right_div&#34;).attr(&#39;ontouchend&#39;,&#39;touch_drag_end()&#39;);
+});
+</script>
+<style>
+.share_div{display:none; position:fixed; height:40px; line-height:40px; min-width:100px; background-color:#FFF; padding:5px; border-radius:5px; }
+.share_div a{ background-color:transparent;}
+ #wx_qr{position:fixed; z-index:999;height:210px;display:none;}
+#return_top{display:none;}
+</style>

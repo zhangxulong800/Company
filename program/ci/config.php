@@ -1,0 +1,58 @@
+<?php return array (
+  'program' => 
+  array (
+    'language' => 'chinese_simplified',
+    'cache_time' => 5,
+    'template_1' => 'default',
+    'template_0' => 'default',
+    'imageMark' => false,
+    'state' => 'opening',
+    'thumb_width' => '512',
+    'thumb_height' => '512',
+  ),
+  'class_name' => 'ci',
+  'version' => '3.0',
+  'compatible_template_version' => '3.0',
+  'author' => 'Monxin',
+  'author_url' => 'http://www.monxin.com',
+  'add_notice_email' => '925434309@qq.com',
+  'info_verify' => false,
+  'visitor_add' => false,
+  'day_add_max' => 20,
+  'day_reflash_max' => 2,
+  'reflash_price' => 2,
+  'top_min_price' => 5,
+  'give_3' => 6,
+  'give_7' => 24,
+  'give_15' => 0,
+  'give_30' => 240,
+  'target' => '_self',
+  'hot_search' => '二手房|出售|租房子|摩托车',
+  'search_placeholder' => '美味拦不住',
+  'search_placeholder_url' => './index.php?monxin=ci.list&search=吃',
+  'top_url' => '',
+  'icon_thumb' => 
+  array (
+    'width' => 256,
+    'height' => 256,
+  ),
+  'program_unlogin_function_power' => 
+  array (
+    0 => 'ci.show_type',
+    1 => 'ci.show_type_module',
+    2 => 'ci.type_module_left',
+    3 => 'ci.type_module_two',
+    4 => 'ci.list',
+    5 => 'ci.detail',
+    6 => 'ci.add_option_type',
+    7 => 'ci.add',
+    8 => 'ci.edit',
+    9 => 'ci.list_module',
+    10 => 'ci.search',
+  ),
+  'dashboard_module' => 
+  array (
+    0 => 'ci.sum',
+    1 => 'ci.user_sum',
+  ),
+)?>

@@ -1,0 +1,26 @@
+<span style=&#34;font-size:0px;line-height:0px;&#34;>11</span> 
+<script>
+$(document).ready(function(){
+	$(&#34;#navigation_div&#34;).css(&#39;bottom&#39;,&#34;15%&#34;);
+	$(&#34;#navigation_div&#34;).css(&#39;left&#39;,&#34;10%&#34;);
+});
+</script>
+<style>
+     .phone_index_head{ text-align:center; margin-left:8%;margin-right:10%; margin-top:-2%;}
+     .phone_index_head img{width:100%;}
+     .phone_index_bottom{  position:fixed; bottom:0%; text-align:center; padding-left:10%;}
+     .phone_index_bottom img{width:520px;}
+     .phone_index_bottom a{ }
+     .phone_index_bottom .tel{ display:block; background-image:url(program/diymodule/attachd/image/20140121/20140121063012_48259.png);  background-position:left; background-repeat:no-repeat; padding-left:50px; line-height:45px;display:block; font-size:50px; text-align:center; line-height:80px;}
+     .phone_index_bottom .phone{ display:block; background-image:url(program/index/attachd/image/20140119/20140119084615_52643.png); background-position:left; background-repeat:no-repeat; padding-left:50px; line-height:45px;display:block; font-size:50px; text-align:center; line-height:80px;}
+</style>
+<div class=&#34;phone_index_head&#34;>
+	<br />
+<img src=&#34;program/index/attachd/image/20140429/20140429080127_83605.png&#34; alt=&#34;&#34; /><br />
+</div>
+<div class=&#34;phone_index_bottom&#34; align=&#34;center&#34;>
+	<a href=&#34;tel:07452729371&#34;><img src=&#34;program/index/attachd/image/20140429/20140429080136_24578.png&#34; alt=&#34;&#34; /></a> 
+	<div style=&#34;display:none;&#34;>
+		<a href=&#34;tel:07452729371&#34; class=&#34;tel&#34; style=&#34;display:inline !important;&#34;>0745-2729371</a><a href=&#34;tel:18074507509&#34; class=&#34;phone&#34;>18074507509</a> 
+	</div>
+</div>

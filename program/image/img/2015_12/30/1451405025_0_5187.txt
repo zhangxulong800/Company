@@ -1,0 +1,31 @@
+array(0) { } array(9) { ["POSID"]=> string(9) "285368562" ["BRANCHID"]=> string(9) "430000000" ["ORDERID"]=> string(2) "57" ["PAYMENT"]=> string(3) "0.1" ["CURCODE"]=> string(2) "01" ["REMARK1"]=> string(0) "" ["REMARK2"]=> string(6) "value2" ["SUCCESS"]=> string(1) "Y" ["SIGN"]=> string(256) "6355e3bcbad5a414c1fb5c3cc6319079f848af17c13651f2a866d1f7b2c9be6d147cec673b4a397ea0d3bfb4f4321b0d49ae6e18a9e03ea6db112055dff3e8d4610240d2ece60dc37548ddc75cafc73bddc6ea2509090bd93363ce41044e0df9b8212b338a5b950e0faac806c2fa1c5357f055c95c32a6ce934d22c8261c5d97" }
+
+
+
+array(0) {
+}
+array(9) {
+  ["POSID"]=>
+  string(9) "285368562"
+  ["BRANCHID"]=>
+  string(9) "430000000"
+  ["ORDERID"]=>
+  string(2) "57"
+  ["PAYMENT"]=>
+  string(3) "0.1"
+  ["CURCODE"]=>
+  string(2) "01"
+  ["REMARK1"]=>
+  string(0) ""
+  ["REMARK2"]=>
+  string(6) "value2"
+  ["SUCCESS"]=>
+  string(1) "Y"
+  ["SIGN"]=>
+  string(256) "6355e3bcbad5a414c1fb5c3cc6319079f848af17c13651f2a866d1f7b2c9be6d147cec673b4a397ea0d3bfb4f4321b0d49ae6e18a9e03ea6db112055dff3e8d4610240d2ece60dc37548ddc75cafc73bddc6ea2509090bd93363ce41044e0df9b8212b338a5b950e0faac806c2fa1c5357f055c95c32a6ce934d22c8261c5d97"
+}
+
+
+regsvr32 D:\PHPnow\php-5.2.14-Win32\ext\CCBRSA.dll
+
+www.qdjsc.com/payment/ccb/notify_url.php?POSID=285368562&BRANCHID=430000000&ORDERID=60&PAYMENT=0.1&CURCODE=01&REMARK1=&REMARK2=value2&ACC_TYPE=12&SUCCESS=Y&SIGN=66c12dd6bde5f44e4468b263db822573470ca0706fcbc719147fe0d321d939035e6323ec312c93c765f9a48562f24024e1ac8e46a5a0a00c09a8a1d6c052142c9994acb11ad3200b17b98d86e761665cbd15e51d80d0d70fa7cd7d4a7cd68ed1f6878117dd2c19a309fc78bf0ec0808bb08b2109e25474c2915f0b6ae14d96f3

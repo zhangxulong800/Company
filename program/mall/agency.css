@@ -1,0 +1,5 @@
+<style>
+.position,#relevance_package_div,#relevance_goods_div{ display:none;}
+.page-header >div[monxin-module]{ display:none !important;}
+#mall_layout{display:block;}
+</style>
