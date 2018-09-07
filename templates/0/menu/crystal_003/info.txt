@@ -1,0 +1,7 @@
+﻿name=水晶之恋003
+type=0
+version=3.0
+dir=crystal_003
+for=menu
+author=Monxin
+author_url=http://www.monxin.com

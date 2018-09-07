@@ -1,0 +1,7 @@
+﻿name=默认
+type=1
+version=3.0
+dir=default
+for=article
+author=Monxin
+author_url=http://www.monxin.com

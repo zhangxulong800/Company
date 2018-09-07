@@ -1,0 +1,6 @@
+name=默认模板
+version=3.0
+dir=default
+for=scanpay
+author=Monxin
+author_url=http://www.monxin.com

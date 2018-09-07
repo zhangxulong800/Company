@@ -1,0 +1,7 @@
+name=phone2X4pc8X1
+type=0
+version=3.0
+dir=mall
+for=menu
+author=Monxin
+author_url=http://www.monxin.com

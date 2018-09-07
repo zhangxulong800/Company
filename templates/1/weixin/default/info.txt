@@ -1,0 +1,7 @@
+﻿name=默认模板
+type=1
+version=5.0
+dir=default
+for=weixin
+author=Monxin
+author_url=http://www.monxin.com

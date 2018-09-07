@@ -1,0 +1,7 @@
+﻿name=默认
+type=1
+version=4.0
+dir=default
+for=prize
+author=Monxin
+author_url=http://www.monxin.com

@@ -1,0 +1,29 @@
+.page-container{ display:none;}
+[shop_layout]{ min-height:200px; }
+#malllayout_top{width:100%;text-align:left; }
+#edit_page_malllayout_div{position:fixed; display:none; top:40%;right:0px; margin:10px; z-index:9999;}
+.edit_mall_layout_button{ position:fixed; top:40%; right:30px;  width:40px; display:none;height:40px; line-height:40px; z-index:9995559;}
+.edit_mall_layout_button:before{
+	font: normal normal normal 25px/1 FontAwesome;
+	margin-right:10px;
+	line-height:60px;
+	content: "\f044";
+	}
+#middle_malllayout_out {padding: 0; width: 100%;}
+#malllayout_right {padding-left: 0;margin-left: 0;text-align: left;}
+#malllayout_right .portlet {padding:0}
+#malllayout_right .portlet .list { border:none;}
+.col-md-2 .list .goods { width:100% !important; height:17.14rem;}
+.col-md-2 .list .goods .goods_a { width:100% !important;; margin:0;padding:0;}
+.col-md-2 .list .goods .goods_a img {width:100% !important; height:12.6rem; !important;margin:0;padding:0}
+.col-md-2 .list .goods .goods_a .title {margin-left:10px;}
+.col-md-2 .list .goods .price_span {width:80%;}
+#mall_layout{}
+#mall_layout [monxin-module]{ background:#fff;}
+#malllayout_full{white-space:normal;}
+@media print {
+ .page-header {display: block;}
+}
+
+
+

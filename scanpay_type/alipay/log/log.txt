@@ -1,0 +1,1494 @@
+﻿2016-02-24 15:20:19  response: stdClass::__set_state(array(
+   'alipay_trade_pay_response' => 
+  stdClass::__set_state(array(
+     'code' => '40004',
+     'msg' => 'Business Failed',
+     'sub_code' => 'ACQ.INVALID_PARAMETER',
+     'sub_msg' => '支付失败，交易参数异常，请顾客刷新付款码后重新收款。如再次收款失败，请联系管理员处理。[INVALID_PARAMETER]',
+     'buyer_pay_amount' => '0.00',
+     'invoice_amount' => '0.00',
+     'point_amount' => '0.00',
+     'receipt_amount' => '0.00',
+  )),
+   'sign' => 'rEtPE4OgzoPI614Mwy4D5bMbO6VEm65XSBXc63ULWnSi0Chdlu7ri4n0YfPfBFxupUxMYfXgqAtCQ6SzZL5f6ZBV1xf9QveZqeDRAWdNLeYDonua44IrE+W2c9se/JYSoeNKZ9gB819aipseLGpoYEfUob14bO2wibGjZVQmaGw=',
+))
+2016-02-24 15:26:47  response: stdClass::__set_state(array(
+   'alipay_trade_pay_response' => 
+  stdClass::__set_state(array(
+     'code' => '40004',
+     'msg' => 'Business Failed',
+     'sub_code' => 'ACQ.PAYMENT_AUTH_CODE_INVALID',
+     'sub_msg' => '支付失败，获取顾客账户信息失败，请顾客刷新付款码后重新收款，如再次收款失败，请联系管理员处理。[SOUNDWAVE_PARSER_FAIL]',
+     'buyer_pay_amount' => '0.00',
+     'invoice_amount' => '0.00',
+     'point_amount' => '0.00',
+     'receipt_amount' => '0.00',
+  )),
+   'sign' => 'gFbi3Mkz250KLVaEUXeAu0pMPVo1aO9uwYiQPF5dPsU76yPgt7SWh27RPwOQyCViEjiSrbaLwzS0ebJvO5Dt7MS1arzPvgGN9S4u3uKC72W0LNeOsp4MNuOKbLF9VJeQQi4EyXo6rIpEbYwCSH5+1QHFgDxhwWMz26BFKxQ8NZ4=',
+))
+2016-02-24 15:27:31  response: stdClass::__set_state(array(
+   'alipay_trade_pay_response' => 
+  stdClass::__set_state(array(
+     'code' => '10000',
+     'msg' => 'Success',
+     'buyer_logon_id' => '925***@qq.com',
+     'buyer_pay_amount' => '0.10',
+     'buyer_user_id' => '2088502839898583',
+     'fund_bill_list' => 
+    array (
+      0 => 
+      stdClass::__set_state(array(
+         'amount' => '0.10',
+         'fund_channel' => 'ALIPAYACCOUNT',
+      )),
+    ),
+     'gmt_payment' => '2016-02-24 15:28:00',
+     'invoice_amount' => '0.10',
+     'open_id' => '20881036447305587057339062613858',
+     'out_trade_no' => '20160224119',
+     'point_amount' => '0.00',
+     'receipt_amount' => '0.10',
+     'total_amount' => '0.10',
+     'trade_no' => '2016022421001004580282479189',
+  )),
+   'sign' => 'kp6wUylhFt3O61/gVykjWEZOdealRvyrC/3wJdPe0v8SqPnZ485fMSZjYVPokw9jXFtbIoAFCqKHUuOuRNqkR5YN2cBTDyImN0qhQhRcW33wH01RMt63yJUSj/4udUvG63awKLAVv/0sTie132cy3gvUg/UZywXEbSwctilDWVY=',
+))
+2016-02-24 15:30:47  response: stdClass::__set_state(array(
+   'alipay_trade_pay_response' => 
+  stdClass::__set_state(array(
+     'code' => '10000',
+     'msg' => 'Success',
+     'buyer_logon_id' => '925***@qq.com',
+     'buyer_pay_amount' => '0.10',
+     'buyer_user_id' => '2088502839898583',
+     'fund_bill_list' => 
+    array (
+      0 => 
+      stdClass::__set_state(array(
+         'amount' => '0.10',
+         'fund_channel' => 'ALIPAYACCOUNT',
+      )),
+    ),
+     'gmt_payment' => '2016-02-24 15:31:16',
+     'invoice_amount' => '0.10',
+     'open_id' => '20881036447305587057339062613858',
+     'out_trade_no' => '20160224120',
+     'point_amount' => '0.00',
+     'receipt_amount' => '0.10',
+     'total_amount' => '0.10',
+     'trade_no' => '2016022421001004580275687289',
+  )),
+   'sign' => 'urHMlhfQscymqJfnFWqY+s2qnz6V1ilh5UEEUxazuDHuM34csvWZuCQgxa8awO7Gt7CCc3bInHSEMUGoN5XiclpdlRy4oKs29x0MmliufO8Qo88nCsk48Du1E7vQQ2Y8qd7XU4vDPSeQnZ76nV1dFLZ1S4m4xrIYbe+DF6+M8rI=',
+))
+2016-02-24 15:36:56  response: stdClass::__set_state(array(
+   'alipay_trade_pay_response' => 
+  stdClass::__set_state(array(
+     'code' => '10000',
+     'msg' => 'Success',
+     'buyer_logon_id' => '925***@qq.com',
+     'buyer_pay_amount' => '0.10',
+     'buyer_user_id' => '2088502839898583',
+     'fund_bill_list' => 
+    array (
+      0 => 
+      stdClass::__set_state(array(
+         'amount' => '0.10',
+         'fund_channel' => 'ALIPAYACCOUNT',
+      )),
+    ),
+     'gmt_payment' => '2016-02-24 15:37:24',
+     'invoice_amount' => '0.10',
+     'open_id' => '20881036447305587057339062613858',
+     'out_trade_no' => '20160224121',
+     'point_amount' => '0.00',
+     'receipt_amount' => '0.10',
+     'total_amount' => '0.10',
+     'trade_no' => '2016022421001004580275470477',
+  )),
+   'sign' => 'wFJqqYL2AR262sJUf0+4cpMS6CqCG+U1xetsYn8I7BIXOFxSt5BO9wBhplkeeQu4PtLOrYmaHML7HdpCD9RmrZ4npjfnD1wJaKS/fNZhUMazpOa2AdPyxxc+CJHU6RAPfj2kbilTqzxxX5iAVBsdK2f+ntg6wdmSoDAoBrbEZGM=',
+))
+2016-02-24 15:41:02  response: stdClass::__set_state(array(
+   'alipay_trade_pay_response' => 
+  stdClass::__set_state(array(
+     'code' => '10000',
+     'msg' => 'Success',
+     'buyer_logon_id' => '925***@qq.com',
+     'buyer_pay_amount' => '0.10',
+     'buyer_user_id' => '2088502839898583',
+     'fund_bill_list' => 
+    array (
+      0 => 
+      stdClass::__set_state(array(
+         'amount' => '0.10',
+         'fund_channel' => 'ALIPAYACCOUNT',
+      )),
+    ),
+     'gmt_payment' => '2016-02-24 15:41:31',
+     'invoice_amount' => '0.10',
+     'open_id' => '20881036447305587057339062613858',
+     'out_trade_no' => '20160224122',
+     'point_amount' => '0.00',
+     'receipt_amount' => '0.10',
+     'total_amount' => '0.10',
+     'trade_no' => '2016022421001004580282328270',
+  )),
+   'sign' => 'URZ1L3FVMR0JEn1kyNa+0MN3pvWIinmO4fkiotDNYi3B8NGKnnIIHdZY0vPON/f0cZwcQ5v3GUhL5n7iosCa5RohsLWTL+K7Lc7xe7ZFiX5EXaxupptfNqvZInb48yawMwKS9c+l9reghF+gWU9JmFgKnJKTPnYA5pwCF3VyPkQ=',
+))
+2016-02-24 15:42:24  response: stdClass::__set_state(array(
+   'alipay_trade_pay_response' => 
+  stdClass::__set_state(array(
+     'code' => '40004',
+     'msg' => 'Business Failed',
+     'sub_code' => 'ACQ.PAYMENT_AUTH_CODE_INVALID',
+     'sub_msg' => '支付失败，获取顾客账户信息失败，请顾客刷新付款码后重新收款，如再次收款失败，请联系管理员处理。[SOUNDWAVE_PARSER_FAIL]',
+     'buyer_pay_amount' => '0.00',
+     'invoice_amount' => '0.00',
+     'point_amount' => '0.00',
+     'receipt_amount' => '0.00',
+  )),
+   'sign' => 'gFbi3Mkz250KLVaEUXeAu0pMPVo1aO9uwYiQPF5dPsU76yPgt7SWh27RPwOQyCViEjiSrbaLwzS0ebJvO5Dt7MS1arzPvgGN9S4u3uKC72W0LNeOsp4MNuOKbLF9VJeQQi4EyXo6rIpEbYwCSH5+1QHFgDxhwWMz26BFKxQ8NZ4=',
+))
+2016-02-24 15:43:56  response: stdClass::__set_state(array(
+   'alipay_trade_pay_response' => 
+  stdClass::__set_state(array(
+     'code' => '10000',
+     'msg' => 'Success',
+     'buyer_logon_id' => '925***@qq.com',
+     'buyer_pay_amount' => '0.10',
+     'buyer_user_id' => '2088502839898583',
+     'fund_bill_list' => 
+    array (
+      0 => 
+      stdClass::__set_state(array(
+         'amount' => '0.10',
+         'fund_channel' => 'ALIPAYACCOUNT',
+      )),
+    ),
+     'gmt_payment' => '2016-02-24 15:44:25',
+     'invoice_amount' => '0.10',
+     'open_id' => '20881036447305587057339062613858',
+     'out_trade_no' => '20160224124',
+     'point_amount' => '0.00',
+     'receipt_amount' => '0.10',
+     'total_amount' => '0.10',
+     'trade_no' => '2016022421001004580275780290',
+  )),
+   'sign' => 'wxmbxNookdFBKn2e9/sX/iLxlMzCVotI8cy/pJ+HpN3pgYytXmLqlxg6A9m4XOB0mJdM6ZtchFL0bvT2MK9OlNNYwKOx9c6ITR4hXclER06c0irSvBzDIv81T4cwgziQ7yg3do60ZzKk0HFemtfP0ptRM/wq+1j3TetIutMXA9w=',
+))
+2016-02-24 15:45:07  response: stdClass::__set_state(array(
+   'alipay_trade_pay_response' => 
+  stdClass::__set_state(array(
+     'code' => '10003',
+     'msg' => ' order success pay inprocess',
+     'buyer_logon_id' => '136***@139.com',
+     'buyer_pay_amount' => '0.00',
+     'buyer_user_id' => '2088302449303660',
+     'invoice_amount' => '0.00',
+     'open_id' => '20881048444944797243903250213866',
+     'out_trade_no' => '20160224125',
+     'point_amount' => '0.00',
+     'receipt_amount' => '0.00',
+     'total_amount' => '0.10',
+     'trade_no' => '2016022421001004660258276177',
+  )),
+   'sign' => 'vr8ixgK0/7BJZk31uB6GAYtT7Gq9U1LO1+pNUaPP1o/UrganbgOvCEEMDtc79UX8BvZcPfM3FgLiEFb47kpMG25YNJ1m26FFxvHICW5jfJvQQJEDC4fqhLQG71rMBA6BQcLhEquZ9We+6Jjp/Fu7XEYtzmrlU7tC+liDBbzwE3s=',
+))
+2016-02-24 15:46:46  response: stdClass::__set_state(array(
+   'alipay_trade_pay_response' => 
+  stdClass::__set_state(array(
+     'code' => '10000',
+     'msg' => 'Success',
+     'buyer_logon_id' => '925***@qq.com',
+     'buyer_pay_amount' => '0.10',
+     'buyer_user_id' => '2088502839898583',
+     'fund_bill_list' => 
+    array (
+      0 => 
+      stdClass::__set_state(array(
+         'amount' => '0.10',
+         'fund_channel' => 'ALIPAYACCOUNT',
+      )),
+    ),
+     'gmt_payment' => '2016-02-24 15:47:15',
+     'invoice_amount' => '0.10',
+     'open_id' => '20881036447305587057339062613858',
+     'out_trade_no' => '20160224126',
+     'point_amount' => '0.00',
+     'receipt_amount' => '0.10',
+     'total_amount' => '0.10',
+     'trade_no' => '2016022421001004580275470609',
+  )),
+   'sign' => 'LntsRd0BcxoX4sWxVKEiSW/bZRO23iz94siRSwXnmQzkfpnkNnf8zopYhlZIARbzLn0c8S5t/bajZZwWNT0xq89bZzUyDShcnqjG7N4o5BHhDHgS8lsMqzfwGBjxAfYWfIiEdlR1Ru4DN8+j82nCP+1kiiTfF9qc/BsuLNnidRA=',
+))
+2016-02-24 15:47:37  response: stdClass::__set_state(array(
+   'alipay_trade_pay_response' => 
+  stdClass::__set_state(array(
+     'code' => '10000',
+     'msg' => 'Success',
+     'buyer_logon_id' => '925***@qq.com',
+     'buyer_pay_amount' => '0.10',
+     'buyer_user_id' => '2088502839898583',
+     'fund_bill_list' => 
+    array (
+      0 => 
+      stdClass::__set_state(array(
+         'amount' => '0.10',
+         'fund_channel' => 'ALIPAYACCOUNT',
+      )),
+    ),
+     'gmt_payment' => '2016-02-24 15:48:06',
+     'invoice_amount' => '0.10',
+     'open_id' => '20881036447305587057339062613858',
+     'out_trade_no' => '20160224127',
+     'point_amount' => '0.00',
+     'receipt_amount' => '0.10',
+     'total_amount' => '0.10',
+     'trade_no' => '2016022421001004580275687514',
+  )),
+   'sign' => 'vXristdejA5mVXQDzkdLDbHwl9cPcAUxyaydNe+Od/ppo4AeIsMZHrIEo21eIJMT9RQHREl6KmhStCJQ/1idlxvRpl26IeZG/Lvg5GvVIlSq7FLaZFVlRpo7hCJn93Ky4uDJ+Q788aNpywSUfzuJ6p8SqTC3KT+Ha8syB4LIV4A=',
+))
+2016-02-24 15:58:33  response: stdClass::__set_state(array(
+   'alipay_trade_pay_response' => 
+  stdClass::__set_state(array(
+     'code' => '10000',
+     'msg' => 'Success',
+     'buyer_logon_id' => '925***@qq.com',
+     'buyer_pay_amount' => '0.10',
+     'buyer_user_id' => '2088502839898583',
+     'fund_bill_list' => 
+    array (
+      0 => 
+      stdClass::__set_state(array(
+         'amount' => '0.10',
+         'fund_channel' => 'ALIPAYACCOUNT',
+      )),
+    ),
+     'gmt_payment' => '2016-02-24 15:59:02',
+     'invoice_amount' => '0.10',
+     'open_id' => '20881036447305587057339062613858',
+     'out_trade_no' => '20160224128',
+     'point_amount' => '0.00',
+     'receipt_amount' => '0.10',
+     'total_amount' => '0.10',
+     'trade_no' => '2016022421001004580275527307',
+  )),
+   'sign' => 'IBSB0684rG/ROP0G0sjwUGf/XQ9A0zg/lNfAx62efDRE4qy5/aiToFhiPl+PGsZKf7vjyvtHvl9Qhz6oUJZdpzOGjnhl6kYwlu4KddlTmeWtoQ7ILh6B1UnGF6hSEOENlzb8si7U+0LE5BhjKMSuVlEEHssKc874RALFPh9uTZA=',
+))
+2016-02-24 15:59:18  response: stdClass::__set_state(array(
+   'alipay_trade_pay_response' => 
+  stdClass::__set_state(array(
+     'code' => '10003',
+     'msg' => ' order success pay inprocess',
+     'buyer_logon_id' => '925***@qq.com',
+     'buyer_pay_amount' => '0.00',
+     'buyer_user_id' => '2088502839898583',
+     'invoice_amount' => '0.00',
+     'open_id' => '20881036447305587057339062613858',
+     'out_trade_no' => '20160224129',
+     'point_amount' => '0.00',
+     'receipt_amount' => '0.00',
+     'total_amount' => '10000.00',
+     'trade_no' => '2016022421001004580282391587',
+  )),
+   'sign' => 'MgVD6XsmenGTXPdOnBPg8DpJgVlBSBx8njUb8iQPmCa/xW4P0KvcvyzVhOdsh11oWqqbRL21yLcI6m1ewBHIcIBvPEHS1nzcExIDOUB2v8lDR+z9RFH7g5iMeuovXcvQdC3i9cw5UHdSCCB1wLwwQk8lXbop9U6NL866E/qt9zk=',
+))
+2016-02-24 16:30:36  response: stdClass::__set_state(array(
+   'alipay_trade_pay_response' => 
+  stdClass::__set_state(array(
+     'code' => '10003',
+     'msg' => ' order success pay inprocess',
+     'buyer_logon_id' => '925***@qq.com',
+     'buyer_pay_amount' => '0.00',
+     'buyer_user_id' => '2088502839898583',
+     'invoice_amount' => '0.00',
+     'open_id' => '20881036447305587057339062613858',
+     'out_trade_no' => '20160224130',
+     'point_amount' => '0.00',
+     'receipt_amount' => '0.00',
+     'total_amount' => '1000.00',
+     'trade_no' => '2016022421001004580282690904',
+  )),
+   'sign' => 'wsIp8Wgs2/zKLf8M5/ig8oOGd8i4TPCc4d5mhhvO3jSBAACdOc3fAUwhMd5BVlJe4QVP5JXXOxQ196Y+AGQ6SOvJz6yNv9+3UqJiu0MtPovG+FKkPoON5nM38TbiJjOPZiSlbCjPuNfLZPfH5CeyH+KgKKyLLmEiTsHIvCjTfs0=',
+))
+2016-02-24 08:31:38  response: stdClass::__set_state(array(
+   'alipay_trade_query_response' => 
+  stdClass::__set_state(array(
+     'code' => '10000',
+     'msg' => 'Success',
+     'buyer_logon_id' => '925***@qq.com',
+     'buyer_pay_amount' => '0.00',
+     'buyer_user_id' => '2088502839898583',
+     'invoice_amount' => '0.00',
+     'open_id' => '20881036447305587057339062613858',
+     'out_trade_no' => '20160224130',
+     'point_amount' => '0.00',
+     'receipt_amount' => '0.00',
+     'total_amount' => '1000.00',
+     'trade_no' => '2016022421001004580282690904',
+     'trade_status' => 'WAIT_BUYER_PAY',
+  )),
+   'sign' => 'KYuUuFEiwJGOmDwn76qqQ2RY8VwGwmLdaSA+nVkMCD7r72vjtfnyPpLzN7W8/03RyiNh7zDSz++m3JbDBlI1SBKFH8UEU3F/E/wmNPU6JzwcYXT58SSTGT80SQf87Ooe72nNb+IjH+1M80OcGIVhMdP740nT8PqGEi8chR/PIfA=',
+))
+2016-02-24 16:35:26  response: stdClass::__set_state(array(
+   'alipay_trade_pay_response' => 
+  stdClass::__set_state(array(
+     'code' => '10003',
+     'msg' => ' order success pay inprocess',
+     'buyer_logon_id' => '925***@qq.com',
+     'buyer_pay_amount' => '0.00',
+     'buyer_user_id' => '2088502839898583',
+     'invoice_amount' => '0.00',
+     'open_id' => '20881036447305587057339062613858',
+     'out_trade_no' => '20160224131',
+     'point_amount' => '0.00',
+     'receipt_amount' => '0.00',
+     'total_amount' => '1000.00',
+     'trade_no' => '2016022421001004580282480237',
+  )),
+   'sign' => 'AGxwU/UhAv52ie25Gw/r/OCi6HTO+XEsm2qMAbY5hbU4a6snhxy8ziOeWcqEpsSnuF9EEyeahGJf9/ce3/NPNvqfsDt1yMCg7IlPkFKuvXLHLykg8zMK29IClFu2upvFSDr5qiIl49V5RdXisZlO3aK6EhjroMkfmAaUUcKxcZA=',
+))
+2016-02-24 08:35:29  response: stdClass::__set_state(array(
+   'alipay_trade_query_response' => 
+  stdClass::__set_state(array(
+     'code' => '10000',
+     'msg' => 'Success',
+     'buyer_logon_id' => '925***@qq.com',
+     'buyer_pay_amount' => '0.00',
+     'buyer_user_id' => '2088502839898583',
+     'invoice_amount' => '0.00',
+     'open_id' => '20881036447305587057339062613858',
+     'out_trade_no' => '20160224131',
+     'point_amount' => '0.00',
+     'receipt_amount' => '0.00',
+     'total_amount' => '1000.00',
+     'trade_no' => '2016022421001004580282480237',
+     'trade_status' => 'WAIT_BUYER_PAY',
+  )),
+   'sign' => 'siRlZiApmvVx/sCysOLebs77lTe1mK2Wvz0kfB23Y9wuE33FAFqccN/EUwpxSSIUI4V0epaiBhv2kJYfpTlJ1avdycXx3qbOnB2RxfQHTVGzAkaYnSflTTq70S0i2w55HEiH2fGtf24bzuq91/LmW7vnv51vHoOy9ttwmBy2BZw=',
+))
+2016-02-24 16:35:51  response: stdClass::__set_state(array(
+   'alipay_trade_pay_response' => 
+  stdClass::__set_state(array(
+     'code' => '10003',
+     'msg' => ' order success pay inprocess',
+     'buyer_logon_id' => '925***@qq.com',
+     'buyer_pay_amount' => '0.00',
+     'buyer_user_id' => '2088502839898583',
+     'invoice_amount' => '0.00',
+     'open_id' => '20881036447305587057339062613858',
+     'out_trade_no' => '20160224132',
+     'point_amount' => '0.00',
+     'receipt_amount' => '0.00',
+     'total_amount' => '1000.00',
+     'trade_no' => '2016022421001004580285861757',
+  )),
+   'sign' => 'e1MMKNzkzY5M3YDLvd/lJ7mMuIOSZtb93e79FD4Q8s7IVe35D4/mCYXVsM+8/uSj9Sav/PmhlRRR8dK7VWRJ8abexlGglJANiTjV+QCD2CmvdqiKfLO+FP3yqO9VFkyeh1l+BgK0BUerL+zYBVChA6ycsBgBOPiox9jk7pDoFvQ=',
+))
+2016-02-24 08:35:54  response: stdClass::__set_state(array(
+   'alipay_trade_query_response' => 
+  stdClass::__set_state(array(
+     'code' => '10000',
+     'msg' => 'Success',
+     'buyer_logon_id' => '925***@qq.com',
+     'buyer_pay_amount' => '0.00',
+     'buyer_user_id' => '2088502839898583',
+     'invoice_amount' => '0.00',
+     'open_id' => '20881036447305587057339062613858',
+     'out_trade_no' => '20160224132',
+     'point_amount' => '0.00',
+     'receipt_amount' => '0.00',
+     'total_amount' => '1000.00',
+     'trade_no' => '2016022421001004580285861757',
+     'trade_status' => 'WAIT_BUYER_PAY',
+  )),
+   'sign' => 'kJNQt/AdPRt5KwNDH2tmx4tb64Uck+dVu7qZVf0GzLgExEMfKbTO67vYx4QLjxivRe8op+AOOvzVfc66Oc8g5u8zFfyvfaNCsVj+qmXGZgcF3MDW2dTakzoGLdMAsOJnl1X61m2Jk3vaSkkyHLFfBErU4xbBnyg11fNV9KENTRs=',
+))
+2016-02-24 16:40:17  response: stdClass::__set_state(array(
+   'alipay_trade_pay_response' => 
+  stdClass::__set_state(array(
+     'code' => '10003',
+     'msg' => ' order success pay inprocess',
+     'buyer_logon_id' => '925***@qq.com',
+     'buyer_pay_amount' => '0.00',
+     'buyer_user_id' => '2088502839898583',
+     'invoice_amount' => '0.00',
+     'open_id' => '20881036447305587057339062613858',
+     'out_trade_no' => '20160224133',
+     'point_amount' => '0.00',
+     'receipt_amount' => '0.00',
+     'total_amount' => '10000.00',
+     'trade_no' => '2016022421001004580282691164',
+  )),
+   'sign' => 'iWU9oobUJuPah7MpmYmpsQNYcO2nLA539cPdHtQQuQhjhg2CISYcs52QbUPQ+JqFfluV2Uv0oKwK8EFku809frRkoMyP8GXYfTbBlPWS+8oaGTzYgwlNcNq/4njijvWIzfJGHbtn+OlzPKimwFbcyTXg5NQP2X9YqFQ6RxHaMzI=',
+))
+2016-02-24 08:40:24  response: stdClass::__set_state(array(
+   'alipay_trade_query_response' => 
+  stdClass::__set_state(array(
+     'code' => '10000',
+     'msg' => 'Success',
+     'buyer_logon_id' => '925***@qq.com',
+     'buyer_pay_amount' => '0.00',
+     'buyer_user_id' => '2088502839898583',
+     'invoice_amount' => '0.00',
+     'open_id' => '20881036447305587057339062613858',
+     'out_trade_no' => '20160224133',
+     'point_amount' => '0.00',
+     'receipt_amount' => '0.00',
+     'total_amount' => '10000.00',
+     'trade_no' => '2016022421001004580282691164',
+     'trade_status' => 'WAIT_BUYER_PAY',
+  )),
+   'sign' => 'od0GTSfxJX4konl2+eshuFXDvD1rI0qPKmF39JEikiZuRlq9k00aMRckU4qE+U9WP5Crofyh+9okueI8pnX5AO+Q1GkhMwcZJA61MIbIfW7tBZQXcxvVCJXY1i6kMIYEMrHSpury1ksBmcnhLwgBI9aXV/Z+XLAW7UIT9jN0TTQ=',
+))
+2016-02-24 16:49:26  response: stdClass::__set_state(array(
+   'alipay_trade_pay_response' => 
+  stdClass::__set_state(array(
+     'code' => '10000',
+     'msg' => 'Success',
+     'buyer_logon_id' => '925***@qq.com',
+     'buyer_pay_amount' => '0.10',
+     'buyer_user_id' => '2088502839898583',
+     'fund_bill_list' => 
+    array (
+      0 => 
+      stdClass::__set_state(array(
+         'amount' => '0.10',
+         'fund_channel' => 'ALIPAYACCOUNT',
+      )),
+    ),
+     'gmt_payment' => '2016-02-24 16:49:55',
+     'invoice_amount' => '0.10',
+     'open_id' => '20881036447305587057339062613858',
+     'out_trade_no' => '20160224134',
+     'point_amount' => '0.00',
+     'receipt_amount' => '0.10',
+     'total_amount' => '0.10',
+     'trade_no' => '2016022421001004580282759350',
+  )),
+   'sign' => 'l7FYDIGIomF+vbhkQNgjpU+7lqab+bK7HNElIGscGihBCTNDSllug/sxGHfxIXjFIRHXcL6er+a5FYADfyLTtinXZ3AmUn3AqWQirFfxWrrE8rkOxcgXWuHnFRsh6ge27de+kCAQ4n4Te1NPsNRYPRzLqqQXhrOwjXVk3JTnbf8=',
+))
+2016-02-24 16:59:46  response: stdClass::__set_state(array(
+   'alipay_trade_pay_response' => 
+  stdClass::__set_state(array(
+     'code' => '10000',
+     'msg' => 'Success',
+     'buyer_logon_id' => '925***@qq.com',
+     'buyer_pay_amount' => '201.00',
+     'buyer_user_id' => '2088502839898583',
+     'fund_bill_list' => 
+    array (
+      0 => 
+      stdClass::__set_state(array(
+         'amount' => '201.00',
+         'fund_channel' => 'ALIPAYACCOUNT',
+      )),
+    ),
+     'gmt_payment' => '2016-02-24 17:00:14',
+     'invoice_amount' => '201.00',
+     'open_id' => '20881036447305587057339062613858',
+     'out_trade_no' => '20160224135',
+     'point_amount' => '0.00',
+     'receipt_amount' => '201.00',
+     'total_amount' => '201.00',
+     'trade_no' => '2016022421001004580275953833',
+  )),
+   'sign' => 'TgTPgyzZgOF9J9brKYYbCQPErwfYiDQ39pBG7sUd1e9WJGsw1oOPyEOoKWUeNxhsfl3bxu0PRpeBhGZDa8t822kHcnqGHQXiMV6R3doOSOeq59bPx8OoaQB+FTJRHj18jeEY86yg83XUmCHObchizoszBPUfBTg1U97gXtHXvMk=',
+))
+2016-02-24 17:00:55  response: stdClass::__set_state(array(
+   'alipay_trade_pay_response' => 
+  stdClass::__set_state(array(
+     'code' => '40004',
+     'msg' => 'Business Failed',
+     'sub_code' => 'ACQ.PAYMENT_AUTH_CODE_INVALID',
+     'sub_msg' => '支付失败，获取顾客账户信息失败，请顾客刷新付款码后重新收款，如再次收款失败，请联系管理员处理。[SOUNDWAVE_PARSER_FAIL]',
+     'buyer_pay_amount' => '0.00',
+     'invoice_amount' => '0.00',
+     'out_trade_no' => '20160224136',
+     'point_amount' => '0.00',
+     'receipt_amount' => '0.00',
+  )),
+   'sign' => 'eJKdhbv1qCUKCQw833b7c0Z1oXzs1NUHxiywIfujx94RvYgESRUQXvqBVK1S8jjcEHTbmgrdCa4ggMMxpXfA42n2g05s6HZ3QSkeUQ4tIs4QQ8TV/mpBTHh09+dW6+FdepuQGy145uawip98nuwgqQGYkJ+IGnyB7jqrXKW0bLY=',
+))
+2016-02-24 17:10:01  response: stdClass::__set_state(array(
+   'alipay_trade_pay_response' => 
+  stdClass::__set_state(array(
+     'code' => '10003',
+     'msg' => ' order success pay inprocess',
+     'buyer_logon_id' => '925***@qq.com',
+     'buyer_pay_amount' => '0.00',
+     'buyer_user_id' => '2088502839898583',
+     'invoice_amount' => '0.00',
+     'open_id' => '20881036447305587057339062613858',
+     'out_trade_no' => '20160224137',
+     'point_amount' => '0.00',
+     'receipt_amount' => '0.00',
+     'total_amount' => '2001.00',
+     'trade_no' => '2016022421001004580275781464',
+  )),
+   'sign' => 'BBS38gg6jd85xPkxKBMU6xnzpkH7NxFmoT4o+M4AVURj/QEuxOZTGNOu9oktk5DEyOe/iQuVnoDsSpWf9JUN+qJIiuIOmm8UZg7xw4LJ+fYF0fr/E2kst0x2QsJ8kfepxUoC9lPbe2LikKYqO4I2nuP7+C+DLrMwbpFwY+woVrI=',
+))
+2016-02-24 09:10:04  response: stdClass::__set_state(array(
+   'alipay_trade_query_response' => 
+  stdClass::__set_state(array(
+     'code' => '10000',
+     'msg' => 'Success',
+     'buyer_logon_id' => '925***@qq.com',
+     'buyer_pay_amount' => '0.00',
+     'buyer_user_id' => '2088502839898583',
+     'invoice_amount' => '0.00',
+     'open_id' => '20881036447305587057339062613858',
+     'out_trade_no' => '20160224137',
+     'point_amount' => '0.00',
+     'receipt_amount' => '0.00',
+     'total_amount' => '2001.00',
+     'trade_no' => '2016022421001004580275781464',
+     'trade_status' => 'WAIT_BUYER_PAY',
+  )),
+   'sign' => 'FRkwHJEHrXwytI7YUMXuLJP/sJHOF6HRnHkRJIE/a32Qoq+aCgFuM2bBP5fOQTxjksAJKNQb4EYWfDRDVlICev00D+9c6XBaGwTL/G95A/zTyl8BZ1cF7hckN7HpJS2wwOJwVqEL4RaNxUIotQ8rBgkpEFNa1cjEyUNv47bog58=',
+))
+2016-02-24 17:11:30  response: stdClass::__set_state(array(
+   'alipay_trade_pay_response' => 
+  stdClass::__set_state(array(
+     'code' => '10003',
+     'msg' => ' order success pay inprocess',
+     'buyer_logon_id' => '925***@qq.com',
+     'buyer_pay_amount' => '0.00',
+     'buyer_user_id' => '2088502839898583',
+     'invoice_amount' => '0.00',
+     'open_id' => '20881036447305587057339062613858',
+     'out_trade_no' => '20160224138',
+     'point_amount' => '0.00',
+     'receipt_amount' => '0.00',
+     'total_amount' => '2001.00',
+     'trade_no' => '2016022421001004580275877567',
+  )),
+   'sign' => 'oykSx3VmWnDskbVEfw9vsO5kokONcGzlKj1dlRN2dE0Scn4nmd/FMPQybf03tt373M+aGUnCDCeX4SQEFKs2kqOXz9ExHDDJYH/FWS8AhZmuA7f8C0ORZ6G+DS53SGtxBQPDtNZzOfkUr+6LgM60j+AOk+Hw7lIYpU/98bVLHqk=',
+))
+2016-02-24 09:11:37  response: stdClass::__set_state(array(
+   'alipay_trade_query_response' => 
+  stdClass::__set_state(array(
+     'code' => '10000',
+     'msg' => 'Success',
+     'buyer_logon_id' => '925***@qq.com',
+     'buyer_pay_amount' => '0.00',
+     'buyer_user_id' => '2088502839898583',
+     'invoice_amount' => '0.00',
+     'open_id' => '20881036447305587057339062613858',
+     'out_trade_no' => '20160224138',
+     'point_amount' => '0.00',
+     'receipt_amount' => '0.00',
+     'total_amount' => '2001.00',
+     'trade_no' => '2016022421001004580275877567',
+     'trade_status' => 'WAIT_BUYER_PAY',
+  )),
+   'sign' => 'c9y74pzt5UOhtQJNOWp9C6gFWquNPBqHWGhbAFjD0RPNx8Ng/mp6KlWxbUd6e0Que/fdFq8jVP5xBFCdNZKorytsugvQzI02ZyxY8gau0PZeHn0GdVmcbZFzk6m/B06IOOYfohIxiHCFcRmutu9ESJDaHFaBljQfYWT7mhtBnfc=',
+))
+2016-02-24 17:19:39  response: stdClass::__set_state(array(
+   'alipay_trade_pay_response' => 
+  stdClass::__set_state(array(
+     'code' => '10003',
+     'msg' => ' order success pay inprocess',
+     'buyer_logon_id' => '925***@qq.com',
+     'buyer_pay_amount' => '0.00',
+     'buyer_user_id' => '2088502839898583',
+     'invoice_amount' => '0.00',
+     'open_id' => '20881036447305587057339062613858',
+     'out_trade_no' => '20160224139',
+     'point_amount' => '0.00',
+     'receipt_amount' => '0.00',
+     'total_amount' => '2001.00',
+     'trade_no' => '2016022421001004580275954456',
+  )),
+   'sign' => 'QaSFXHv0DoFaUD3WoY1BWRAELUcEb9OsqRuz6B7wUbq+d+vzUNGPlqvUO5yQI7P7UnaK5grykDEmyS7keVVn3rSzWes7N+o+Bygj7cSt5q9rVC8LA2zznleRtBD2aVnHPkIZft+bGtEEPxmp7nUyhiG8/JW59eoMaJ+bZNYEF+s=',
+))
+2016-02-24 17:25:20  response: stdClass::__set_state(array(
+   'alipay_trade_pay_response' => 
+  stdClass::__set_state(array(
+     'code' => '10003',
+     'msg' => ' order success pay inprocess',
+     'buyer_logon_id' => '925***@qq.com',
+     'buyer_pay_amount' => '0.00',
+     'buyer_user_id' => '2088502839898583',
+     'invoice_amount' => '0.00',
+     'open_id' => '20881036447305587057339062613858',
+     'out_trade_no' => '20160224140',
+     'point_amount' => '0.00',
+     'receipt_amount' => '0.00',
+     'total_amount' => '2001.00',
+     'trade_no' => '2016022421001004580282480660',
+  )),
+   'sign' => 'PY4LEfX7pZ+onKrTCBpajoRn9CpYAOyNhHcBNZNQmhlGyT+gvzOngbKIJSs35VK3mWk1EXOWU6GUMlRtDOBQ2UTfXPmiqtLqLm+80ysbqZ9gtPbB5V+i9CYgtl5j3PKlzasf5MwZvTcNuOGpfekFX//yviFesWuZEbS7dkslEhE=',
+))
+2016-02-24 09:25:26  response: stdClass::__set_state(array(
+   'alipay_trade_query_response' => 
+  stdClass::__set_state(array(
+     'code' => '10000',
+     'msg' => 'Success',
+     'buyer_logon_id' => '925***@qq.com',
+     'buyer_pay_amount' => '0.00',
+     'buyer_user_id' => '2088502839898583',
+     'invoice_amount' => '0.00',
+     'open_id' => '20881036447305587057339062613858',
+     'out_trade_no' => '20160224140',
+     'point_amount' => '0.00',
+     'receipt_amount' => '0.00',
+     'total_amount' => '2001.00',
+     'trade_no' => '2016022421001004580282480660',
+     'trade_status' => 'WAIT_BUYER_PAY',
+  )),
+   'sign' => 'CjvRi1jWGGNBL+5XXi9Tk9mIcL9lnNkcw3TzTvOA6XVDWdUcBhx9K8LTcpSDEiLx6nXHwx5sevk0CXkMCbpc30ZblZxjoDtFW1Mb0giAzhIbBN+u/vtoWYO2P5iX8e1awRTxqhXWdCTDRATpRgE87N7DP18EeIC3GlF4sW5M1rE=',
+))
+2016-02-24 17:29:05  response: stdClass::__set_state(array(
+   'alipay_trade_pay_response' => 
+  stdClass::__set_state(array(
+     'code' => '10003',
+     'msg' => ' order success pay inprocess',
+     'buyer_logon_id' => '925***@qq.com',
+     'buyer_pay_amount' => '0.00',
+     'buyer_user_id' => '2088502839898583',
+     'invoice_amount' => '0.00',
+     'open_id' => '20881036447305587057339062613858',
+     'out_trade_no' => '20160224141',
+     'point_amount' => '0.00',
+     'receipt_amount' => '0.00',
+     'total_amount' => '2001.00',
+     'trade_no' => '2016022421001004580282553169',
+  )),
+   'sign' => 'OeJhyV2UYSEu58QgQa/SIbNN9gmBsmJTt45TxXXtAXmtExyPiTcvmX6LkKaHm1wYm5vCpdmBUQi0E49y1KvaUuoo/3wEoD9Z9mzAUxOwl+gIHYJDWn/j1xU/yCaJ7+EvbIK/ol/gzhe2WytgTW9tSgCBHwiMoQ+vWjShuvhOeTA=',
+))
+2016-02-24 17:29:57  response: stdClass::__set_state(array(
+   'alipay_trade_pay_response' => 
+  stdClass::__set_state(array(
+     'code' => '10003',
+     'msg' => ' order success pay inprocess',
+     'buyer_logon_id' => '925***@qq.com',
+     'buyer_pay_amount' => '0.00',
+     'buyer_user_id' => '2088502839898583',
+     'invoice_amount' => '0.00',
+     'open_id' => '20881036447305587057339062613858',
+     'out_trade_no' => '20160224142',
+     'point_amount' => '0.00',
+     'receipt_amount' => '0.00',
+     'total_amount' => '2001.00',
+     'trade_no' => '2016022421001004580282480734',
+  )),
+   'sign' => 'TMEnqx2D1auf9plnWC/yZjtqFuovpIdZkFvuxc+cap/VLMASFEmwtnjCC2EdfLiVrFAyaROJExA0zSekJpz7z6rAgpaRoqSa8Nvucnjw4w/noTsm6qNGLrZANU0i1T3NFeIQUMC6BzsuGgjtjrGuFDCSogIxD3f++lx1N8xqvh4=',
+))
+2016-02-24 17:30:09  response: stdClass::__set_state(array(
+   'alipay_trade_pay_response' => 
+  stdClass::__set_state(array(
+     'code' => '10003',
+     'msg' => ' order success pay inprocess',
+     'buyer_logon_id' => '925***@qq.com',
+     'buyer_pay_amount' => '0.00',
+     'buyer_user_id' => '2088502839898583',
+     'invoice_amount' => '0.00',
+     'open_id' => '20881036447305587057339062613858',
+     'out_trade_no' => '20160224143',
+     'point_amount' => '0.00',
+     'receipt_amount' => '0.00',
+     'total_amount' => '2001.00',
+     'trade_no' => '2016022421001004580282392643',
+  )),
+   'sign' => 'OKaosdZb7Z4LLyGnjvLRDZVu1hqW/rs8hFdSSsaJIXJKY4H9xGv9ZRSRKU4yUEO8fZyjKeNKAXOIl7RuKR8IhTPFBvyrY/fpydLBDYBGUKJi0CbWIuJSoZBeNLYP4IA6Dc0iVTGyGIi1rVvFXHGfGq5HbyFXLnkytLRrzBAFXfE=',
+))
+2016-02-24 17:31:11  response: stdClass::__set_state(array(
+   'alipay_trade_pay_response' => 
+  stdClass::__set_state(array(
+     'code' => '10003',
+     'msg' => ' order success pay inprocess',
+     'buyer_logon_id' => '925***@qq.com',
+     'buyer_pay_amount' => '0.00',
+     'buyer_user_id' => '2088502839898583',
+     'invoice_amount' => '0.00',
+     'open_id' => '20881036447305587057339062613858',
+     'out_trade_no' => '20160224144',
+     'point_amount' => '0.00',
+     'receipt_amount' => '0.00',
+     'total_amount' => '2001.00',
+     'trade_no' => '2016022421001004580285862339',
+  )),
+   'sign' => 'fNL3ustrjpIe2EcJG0fp1DtPK1m0PElrJFR6lGONPx7ffgdK0OmQUrYJZEnHoL0Sn0vHYy5DK09+3uH9PczOHi0G3pDkH+slXHB6fU1Ztd8vzj+SiHfv4iFij5CyO0hjh5qjeH1TK3DDK+ZrMrGQ+mEbzyHt5e5m170XDI/q3fY=',
+))
+2016-02-24 17:32:04  response: stdClass::__set_state(array(
+   'alipay_trade_pay_response' => 
+  stdClass::__set_state(array(
+     'code' => '10003',
+     'msg' => ' order success pay inprocess',
+     'buyer_logon_id' => '925***@qq.com',
+     'buyer_pay_amount' => '0.00',
+     'buyer_user_id' => '2088502839898583',
+     'invoice_amount' => '0.00',
+     'open_id' => '20881036447305587057339062613858',
+     'out_trade_no' => '20160224145',
+     'point_amount' => '0.00',
+     'receipt_amount' => '0.00',
+     'total_amount' => '2001.00',
+     'trade_no' => '2016022421001004580285862360',
+  )),
+   'sign' => 'ilrQTQbEkvoSa44t0ZWKe86qM3VsT+ByKJ9WYyX5ntOJTNZqx9AbEv6wg6dN28MlRCi7lK1ARA7Q1jMptdVCWDspTHbhcaXNhV52Wp6/ND0IhD1RVmpYwYYChfuOR9x+b5OAsEXdGfzZ0RfK2j3Xs1wacCm1ycSDAWzHULHjSIs=',
+))
+2016-02-24 17:33:23  response: stdClass::__set_state(array(
+   'alipay_trade_pay_response' => 
+  stdClass::__set_state(array(
+     'code' => '10003',
+     'msg' => ' order success pay inprocess',
+     'buyer_logon_id' => '925***@qq.com',
+     'buyer_pay_amount' => '0.00',
+     'buyer_user_id' => '2088502839898583',
+     'invoice_amount' => '0.00',
+     'open_id' => '20881036447305587057339062613858',
+     'out_trade_no' => '20160224146',
+     'point_amount' => '0.00',
+     'receipt_amount' => '0.00',
+     'total_amount' => '2001.00',
+     'trade_no' => '2016022421001004580276041348',
+  )),
+   'sign' => 'QtOX7WQDaUjbeVFt20N3OY2sV6BYkIw+TGUILJvd4//mrh1xUNRbIEjr5zODhDzHByFW1bgEqWxCjkQTG3Rs6aO31QVxvTSEpNLlbjB/CPPXg2IPp1AbFS8IR0bwveLDtu+KIV637dNh8cNxSOOfejZ9ZqqGCQXD7eo27dbPhU4=',
+))
+2016-02-24 17:33:23  response: stdClass::__set_state(array(
+   'alipay_trade_query_response' => 
+  stdClass::__set_state(array(
+     'code' => '10000',
+     'msg' => 'Success',
+     'buyer_logon_id' => '925***@qq.com',
+     'buyer_pay_amount' => '0.00',
+     'buyer_user_id' => '2088502839898583',
+     'invoice_amount' => '0.00',
+     'open_id' => '20881036447305587057339062613858',
+     'out_trade_no' => '20160224146',
+     'point_amount' => '0.00',
+     'receipt_amount' => '0.00',
+     'total_amount' => '2001.00',
+     'trade_no' => '2016022421001004580276041348',
+     'trade_status' => 'WAIT_BUYER_PAY',
+  )),
+   'sign' => 'MQ5zhDio6z+Jd90F7FPg5jGlqZ1MfSbWCPy0Tt9NSof37e/cjvQMiE8UrSzowOUbekDvo9r0HWn4kbpZA9dCSufozVgwVZ5i62KzWtS9tAiUfEsFITyMHP5z1+rwSDi8oVFpOurCCLOYt2UzKCajaWht1rtPNVALYTbh9KZL8Ao=',
+))
+2016-02-24 17:37:17  response: stdClass::__set_state(array(
+   'alipay_trade_pay_response' => 
+  stdClass::__set_state(array(
+     'code' => '10003',
+     'msg' => ' order success pay inprocess',
+     'buyer_logon_id' => '925***@qq.com',
+     'buyer_pay_amount' => '0.00',
+     'buyer_user_id' => '2088502839898583',
+     'invoice_amount' => '0.00',
+     'open_id' => '20881036447305587057339062613858',
+     'out_trade_no' => '20160224147',
+     'point_amount' => '0.00',
+     'receipt_amount' => '0.00',
+     'total_amount' => '2001.00',
+     'trade_no' => '2016022421001004580276041418',
+  )),
+   'sign' => 'IiD+KVuNnOljBQp+trmciEC3bzWyyoL1OJ3hvncXoQuZCWvyT6SzyjgKyfeGUe7EMm8zsc3beRr9rCc8FsYcTxCJODNvZGEvdwOmP9Pg7yhjDN9pzUcwkFvuuEMd6/PCjj+WC2Xc6D8iIxSrzmhNLIloo6ACApChrTn6oZUYcEs=',
+))
+2016-02-24 17:37:17  response: stdClass::__set_state(array(
+   'alipay_trade_query_response' => 
+  stdClass::__set_state(array(
+     'code' => '10000',
+     'msg' => 'Success',
+     'buyer_logon_id' => '925***@qq.com',
+     'buyer_pay_amount' => '0.00',
+     'buyer_user_id' => '2088502839898583',
+     'invoice_amount' => '0.00',
+     'open_id' => '20881036447305587057339062613858',
+     'out_trade_no' => '20160224147',
+     'point_amount' => '0.00',
+     'receipt_amount' => '0.00',
+     'total_amount' => '2001.00',
+     'trade_no' => '2016022421001004580276041418',
+     'trade_status' => 'WAIT_BUYER_PAY',
+  )),
+   'sign' => 'pd2g9G1YIzWELW5yP64+1ePrEUfJaPvQrTL58ExTM2VHXgeyD0S2AyGTb6Fg7wJtrt9FzU/bx+DYx43f9I9+a2fjEkF5ND/2YYOEH2hLLfVBImNtc2PNUUcAcRBCDxmiYW3q6m3uZrQpKjFMSQQHKbtMQgMBtK/7p5VqD9yJkds=',
+))
+2016-02-24 17:38:42  response: stdClass::__set_state(array(
+   'alipay_trade_pay_response' => 
+  stdClass::__set_state(array(
+     'code' => '10003',
+     'msg' => ' order success pay inprocess',
+     'buyer_logon_id' => '925***@qq.com',
+     'buyer_pay_amount' => '0.00',
+     'buyer_user_id' => '2088502839898583',
+     'invoice_amount' => '0.00',
+     'open_id' => '20881036447305587057339062613858',
+     'out_trade_no' => '20160224148',
+     'point_amount' => '0.00',
+     'receipt_amount' => '0.00',
+     'total_amount' => '2001.00',
+     'trade_no' => '2016022421001004580275782148',
+  )),
+   'sign' => 'gMrUHcTepfbxikHMSZLrn9CSwUit7X1ZaxFjFvVdYH0MsbPzd2KV13xLMdqE3oH2NMplEHcUV61bj9wjzkzOEZ2yLvF2Q22CkKwh00af7URPZviNrwuMYh+qeESkz7bWDjbwhPZ1u8JhTxfp2w8F7KX9jCToG7tXcJGZYPOzrBE=',
+))
+2016-02-24 17:38:42  response: stdClass::__set_state(array(
+   'alipay_trade_query_response' => 
+  stdClass::__set_state(array(
+     'code' => '10000',
+     'msg' => 'Success',
+     'buyer_logon_id' => '925***@qq.com',
+     'buyer_pay_amount' => '0.00',
+     'buyer_user_id' => '2088502839898583',
+     'invoice_amount' => '0.00',
+     'open_id' => '20881036447305587057339062613858',
+     'out_trade_no' => '20160224148',
+     'point_amount' => '0.00',
+     'receipt_amount' => '0.00',
+     'total_amount' => '2001.00',
+     'trade_no' => '2016022421001004580275782148',
+     'trade_status' => 'WAIT_BUYER_PAY',
+  )),
+   'sign' => 'Ubjy1ZWAJoEzUuinQALxLdrRuwE6AHHIuR1EM6z5OSItq+U7i0YhShT7OPWCjvzTJduqHq+64HuQAwPuiTm4F2Ffq8an+GdiAvm4pLgIHPQ9WAtuBP86DRcFfbC/Mt/YsVAMtvrXrYsftyo8/fogzCq2Ym2aap+Fesh6l61sSqQ=',
+))
+2016-02-24 17:45:36  response: stdClass::__set_state(array(
+   'alipay_trade_pay_response' => 
+  stdClass::__set_state(array(
+     'code' => '10003',
+     'msg' => ' order success pay inprocess',
+     'buyer_logon_id' => '925***@qq.com',
+     'buyer_pay_amount' => '0.00',
+     'buyer_user_id' => '2088502839898583',
+     'invoice_amount' => '0.00',
+     'open_id' => '20881036447305587057339062613858',
+     'out_trade_no' => '20160224149',
+     'point_amount' => '0.00',
+     'receipt_amount' => '0.00',
+     'total_amount' => '2001.00',
+     'trade_no' => '2016022421001004580275782284',
+  )),
+   'sign' => 'PLcnOF26D4eqqqZopFH9u+dNgmv0/ElUS3O3EOd4v7VBKCEHQ4joO3PLhQ1IyX26gkD+awi7LX4776xPBbYp+O17+u95wlc50xp+aP0AipIKuYV46szITnir05ML/ojzBS8OMRblZHQFOWNGxy962ZGD2hkIrxYCbLfbPh2XDmg=',
+))
+2016-02-24 17:45:37  response: stdClass::__set_state(array(
+   'alipay_trade_query_response' => 
+  stdClass::__set_state(array(
+     'code' => '10000',
+     'msg' => 'Success',
+     'buyer_logon_id' => '925***@qq.com',
+     'buyer_pay_amount' => '0.00',
+     'buyer_user_id' => '2088502839898583',
+     'invoice_amount' => '0.00',
+     'open_id' => '20881036447305587057339062613858',
+     'out_trade_no' => '20160224149',
+     'point_amount' => '0.00',
+     'receipt_amount' => '0.00',
+     'total_amount' => '2001.00',
+     'trade_no' => '2016022421001004580275782284',
+     'trade_status' => 'WAIT_BUYER_PAY',
+  )),
+   'sign' => 'T5RnZp7v3+dhSUNbYb0ph9TvGnIZPahgt3/L3j/Qb7sIC/fRrXqCKD3iAQxPmuSY7m1ezRLOPw0UqXfJmEqAH+Ure5rbj/rNGOeFIuT8Dx8Z7C8eRvWrPPEk7M8lGrsRu1iVosFUW+ocrRtKQ0WuHIB8L6GW3pZIzNXTwHE9tSc=',
+))
+2016-02-24 09:45:50  response: stdClass::__set_state(array(
+   'alipay_trade_query_response' => 
+  stdClass::__set_state(array(
+     'code' => '10000',
+     'msg' => 'Success',
+     'buyer_logon_id' => '925***@qq.com',
+     'buyer_pay_amount' => '0.00',
+     'buyer_user_id' => '2088502839898583',
+     'invoice_amount' => '0.00',
+     'open_id' => '20881036447305587057339062613858',
+     'out_trade_no' => '20160224149',
+     'point_amount' => '0.00',
+     'receipt_amount' => '0.00',
+     'total_amount' => '2001.00',
+     'trade_no' => '2016022421001004580275782284',
+     'trade_status' => 'WAIT_BUYER_PAY',
+  )),
+   'sign' => 'T5RnZp7v3+dhSUNbYb0ph9TvGnIZPahgt3/L3j/Qb7sIC/fRrXqCKD3iAQxPmuSY7m1ezRLOPw0UqXfJmEqAH+Ure5rbj/rNGOeFIuT8Dx8Z7C8eRvWrPPEk7M8lGrsRu1iVosFUW+ocrRtKQ0WuHIB8L6GW3pZIzNXTwHE9tSc=',
+))
+2016-02-24 09:46:14  response: stdClass::__set_state(array(
+   'alipay_trade_query_response' => 
+  stdClass::__set_state(array(
+     'code' => '10000',
+     'msg' => 'Success',
+     'buyer_logon_id' => '925***@qq.com',
+     'buyer_pay_amount' => '0.00',
+     'buyer_user_id' => '2088502839898583',
+     'invoice_amount' => '0.00',
+     'open_id' => '20881036447305587057339062613858',
+     'out_trade_no' => '20160224149',
+     'point_amount' => '0.00',
+     'receipt_amount' => '0.00',
+     'total_amount' => '2001.00',
+     'trade_no' => '2016022421001004580275782284',
+     'trade_status' => 'WAIT_BUYER_PAY',
+  )),
+   'sign' => 'T5RnZp7v3+dhSUNbYb0ph9TvGnIZPahgt3/L3j/Qb7sIC/fRrXqCKD3iAQxPmuSY7m1ezRLOPw0UqXfJmEqAH+Ure5rbj/rNGOeFIuT8Dx8Z7C8eRvWrPPEk7M8lGrsRu1iVosFUW+ocrRtKQ0WuHIB8L6GW3pZIzNXTwHE9tSc=',
+))
+2016-02-24 09:46:17  response: stdClass::__set_state(array(
+   'alipay_trade_query_response' => 
+  stdClass::__set_state(array(
+     'code' => '10000',
+     'msg' => 'Success',
+     'buyer_logon_id' => '925***@qq.com',
+     'buyer_pay_amount' => '0.00',
+     'buyer_user_id' => '2088502839898583',
+     'invoice_amount' => '0.00',
+     'open_id' => '20881036447305587057339062613858',
+     'out_trade_no' => '20160224149',
+     'point_amount' => '0.00',
+     'receipt_amount' => '0.00',
+     'total_amount' => '2001.00',
+     'trade_no' => '2016022421001004580275782284',
+     'trade_status' => 'WAIT_BUYER_PAY',
+  )),
+   'sign' => 'T5RnZp7v3+dhSUNbYb0ph9TvGnIZPahgt3/L3j/Qb7sIC/fRrXqCKD3iAQxPmuSY7m1ezRLOPw0UqXfJmEqAH+Ure5rbj/rNGOeFIuT8Dx8Z7C8eRvWrPPEk7M8lGrsRu1iVosFUW+ocrRtKQ0WuHIB8L6GW3pZIzNXTwHE9tSc=',
+))
+2016-02-24 09:46:19  response: stdClass::__set_state(array(
+   'alipay_trade_query_response' => 
+  stdClass::__set_state(array(
+     'code' => '10000',
+     'msg' => 'Success',
+     'buyer_logon_id' => '925***@qq.com',
+     'buyer_pay_amount' => '0.00',
+     'buyer_user_id' => '2088502839898583',
+     'invoice_amount' => '0.00',
+     'open_id' => '20881036447305587057339062613858',
+     'out_trade_no' => '20160224149',
+     'point_amount' => '0.00',
+     'receipt_amount' => '0.00',
+     'total_amount' => '2001.00',
+     'trade_no' => '2016022421001004580275782284',
+     'trade_status' => 'WAIT_BUYER_PAY',
+  )),
+   'sign' => 'T5RnZp7v3+dhSUNbYb0ph9TvGnIZPahgt3/L3j/Qb7sIC/fRrXqCKD3iAQxPmuSY7m1ezRLOPw0UqXfJmEqAH+Ure5rbj/rNGOeFIuT8Dx8Z7C8eRvWrPPEk7M8lGrsRu1iVosFUW+ocrRtKQ0WuHIB8L6GW3pZIzNXTwHE9tSc=',
+))
+2016-02-24 09:46:33  response: stdClass::__set_state(array(
+   'alipay_trade_query_response' => 
+  stdClass::__set_state(array(
+     'code' => '10000',
+     'msg' => 'Success',
+     'buyer_logon_id' => '925***@qq.com',
+     'buyer_pay_amount' => '0.00',
+     'buyer_user_id' => '2088502839898583',
+     'invoice_amount' => '0.00',
+     'open_id' => '20881036447305587057339062613858',
+     'out_trade_no' => '20160224149',
+     'point_amount' => '0.00',
+     'receipt_amount' => '0.00',
+     'total_amount' => '2001.00',
+     'trade_no' => '2016022421001004580275782284',
+     'trade_status' => 'WAIT_BUYER_PAY',
+  )),
+   'sign' => 'T5RnZp7v3+dhSUNbYb0ph9TvGnIZPahgt3/L3j/Qb7sIC/fRrXqCKD3iAQxPmuSY7m1ezRLOPw0UqXfJmEqAH+Ure5rbj/rNGOeFIuT8Dx8Z7C8eRvWrPPEk7M8lGrsRu1iVosFUW+ocrRtKQ0WuHIB8L6GW3pZIzNXTwHE9tSc=',
+))
+2016-02-24 09:46:39  response: stdClass::__set_state(array(
+   'alipay_trade_query_response' => 
+  stdClass::__set_state(array(
+     'code' => '10000',
+     'msg' => 'Success',
+     'buyer_logon_id' => '925***@qq.com',
+     'buyer_pay_amount' => '0.00',
+     'buyer_user_id' => '2088502839898583',
+     'invoice_amount' => '0.00',
+     'open_id' => '20881036447305587057339062613858',
+     'out_trade_no' => '20160224149',
+     'point_amount' => '0.00',
+     'receipt_amount' => '0.00',
+     'total_amount' => '2001.00',
+     'trade_no' => '2016022421001004580275782284',
+     'trade_status' => 'WAIT_BUYER_PAY',
+  )),
+   'sign' => 'T5RnZp7v3+dhSUNbYb0ph9TvGnIZPahgt3/L3j/Qb7sIC/fRrXqCKD3iAQxPmuSY7m1ezRLOPw0UqXfJmEqAH+Ure5rbj/rNGOeFIuT8Dx8Z7C8eRvWrPPEk7M8lGrsRu1iVosFUW+ocrRtKQ0WuHIB8L6GW3pZIzNXTwHE9tSc=',
+))
+2016-02-24 09:46:50  response: stdClass::__set_state(array(
+   'alipay_trade_query_response' => 
+  stdClass::__set_state(array(
+     'code' => '10000',
+     'msg' => 'Success',
+     'buyer_logon_id' => '925***@qq.com',
+     'buyer_pay_amount' => '0.00',
+     'buyer_user_id' => '2088502839898583',
+     'invoice_amount' => '0.00',
+     'open_id' => '20881036447305587057339062613858',
+     'out_trade_no' => '20160224149',
+     'point_amount' => '0.00',
+     'receipt_amount' => '0.00',
+     'total_amount' => '2001.00',
+     'trade_no' => '2016022421001004580275782284',
+     'trade_status' => 'WAIT_BUYER_PAY',
+  )),
+   'sign' => 'T5RnZp7v3+dhSUNbYb0ph9TvGnIZPahgt3/L3j/Qb7sIC/fRrXqCKD3iAQxPmuSY7m1ezRLOPw0UqXfJmEqAH+Ure5rbj/rNGOeFIuT8Dx8Z7C8eRvWrPPEk7M8lGrsRu1iVosFUW+ocrRtKQ0WuHIB8L6GW3pZIzNXTwHE9tSc=',
+))
+2016-02-24 09:51:10  response: stdClass::__set_state(array(
+   'alipay_trade_query_response' => 
+  stdClass::__set_state(array(
+     'code' => '10000',
+     'msg' => 'Success',
+     'buyer_logon_id' => '925***@qq.com',
+     'buyer_pay_amount' => '0.00',
+     'buyer_user_id' => '2088502839898583',
+     'invoice_amount' => '0.00',
+     'open_id' => '20881036447305587057339062613858',
+     'out_trade_no' => '20160224149',
+     'point_amount' => '0.00',
+     'receipt_amount' => '0.00',
+     'total_amount' => '2001.00',
+     'trade_no' => '2016022421001004580275782284',
+     'trade_status' => 'WAIT_BUYER_PAY',
+  )),
+   'sign' => 'T5RnZp7v3+dhSUNbYb0ph9TvGnIZPahgt3/L3j/Qb7sIC/fRrXqCKD3iAQxPmuSY7m1ezRLOPw0UqXfJmEqAH+Ure5rbj/rNGOeFIuT8Dx8Z7C8eRvWrPPEk7M8lGrsRu1iVosFUW+ocrRtKQ0WuHIB8L6GW3pZIzNXTwHE9tSc=',
+))
+2016-02-24 09:51:15  response: stdClass::__set_state(array(
+   'alipay_trade_query_response' => 
+  stdClass::__set_state(array(
+     'code' => '10000',
+     'msg' => 'Success',
+     'buyer_logon_id' => '925***@qq.com',
+     'buyer_pay_amount' => '0.00',
+     'buyer_user_id' => '2088502839898583',
+     'invoice_amount' => '0.00',
+     'open_id' => '20881036447305587057339062613858',
+     'out_trade_no' => '20160224149',
+     'point_amount' => '0.00',
+     'receipt_amount' => '0.00',
+     'total_amount' => '2001.00',
+     'trade_no' => '2016022421001004580275782284',
+     'trade_status' => 'WAIT_BUYER_PAY',
+  )),
+   'sign' => 'T5RnZp7v3+dhSUNbYb0ph9TvGnIZPahgt3/L3j/Qb7sIC/fRrXqCKD3iAQxPmuSY7m1ezRLOPw0UqXfJmEqAH+Ure5rbj/rNGOeFIuT8Dx8Z7C8eRvWrPPEk7M8lGrsRu1iVosFUW+ocrRtKQ0WuHIB8L6GW3pZIzNXTwHE9tSc=',
+))
+2016-02-24 09:51:17  response: stdClass::__set_state(array(
+   'alipay_trade_query_response' => 
+  stdClass::__set_state(array(
+     'code' => '10000',
+     'msg' => 'Success',
+     'buyer_logon_id' => '925***@qq.com',
+     'buyer_pay_amount' => '0.00',
+     'buyer_user_id' => '2088502839898583',
+     'invoice_amount' => '0.00',
+     'open_id' => '20881036447305587057339062613858',
+     'out_trade_no' => '20160224149',
+     'point_amount' => '0.00',
+     'receipt_amount' => '0.00',
+     'total_amount' => '2001.00',
+     'trade_no' => '2016022421001004580275782284',
+     'trade_status' => 'WAIT_BUYER_PAY',
+  )),
+   'sign' => 'T5RnZp7v3+dhSUNbYb0ph9TvGnIZPahgt3/L3j/Qb7sIC/fRrXqCKD3iAQxPmuSY7m1ezRLOPw0UqXfJmEqAH+Ure5rbj/rNGOeFIuT8Dx8Z7C8eRvWrPPEk7M8lGrsRu1iVosFUW+ocrRtKQ0WuHIB8L6GW3pZIzNXTwHE9tSc=',
+))
+2016-02-24 17:55:36  response: stdClass::__set_state(array(
+   'alipay_trade_pay_response' => 
+  stdClass::__set_state(array(
+     'code' => '10000',
+     'msg' => 'Success',
+     'buyer_logon_id' => '925***@qq.com',
+     'buyer_pay_amount' => '0.10',
+     'buyer_user_id' => '2088502839898583',
+     'fund_bill_list' => 
+    array (
+      0 => 
+      stdClass::__set_state(array(
+         'amount' => '0.10',
+         'fund_channel' => 'ALIPAYACCOUNT',
+      )),
+    ),
+     'gmt_payment' => '2016-02-24 17:56:04',
+     'invoice_amount' => '0.10',
+     'open_id' => '20881036447305587057339062613858',
+     'out_trade_no' => '20160224150',
+     'point_amount' => '0.00',
+     'receipt_amount' => '0.10',
+     'total_amount' => '0.10',
+     'trade_no' => '2016022421001004580282481163',
+  )),
+   'sign' => 'EuuHNrS2o4SnDlzckok2Tx9QHISzpaAXHm4TfF+LXhfHI/S9Iz+dCx9AvCvdL04bo0L5YE7gr+6LyZh0ISffTGbFO+2qJIttFZTK89f+GG5ZMn6Ov9yn7djxOYblHDruWdR+et5MpHuGFgXnzmxozb2oImrjxcdCAbvK5/kSp4Q=',
+))
+2016-02-24 17:55:36  response: stdClass::__set_state(array(
+   'alipay_trade_query_response' => 
+  stdClass::__set_state(array(
+     'code' => '10000',
+     'msg' => 'Success',
+     'buyer_logon_id' => '925***@qq.com',
+     'buyer_pay_amount' => '0.10',
+     'buyer_user_id' => '2088502839898583',
+     'fund_bill_list' => 
+    array (
+      0 => 
+      stdClass::__set_state(array(
+         'amount' => '0.10',
+         'fund_channel' => 'ALIPAYACCOUNT',
+      )),
+    ),
+     'invoice_amount' => '0.10',
+     'open_id' => '20881036447305587057339062613858',
+     'out_trade_no' => '20160224150',
+     'point_amount' => '0.00',
+     'receipt_amount' => '0.10',
+     'send_pay_date' => '2016-02-24 17:56:04',
+     'total_amount' => '0.10',
+     'trade_no' => '2016022421001004580282481163',
+     'trade_status' => 'TRADE_SUCCESS',
+  )),
+   'sign' => 'M/qkghNGdzXc5BDFfxtC/XReXg1sgPBsClP5m4s7sZ7q1U82HQBV2d47WrpOqt6Fvqf4BQtZCeTF5JK4cMylmjOU681e2IKyWxA+9KSiG4Uk43yVQxgdswME5JUUmMtDcPsTXCGJTPzuO8lJBxICAd8eJWvCQhPVZ1927qDOq/4=',
+))
+2016-02-24 17:57:59  response: stdClass::__set_state(array(
+   'alipay_trade_pay_response' => 
+  stdClass::__set_state(array(
+     'code' => '10003',
+     'msg' => ' order success pay inprocess',
+     'buyer_logon_id' => '925***@qq.com',
+     'buyer_pay_amount' => '0.00',
+     'buyer_user_id' => '2088502839898583',
+     'invoice_amount' => '0.00',
+     'open_id' => '20881036447305587057339062613858',
+     'out_trade_no' => '20160224151',
+     'point_amount' => '0.00',
+     'receipt_amount' => '0.00',
+     'total_amount' => '10000.00',
+     'trade_no' => '2016022421001004580282393134',
+  )),
+   'sign' => 'kELbvQp99372mCS2AScnBa/ZHOo7ohRLfTZccmpk/xKKpDY9XlYasobRVq4FBvs38FO1RNKD4wRgSYOLTcRko2m/V+bvYgvly/GQrcsHvt4o9xmPskmkckFamgkRtOB2rOVetV9rP/g1O1zAcMNAP9jiG31Xvzro5uG7UMicc4M=',
+))
+2016-02-24 17:57:59  response: stdClass::__set_state(array(
+   'alipay_trade_query_response' => 
+  stdClass::__set_state(array(
+     'code' => '10000',
+     'msg' => 'Success',
+     'buyer_logon_id' => '925***@qq.com',
+     'buyer_pay_amount' => '0.00',
+     'buyer_user_id' => '2088502839898583',
+     'invoice_amount' => '0.00',
+     'open_id' => '20881036447305587057339062613858',
+     'out_trade_no' => '20160224151',
+     'point_amount' => '0.00',
+     'receipt_amount' => '0.00',
+     'total_amount' => '10000.00',
+     'trade_no' => '2016022421001004580282393134',
+     'trade_status' => 'WAIT_BUYER_PAY',
+  )),
+   'sign' => 'dfs245aQsUaD77vMVGaes/uSIgTT0HJ1y58dyaU2lC+cqEL3RmPh3FskH8fWqth9mSP81vNqGKjAdp7oAPuOzBxBiErYrc0Zv3glE6X+lF9Lk5GGskIEK9etOtL6HLap5XYAUZXARvUXWRblgKZoARVH3Hsm/a10B5vLpuDkF3w=',
+))
+2016-02-24 09:58:20  response: stdClass::__set_state(array(
+   'alipay_trade_query_response' => 
+  stdClass::__set_state(array(
+     'code' => '10000',
+     'msg' => 'Success',
+     'buyer_logon_id' => '925***@qq.com',
+     'buyer_pay_amount' => '0.00',
+     'buyer_user_id' => '2088502839898583',
+     'invoice_amount' => '0.00',
+     'open_id' => '20881036447305587057339062613858',
+     'out_trade_no' => '20160224151',
+     'point_amount' => '0.00',
+     'receipt_amount' => '0.00',
+     'total_amount' => '10000.00',
+     'trade_no' => '2016022421001004580282393134',
+     'trade_status' => 'WAIT_BUYER_PAY',
+  )),
+   'sign' => 'dfs245aQsUaD77vMVGaes/uSIgTT0HJ1y58dyaU2lC+cqEL3RmPh3FskH8fWqth9mSP81vNqGKjAdp7oAPuOzBxBiErYrc0Zv3glE6X+lF9Lk5GGskIEK9etOtL6HLap5XYAUZXARvUXWRblgKZoARVH3Hsm/a10B5vLpuDkF3w=',
+))
+2016-02-24 09:58:29  response: stdClass::__set_state(array(
+   'alipay_trade_query_response' => 
+  stdClass::__set_state(array(
+     'code' => '10000',
+     'msg' => 'Success',
+     'buyer_logon_id' => '925***@qq.com',
+     'buyer_pay_amount' => '0.00',
+     'buyer_user_id' => '2088502839898583',
+     'invoice_amount' => '0.00',
+     'open_id' => '20881036447305587057339062613858',
+     'out_trade_no' => '20160224151',
+     'point_amount' => '0.00',
+     'receipt_amount' => '0.00',
+     'total_amount' => '10000.00',
+     'trade_no' => '2016022421001004580282393134',
+     'trade_status' => 'WAIT_BUYER_PAY',
+  )),
+   'sign' => 'dfs245aQsUaD77vMVGaes/uSIgTT0HJ1y58dyaU2lC+cqEL3RmPh3FskH8fWqth9mSP81vNqGKjAdp7oAPuOzBxBiErYrc0Zv3glE6X+lF9Lk5GGskIEK9etOtL6HLap5XYAUZXARvUXWRblgKZoARVH3Hsm/a10B5vLpuDkF3w=',
+))
+2016-02-24 09:58:32  response: stdClass::__set_state(array(
+   'alipay_trade_query_response' => 
+  stdClass::__set_state(array(
+     'code' => '10000',
+     'msg' => 'Success',
+     'buyer_logon_id' => '925***@qq.com',
+     'buyer_pay_amount' => '0.00',
+     'buyer_user_id' => '2088502839898583',
+     'invoice_amount' => '0.00',
+     'open_id' => '20881036447305587057339062613858',
+     'out_trade_no' => '20160224151',
+     'point_amount' => '0.00',
+     'receipt_amount' => '0.00',
+     'total_amount' => '10000.00',
+     'trade_no' => '2016022421001004580282393134',
+     'trade_status' => 'WAIT_BUYER_PAY',
+  )),
+   'sign' => 'dfs245aQsUaD77vMVGaes/uSIgTT0HJ1y58dyaU2lC+cqEL3RmPh3FskH8fWqth9mSP81vNqGKjAdp7oAPuOzBxBiErYrc0Zv3glE6X+lF9Lk5GGskIEK9etOtL6HLap5XYAUZXARvUXWRblgKZoARVH3Hsm/a10B5vLpuDkF3w=',
+))
+2016-02-24 09:58:35  response: stdClass::__set_state(array(
+   'alipay_trade_query_response' => 
+  stdClass::__set_state(array(
+     'code' => '10000',
+     'msg' => 'Success',
+     'buyer_logon_id' => '925***@qq.com',
+     'buyer_pay_amount' => '0.00',
+     'buyer_user_id' => '2088502839898583',
+     'invoice_amount' => '0.00',
+     'open_id' => '20881036447305587057339062613858',
+     'out_trade_no' => '20160224151',
+     'point_amount' => '0.00',
+     'receipt_amount' => '0.00',
+     'total_amount' => '10000.00',
+     'trade_no' => '2016022421001004580282393134',
+     'trade_status' => 'WAIT_BUYER_PAY',
+  )),
+   'sign' => 'dfs245aQsUaD77vMVGaes/uSIgTT0HJ1y58dyaU2lC+cqEL3RmPh3FskH8fWqth9mSP81vNqGKjAdp7oAPuOzBxBiErYrc0Zv3glE6X+lF9Lk5GGskIEK9etOtL6HLap5XYAUZXARvUXWRblgKZoARVH3Hsm/a10B5vLpuDkF3w=',
+))
+2016-02-25 06:35:17  response: stdClass::__set_state(array(
+   'alipay_trade_query_response' => 
+  stdClass::__set_state(array(
+     'code' => '10000',
+     'msg' => 'Success',
+     'buyer_logon_id' => '925***@qq.com',
+     'buyer_pay_amount' => '0.00',
+     'buyer_user_id' => '2088502839898583',
+     'invoice_amount' => '0.00',
+     'open_id' => '20881036447305587057339062613858',
+     'out_trade_no' => '20160224151',
+     'point_amount' => '0.00',
+     'receipt_amount' => '0.00',
+     'total_amount' => '10000.00',
+     'trade_no' => '2016022421001004580282393134',
+     'trade_status' => 'TRADE_CLOSED',
+  )),
+   'sign' => 'uxqC7wPi2BjnS/7GDHPVwW/qtek3hRV7U94EVKTM9dubWS4d6cz/5nlcAzt6yY3lA+X5yZT95aPstXGEzsMhj+aJQTJkGN8aqH6abGHFqTu9m00VuXerna/bgGt4r7Y8mwjyYfVaX3MQ6IFCn97imDmYJ6SuWyTBcGD6cfHntJY=',
+))
+2016-02-25 08:58:15  response: stdClass::__set_state(array(
+   'alipay_trade_query_response' => 
+  stdClass::__set_state(array(
+     'code' => '10000',
+     'msg' => 'Success',
+     'buyer_logon_id' => '925***@qq.com',
+     'buyer_pay_amount' => '0.00',
+     'buyer_user_id' => '2088502839898583',
+     'invoice_amount' => '0.00',
+     'open_id' => '20881036447305587057339062613858',
+     'out_trade_no' => '20160224149',
+     'point_amount' => '0.00',
+     'receipt_amount' => '0.00',
+     'total_amount' => '2001.00',
+     'trade_no' => '2016022421001004580275782284',
+     'trade_status' => 'TRADE_CLOSED',
+  )),
+   'sign' => 'Bzwocvvl5xsg/qisV0NjxacSp6PH3PkYO1M3gIZeZ9rgKrOo0xxhUvH9lcBqm9VwngbLend/3uSbc+cn29z406E0cuGkFotpSBpemRb2iFoqxL46mmQuhhVxvey7kSswnnmN6CyFGUw90Z/N4Ij2jtlJLQFZsEbpCBwskEj/YLs=',
+))
+2016-02-27 10:40:51  response: stdClass::__set_state(array(
+   'alipay_trade_pay_response' => 
+  stdClass::__set_state(array(
+     'code' => '10000',
+     'msg' => 'Success',
+     'buyer_logon_id' => '925***@qq.com',
+     'buyer_pay_amount' => '0.10',
+     'buyer_user_id' => '2088502839898583',
+     'fund_bill_list' => 
+    array (
+      0 => 
+      stdClass::__set_state(array(
+         'amount' => '0.10',
+         'fund_channel' => 'ALIPAYACCOUNT',
+      )),
+    ),
+     'gmt_payment' => '2016-02-27 10:41:21',
+     'invoice_amount' => '0.10',
+     'open_id' => '20881036447305587057339062613858',
+     'out_trade_no' => '20160227159',
+     'point_amount' => '0.00',
+     'receipt_amount' => '0.10',
+     'total_amount' => '0.10',
+     'trade_no' => '2016022721001004580275647981',
+  )),
+   'sign' => 'uYE6W0JoC/geqNc5g1LZ8pBhS3LNXiUG6ocLF0/bOFZ2XBL8rpoe7uvQXmdr7OGwhXu6bHRaXMAMN7XHWgQoQiI9M9ORRJD+04vp7/1WMM/R7ERdGwnwfwLSWEkR/GGgUZAonljm6d7LnUckumQZtCsy0AsA4UObY+FO1LOZgsM=',
+))
+2016-02-27 10:40:51  response: stdClass::__set_state(array(
+   'alipay_trade_query_response' => 
+  stdClass::__set_state(array(
+     'code' => '10000',
+     'msg' => 'Success',
+     'buyer_logon_id' => '925***@qq.com',
+     'buyer_pay_amount' => '0.10',
+     'buyer_user_id' => '2088502839898583',
+     'fund_bill_list' => 
+    array (
+      0 => 
+      stdClass::__set_state(array(
+         'amount' => '0.10',
+         'fund_channel' => 'ALIPAYACCOUNT',
+      )),
+    ),
+     'invoice_amount' => '0.10',
+     'open_id' => '20881036447305587057339062613858',
+     'out_trade_no' => '20160227159',
+     'point_amount' => '0.00',
+     'receipt_amount' => '0.10',
+     'send_pay_date' => '2016-02-27 10:41:21',
+     'total_amount' => '0.10',
+     'trade_no' => '2016022721001004580275647981',
+     'trade_status' => 'TRADE_SUCCESS',
+  )),
+   'sign' => 'kl9wsAHbKTiHk01ltN/Sj0zMYe6Ae7v4JC5icIMCxIpLypy6HDgA+qQl6nVBlAHbxzofephO9s1aMH1PxQgn/MmdqC4tBcbBSQss2eeG0RCbdb99tM91NCx5xfuv4foTXHrbWeZM2a9B+UzH+Fz6ax9bem/dMByC7P1dTX74kFE=',
+))
+2016-02-27 14:10:15  response: stdClass::__set_state(array(
+   'alipay_trade_pay_response' => 
+  stdClass::__set_state(array(
+     'code' => '10000',
+     'msg' => 'Success',
+     'buyer_logon_id' => '925***@qq.com',
+     'buyer_pay_amount' => '0.10',
+     'buyer_user_id' => '2088502839898583',
+     'fund_bill_list' => 
+    array (
+      0 => 
+      stdClass::__set_state(array(
+         'amount' => '0.10',
+         'fund_channel' => 'ALIPAYACCOUNT',
+      )),
+    ),
+     'gmt_payment' => '2016-02-27 14:10:46',
+     'invoice_amount' => '0.10',
+     'open_id' => '20881036447305587057339062613858',
+     'out_trade_no' => '20160227163',
+     'point_amount' => '0.00',
+     'receipt_amount' => '0.10',
+     'total_amount' => '0.10',
+     'trade_no' => '2016022721001004580275514223',
+  )),
+   'sign' => 'wX8WkyGISC5MzcNCyid9YZK6FR2yHznS0mGi/hawMjk1Oa78DA/dFC1lXGHpWk5j4VFySrQKEzug6EPFDLN971Rii0L6z5uvgN3YPhsIBh3wez/5RIumDo5xHuqJ5RoCX1SqkB7pvFYezpMaEUoe5QCvpRte4jYTgXzD44jnWrY=',
+))
+2016-02-27 14:10:15  response: stdClass::__set_state(array(
+   'alipay_trade_query_response' => 
+  stdClass::__set_state(array(
+     'code' => '10000',
+     'msg' => 'Success',
+     'buyer_logon_id' => '925***@qq.com',
+     'buyer_pay_amount' => '0.10',
+     'buyer_user_id' => '2088502839898583',
+     'fund_bill_list' => 
+    array (
+      0 => 
+      stdClass::__set_state(array(
+         'amount' => '0.10',
+         'fund_channel' => 'ALIPAYACCOUNT',
+      )),
+    ),
+     'invoice_amount' => '0.10',
+     'open_id' => '20881036447305587057339062613858',
+     'out_trade_no' => '20160227163',
+     'point_amount' => '0.00',
+     'receipt_amount' => '0.10',
+     'send_pay_date' => '2016-02-27 14:10:46',
+     'total_amount' => '0.10',
+     'trade_no' => '2016022721001004580275514223',
+     'trade_status' => 'TRADE_SUCCESS',
+  )),
+   'sign' => 'tv4FEQWfsY0qGWKEFdtTRfnfvYYdz4+ueyv82IIh8RzjBxF187p0wWpDnvogXpOmA6JdyrscKSR9cYkAiMIrFgdxL83belQJIHnQcumYV0tDHdaAfIp3LLd/4xtnJWEa1gBSeN8MsMWPBH2SaKUX0mBb/ZCdC5yRzEOWjNZ2Xoc=',
+))
+2016-02-27 20:21:10  response: stdClass::__set_state(array(
+   'alipay_trade_pay_response' => 
+  stdClass::__set_state(array(
+     'code' => '10000',
+     'msg' => 'Success',
+     'buyer_logon_id' => '925***@qq.com',
+     'buyer_pay_amount' => '0.10',
+     'buyer_user_id' => '2088502839898583',
+     'fund_bill_list' => 
+    array (
+      0 => 
+      stdClass::__set_state(array(
+         'amount' => '0.10',
+         'fund_channel' => 'ALIPAYACCOUNT',
+      )),
+    ),
+     'gmt_payment' => '2016-02-27 20:21:41',
+     'invoice_amount' => '0.10',
+     'open_id' => '20881036447305587057339062613858',
+     'out_trade_no' => '20160227172',
+     'point_amount' => '0.00',
+     'receipt_amount' => '0.10',
+     'total_amount' => '0.10',
+     'trade_no' => '2016022721001004580282441949',
+  )),
+   'sign' => 'PrMhupCcte3j6CdVYZ9xEvAkkR/ifoORcGy0wsQR8ZXYT8P6YOBtn6GHu4wh1Wq1wcEmNvZAzw68yJPf1BM+CZ3efktEvk2QLAwKeuFBVR6l9VjFUXtZYtvLrOe49WsdRcWar4mDoCk1arvaSu7Dk3WbOt/2R52Nit37fUVy6l8=',
+))
+2016-02-27 20:21:10  response: stdClass::__set_state(array(
+   'alipay_trade_query_response' => 
+  stdClass::__set_state(array(
+     'code' => '10000',
+     'msg' => 'Success',
+     'buyer_logon_id' => '925***@qq.com',
+     'buyer_pay_amount' => '0.10',
+     'buyer_user_id' => '2088502839898583',
+     'fund_bill_list' => 
+    array (
+      0 => 
+      stdClass::__set_state(array(
+         'amount' => '0.10',
+         'fund_channel' => 'ALIPAYACCOUNT',
+      )),
+    ),
+     'invoice_amount' => '0.10',
+     'open_id' => '20881036447305587057339062613858',
+     'out_trade_no' => '20160227172',
+     'point_amount' => '0.00',
+     'receipt_amount' => '0.10',
+     'send_pay_date' => '2016-02-27 20:21:41',
+     'total_amount' => '0.10',
+     'trade_no' => '2016022721001004580282441949',
+     'trade_status' => 'TRADE_SUCCESS',
+  )),
+   'sign' => 'Nfdb5RMai73fftWqrdOsHVRhMhIU1bti7QJC+D+YAwuWfMWjsPCaBl49amw0UxE9bouz+ILBSQVOGgmK8MUDyPod57fOxzb7SmP/pESkusA0fMze6SrZO0ED15mHj53GDoXWjPs1RprfZElK1E768RsiVLYuM6VbKRWJvL4+L7I=',
+))
+2016-02-27 20:23:01  response: stdClass::__set_state(array(
+   'alipay_trade_pay_response' => 
+  stdClass::__set_state(array(
+     'code' => '10000',
+     'msg' => 'Success',
+     'buyer_logon_id' => '925***@qq.com',
+     'buyer_pay_amount' => '2.00',
+     'buyer_user_id' => '2088502839898583',
+     'fund_bill_list' => 
+    array (
+      0 => 
+      stdClass::__set_state(array(
+         'amount' => '2.00',
+         'fund_channel' => 'ALIPAYACCOUNT',
+      )),
+    ),
+     'gmt_payment' => '2016-02-27 20:23:31',
+     'invoice_amount' => '2.00',
+     'open_id' => '20881036447305587057339062613858',
+     'out_trade_no' => '20160227173',
+     'point_amount' => '0.00',
+     'receipt_amount' => '2.00',
+     'total_amount' => '2.00',
+     'trade_no' => '2016022721001004580282808607',
+  )),
+   'sign' => 'M5m99cO5/r1MYHxV9pze3eqDovPICgK/dcH4gPdwNqONpcAgZKVYRWjDmwdcbdFrn1WTkpMakVhBcjllQP+yumw/IV2pIKTCSd6BFxgxXK1/TkkuglWuxOjhvJzavmJ4HEjuN+LNSAImX209aUB5XgQlaS5kSnYwQJQYpH/V41k=',
+))
+2016-02-27 20:23:01  response: stdClass::__set_state(array(
+   'alipay_trade_query_response' => 
+  stdClass::__set_state(array(
+     'code' => '10000',
+     'msg' => 'Success',
+     'buyer_logon_id' => '925***@qq.com',
+     'buyer_pay_amount' => '2.00',
+     'buyer_user_id' => '2088502839898583',
+     'fund_bill_list' => 
+    array (
+      0 => 
+      stdClass::__set_state(array(
+         'amount' => '2.00',
+         'fund_channel' => 'ALIPAYACCOUNT',
+      )),
+    ),
+     'invoice_amount' => '2.00',
+     'open_id' => '20881036447305587057339062613858',
+     'out_trade_no' => '20160227173',
+     'point_amount' => '0.00',
+     'receipt_amount' => '2.00',
+     'send_pay_date' => '2016-02-27 20:23:31',
+     'total_amount' => '2.00',
+     'trade_no' => '2016022721001004580282808607',
+     'trade_status' => 'TRADE_SUCCESS',
+  )),
+   'sign' => 'uwZlOxGjDjykdO/fn+BZdifOxHGzeFTHpqU+Vvfr40zOG1xbC+Rnczo4fpb/xTvib0ofiOqJgDFAh+V/WjRxNNzDiQf3/jquG9dBpT2prH6eGV/Cgl82R424Hb8re6ZMzCOnDrGuJYWFdlfKmHZHF+WOP4C78iWYaRTjktvNiXk=',
+))

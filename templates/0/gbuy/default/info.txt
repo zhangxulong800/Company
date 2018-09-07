@@ -1,0 +1,7 @@
+﻿name=默认
+type=0
+version=3.0
+dir=default
+for=gbuy
+author=Monxin
+author_url=http://www.monxin.com

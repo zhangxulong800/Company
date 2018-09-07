@@ -1,0 +1,121 @@
+<div id=<?php echo $module['module_name'];?>  class="portlet light" monxin-module="<?php echo $module['module_name'];?>" align=left >
+    <script src="./plugin/datePicker/index.php"></script>
+    <script>
+    $(document).ready(function(){
+		$("#<?php echo $module['module_name'];?> select").each(function(index, element) {
+            if($(this).attr('monxin_value')!=''){
+				$(this).prop('value',$(this).attr('monxin_value'));
+			}
+        });
+		
+		$("#<?php echo $module['module_name'];?> .submit").click(function(){
+			$("#<?php echo $module['module_name'];?> .state").html('');
+			obj=new Object();
+			is_null=false;
+			$("#<?php echo $module['module_name'];?> input").each(function(index, element) {
+                if($(this).val()==''){
+					$("#<?php echo $module['module_name'];?> #"+$(this).attr('id')).focus();
+					$("#<?php echo $module['module_name'];?> #"+$(this).attr('id')).next().html('<span class=fail><?php echo self::$language['is_null'];?></span>');	
+					$("#<?php echo $module['module_name'];?> .submit").next().html('<span class=fail><?php echo self::$language['fail'];?></span>');
+					is_null=true;
+					return false;
+				}
+				obj[$(this).attr('id')]=$(this).val();
+				
+            });
+			if(is_null){return false;}
+			
+			obj['type']=$("#<?php echo $module['module_name'];?> #type").val();
+			obj['new']=$("#<?php echo $module['module_name'];?> #new").val();
+			obj['method']=$("#<?php echo $module['module_name'];?> #method").val();
+			
+			$(this).css('display','none');
+			$(this).next().html('<span class=\'fa fa-spinner fa-spin\'></span>');
+			$.post('<?php echo $module['action_url'];?>&act=set',obj, function(data){
+				
+				try{v=eval("("+data+")");}catch(exception){alert(data);}
+				
+				if(v.id){
+					$("#<?php echo $module['module_name'];?> #"+v.id).focus();
+					$("#<?php echo $module['module_name'];?> #"+v.id).next().html(v.info);	
+					$("#<?php echo $module['module_name'];?> .submit").next().html('<span class=fail><?php echo self::$language['fail'];?></span>');
+				}else{
+					$("#<?php echo $module['module_name'];?> .submit").next().html(v.info+' <a href=./index.php?monxin=bargain.goods><?php echo self::$language['return']?></a>');
+				}
+				if(v.state=='success'){
+					
+						
+				}else{
+					$("#<?php echo $module['module_name'];?> .submit").css('display','inline-block');
+				}
+				
+			});
+			
+			return false;
+		});
+		
+		$("#<?php echo $module['module_name'];?> input").change(function(){
+			update_quantity();
+		});
+		
+		update_quantity();
+    });
+	
+	function update_quantity(){
+		p=(parseFloat($("#<?php echo $module['module_name'];?> #min_money").val())+parseFloat($("#<?php echo $module['module_name'];?> #max_money").val()))/2;
+		v=(<?php echo $module['data']['goods_price'];?>-parseFloat($("#<?php echo $module['module_name'];?> #final_price").val()))/p;
+		v=parseInt(v);
+		$("#<?php echo $module['module_name'];?> .bargain_quantity").html(v);
+		
+	}
+	
+    
+    </script>
+	<style>
+	#<?php echo $module['module_name'];?>{}
+    #<?php echo $module['module_name'];?>_html{ } 
+    #<?php echo $module['module_name'];?>_html .line{ line-height:50px;white-space:nowrap;} 
+    #<?php echo $module['module_name'];?>_html .line .m_label{ display:inline-block; vertical-align: top; width:20%; text-align:right; padding-right:10px; box-shadow:none;} 
+    #<?php echo $module['module_name'];?>_html .line .value{ display:inline-block; vertical-align:top; width:80%;  vertical-align:top; white-space: normal;} 
+    #<?php echo $module['module_name'];?>_html .line .value input{ width:300px;} 
+    #<?php echo $module['module_name'];?>_html {} 
+    </style>
+    <div id="<?php echo $module['module_name'];?>_html">
+       <div class="portlet-title">
+            <div class="caption"><?php echo $module['monxin_table_name']?></div>
+   	    </div>
+  
+    	<div class=line><span class=m_label><?php echo self::$language['goods_name'];?>：</span><span class=value><?php echo $module['data']['g_title'];?> <span class=state></span></span></div>
+    	<div class=line><span class=m_label><?php echo self::$language['goods_price'];?>：</span><span class=value><?php echo $module['data']['goods_price'];?> <span class=state></span></span></div>
+       
+    	<div class=line><span class=m_label><?php echo self::$language['final_price'];?>：</span><span class=value><input type="text" id=final_price value="<?php echo $module['data']['final_price'];?>" /> <span class=state></span></span></div>
+        
+        
+    	<div class=line><span class=m_label><?php echo self::$language['invitation'];?>：</span><span class=value><input type="text" id=invitation value="<?php echo $module['data']['invitation'];?>" /> <span class=state></span></span></div>
+        
+    	<div class=line><span class=m_label><?php echo self::$language['min_money'];?>：</span><span class=value><input type="text" id=min_money value="<?php echo $module['data']['min_money'];?>" /> <span class=state></span></span></div>
+        
+    	<div class=line><span class=m_label><?php echo self::$language['max_money'];?>：</span><span class=value><input type="text" id=max_money value="<?php echo $module['data']['max_money'];?>" /> <span class=state></span></span></div>
+    	
+        <div class=line><span class=m_label><?php echo self::$language['bargain_quantity'];?>：</span><span class=value><span class=bargain_quantity></span></span></div>
+        
+    	<div class=line><span class=m_label><?php echo self::$language['method_name'];?>：</span><span class=value><select id=method monxin_value="<?php echo $module['data']['method'];?>" ><option value=1><?php echo self::$language['method_option']['1']?></option><option value=2><?php echo self::$language['method_option']['2']?></option><option value=3><?php echo self::$language['method_option']['3']?></option></select> <span class=state></span></span></div>
+        
+        
+    	<div class=line><span class=m_label><?php echo self::$language['bargain_type'];?>：</span><span class=value><select id=type monxin_value="<?php echo $module['data']['type'];?>" ><option value=0><?php echo self::$language['bargain_type_option']['0']?></option><option value=1><?php echo self::$language['bargain_type_option']['1']?></option></select> <span class=state></span></span></div>
+                
+    	<div class=line><span class=m_label><?php echo self::$language['new_name'];?>：</span><span class=value><select id=new monxin_value="<?php echo $module['data']['new'];?>" ><option value=1><?php echo self::$language['new_option']['1']?></option><option value=2><?php echo self::$language['new_option']['2']?></option></select> <span class=state></span></span></div>
+        
+        
+        
+    	<div class=line><span class=m_label><?php echo self::$language['limit_hour'];?>：</span><span class=value><input type="text" id=hour value="<?php echo $module['data']['hour'];?>" /> <span class=state></span></span></div>
+        
+    	<div class=line><span class=m_label><?php echo self::$language['start_time'];?>：</span><span class=value><input type="text" onclick=show_datePicker(this.id,'date') onblur= hide_datePicker() id=start_time value="<?php echo $module['data']['start_time'];?>" /> <span class=state></span></span></div>
+        
+    	<div class=line><span class=m_label><?php echo self::$language['end_time'];?>：</span><span class=value><input type="text" onclick=show_datePicker(this.id,'date') onblur= hide_datePicker() id=end_time value="<?php echo $module['data']['end_time'];?>" /> <span class=state></span></span></div>
+        
+
+    	<div class=line><span class=m_label>&nbsp;</span><span class=value><a href="#" class=submit><?php echo self::$language['submit'];?></a> <span class=state></span></span></div>
+        
+    </div>
+</div>

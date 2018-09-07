@@ -1,0 +1,8 @@
+<?php
+return array(
+	'provider_name' => '条码支付(支付宝)',
+	'provider_icon' => 'logo.png',
+	'state' => 'opening',
+	'gatewayUrl' => "https://openapi.alipay.com/gateway.do",
+	'app_id' => "2016020501139124" 
+);

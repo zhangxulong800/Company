@@ -1,0 +1,16 @@
+#pk_show .pk_value{ margin-left:3px; padding-left:3px; width:80%;}
+#pk_show td{ vertical-align: middle; text-align:center;}
+#pk_show td[rowspan]{ width:1rem;word-wrap:break-word; padding:1rem;}
+#pk_show td[rowspan='0']{ min-width:5rem; }
+#pk_show td[rowspan='1']{ min-width:5rem;}
+#pk_show .level_2{text-align:left;}
+#pk_show .level_3{text-align:left;}
+#pk_show .yes{ }
+#pk_show .yes:before{font: normal normal normal 1rem/1 FontAwesome; content:"\f00c";}
+#pk_show .object{ line-height:2rem;}
+#pk_show  .iframe{ display:inline-block; vertical-align:top; white-space: nowrap;  overflow:hidden;text-overflow: ellipsis; padding-left:1%;}
+#pk_show .object a{ display:inline-block; vertical-align:top; white-space: nowrap; width:30%; margin-right:2%; overflow:hidden;text-overflow: ellipsis; padding-left:1%;}
+#pk_show  a:hover{  }
+#pk_show thead{ }
+#pk_show thead td{   line-height:3rem; }
+
