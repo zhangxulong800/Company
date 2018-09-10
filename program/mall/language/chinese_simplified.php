@@ -3324,7 +3324,7 @@
   'sales_promotion_short' => '惠',
   'market_price' => '市场价',
   'w_price' => '网店售价',
-  'e_price' => '实体店售价',
+  'e_price' => 'Jplus售价',
   'cost_price' => '成本价',
   'inventory' => '库存',
   'brand' => '品牌',
