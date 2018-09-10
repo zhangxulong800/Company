@@ -64,7 +64,7 @@
   'task_w' => '37',
   'task_d' => '2018-09-10',
   'task_h' => '2018-09-10 08',
-  'task_minute' => '2018-09-10 08:46',
+  'task_minute' => '2018-09-10 08:58',
   'receive_task_y' => '2018',
   'receive_task_m' => '2018-09',
   'receive_task_w' => '2016-06',
