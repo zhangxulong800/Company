@@ -3,3 +3,5 @@ program/mall/attachd
 program/mall/img
 program/mall/img_thumb
 program/mall/snapshot
+cache
+program/mall/cache
