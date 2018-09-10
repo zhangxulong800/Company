@@ -949,7 +949,7 @@
         	<span class=m_label><?php echo self::$language['attribute'];?></span>
         	<span class=input_span id=attribute_div><?php echo $module['attribute_html'];?></span>
         </div>
-        <br />        
+        <br />      
     	<div class=line_div id=option_line>
         	<span class=m_label><?php echo self::$language['option'];?></span>
         	<span class=input_span id=option_div>

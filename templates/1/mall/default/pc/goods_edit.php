@@ -524,7 +524,7 @@
 						return false;	
 					}
 					if($(this).children('td').children('.e_price').val()==''){
-						$(this).children('td').children('.state').html('<span class=fail><?php echo self::$language['please_input']?><?php echo self::$language['e_price'];?></span>');
+						$(this).children('td').children('.state').html('<span class=fail><?php echo self::$language['please_input']?><?php echo self::$language['e_price']?></span>');
 						$(this).children('td').children('.e_price').focus();
 						
 						is_null=true;
@@ -1039,7 +1039,7 @@
             </div>
                 
             <div class=line_div>
-                <span class=m_label><?php echo self::$language['e_price'];?><span class=require>*</span></span>
+                <span class=m_label><?php echo self::$language['e_price']?><span class=require>*</span></span>
                 <span class=input_span><input type="text" name="e_price" id="e_price" value='<?php echo $module['data']['e_price'];?>' /> <span class=state></span></span>
             </div>
                 
