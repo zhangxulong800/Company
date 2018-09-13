@@ -3,7 +3,12 @@ $sql="select `id`,`actual_money`,`receipt_time` from ".self::$table_pre."order w
 $userorder=$pdo->query($sql,2);
 $achievement=0;//自身消费业绩总数
 foreach($userorder as $val){
-	if((time()-$val['receipt_time'])/86400>=self::$config['refund_time_limit']){$achievement+=$val['actual_money'];}
+	if((time()-$val['receipt_time'])/86400>=self::$config['refund_time_limit']){
+		$sql="select `price`,`goods_id` from ".self::$table_pre."order_goods where `order_id`=".$val['id'];//测试是单价还是总价
+		$r=$pdo->query($sql,2)->fetch(2);
+		//判断商品是否是会员卡类
+		$achievement+=$val['actual_money'];
+	}
 }
 //区分会员卡和购物两种情形计算
 //计算直属会员总数
