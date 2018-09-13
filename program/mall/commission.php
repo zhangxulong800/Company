@@ -11,7 +11,7 @@ $sum_sql="select count(id) as c  from ".$pdo->index_pre."user where `state`=1 an
 $once=$pdo->query($sum_sql,2)->fetch(2);
 $sum=$once['c'];
 //print_r($sum);exit;
-//变更会员业绩、级别 0会员2经理5总监
+//变更会员业绩、级别 （级别：0会员2经理5总监）
 if($sum>=30 && $achievement>=10000){
 	$grade=2;
 } else if($sum>=50 && $achievement>=300000){
