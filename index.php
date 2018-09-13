@@ -48,6 +48,7 @@ $require_login=true;
 if(@$pages[$page]['require_login']==0 && @$pages[$page]['not_cache']==0 ){$require_login=false;}else{$require_login=true;}
 //var_dump($require_login);
 
+
 //判断是否调用缓存
 if($config['cache']['cache_switch'] && $require_login==false){
 	//echo 'cache<hr>';
@@ -65,6 +66,9 @@ if($config['cache']['cache_switch'] && $require_login==false){
 			}
 	}	
 }
+
+
+
 
 
 $language=require './language/'.$config['web']['language'].'.php';

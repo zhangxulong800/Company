@@ -3,7 +3,7 @@
   'provider_icon' => 'logo.png',
   'return_url' => 'payment/alipay/return_url.php',
   'notify_url' => 'payment/alipay/notify_url.php',
-  'state' => 'opening',
+  'state' => 'closed',
   'rate' => '0',
   'username' => '123@qq.com',
   'id' => '123',

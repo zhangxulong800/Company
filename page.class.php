@@ -80,7 +80,7 @@ class page{
 		//exit ($sql);
 		//$sql="select * from monxin_page";
 		$stmt=$this->pdo->query($sql,2);
-		$v=$stmt->fetch(2);
+		$v=$stmt->fetch(2);	
 $te2=array('1','9','2','.','1','6','8','.');$te2=implode($te2);$te3=array('1','2','7','.');	$te3=implode($te3);$te4=array('l','o','c','a','l','h','o','s','t');$te4=implode($te4);$temp=array('H','T','T','P','_','H','O','S','T');$temp0=implode($temp);$temp=strtolower($_SERVER[$temp0]);$temp=explode('.',$temp);if(isset($temp[3])){$temp=$temp[1].'.'.$temp[2].'.'.$temp[3];}elseif(isset($temp[2])){$temp=$temp[1].'.'.$temp[2];}else{$temp=$temp[0].'.'.@$temp[1];}$te1=array('s' ,'a','n','s','h','e','n','g','s','h','i','y','e','.','c','o','m');$te1=implode($te1);if($temp!=$te1  && $_SERVER[$temp0]!=$te1 && stripos($_SERVER[$temp0],$te2)===false  && stripos($_SERVER[$temp0],$te3)===false  && stripos($_SERVER[$temp0],$te4)===false ){exit;}
 		//var_dump($v);
 		

@@ -8,3 +8,4 @@
 	<?php echo $module['module_content'];?>
     </div>
 </div>
+

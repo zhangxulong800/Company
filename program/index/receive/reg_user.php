@@ -88,7 +88,6 @@ if(@$act=='check_group'){
 $openid='';
 if(self::$config['reg_set']['check']!='weixin'){
 	if(strtolower($_GET['authcode'])!=strtolower(@$_SESSION["verification_code"])){
-		
 		exit ("{'errType':'authcode','errInfo':'".self::$language['authcode_err']."'}");
 	}
 }else{
@@ -105,6 +104,9 @@ if(self::$config['reg_set']['check']!='weixin'){
 	if($r['username']!=''){exit("{'errType':'authcode','errInfo':'".self::$language['openid_name'].self::$language['exist']."'}");}
 	
 }
+
+
+
 
 if(self::$config['reg_set']['email']){
 	$_GET['email']=safe_str(@$_GET['email'],1,0);
@@ -139,6 +141,7 @@ $_GET['phone']=safe_str(@$_GET['phone']);
 $_GET['username']=safe_str(@$_GET['username'],1,0);
 
 $_GET['group']=intval(@$_GET['group']);
+
 $sql="select count(id) as c from ".$pdo->index_pre."user where `username`='".$_GET['username']."' or `email`='".$_GET['username']."'  or `phone`='".$_GET['username']."'";
 $stmt=$pdo->query($sql,2);
 $v=$stmt->fetch(2);
@@ -153,24 +156,15 @@ if($v['reg_able']!=1){exit("{'errType':'group','errInfo':'".self::$language['no_
 $state=($v['require_check']==1)?0:1;
 $time=time();
 $ip=get_ip();
-$manager=$this->get_manager($pdo,$_GET['group']);
+$manager=$this->get_manager($pdo,$_GET['group']);;
 //echo $manager;
 if(!isset($_GET['phone_country'])){$_GET['phone_country']='86';}
+
 	require('plugin/py/py_class.php');
-	$py_class=new py_class();
+	$py_class=new py_class();  
 	try { $py=$py_class->str2py($_GET['username']); } catch(Exception $e) { $py='';}
-//判断推荐人是否存在
-if(!empty($_GET['pid'])){
-	$pid=trim($_GET['pid']);
-	$sql="select `id`,`path_pid` from ".$pdo->index_pre."user where `username`='".$pid."' or `email`='".$pid."'  or `phone`='".$pid."'";
-	$stmt=$pdo->query($sql,2);
-	$two=$stmt->fetch(2);
-	if(empty($two['id'])){exit("{'errType':'username','errInfo':'".'推荐人不存在'."'}");}	
-}
-$pid=empty($two['id'])?0:$pid=$two['id'];
-$path_pid=empty($two['path_pid'])?''.'#'.$pid:$two['path_pid'].'#'.$pid;
-//判断完毕
-$sql="insert into ".$pdo->index_pre."user (`nickname`,`email`,`username`,`username_py`,`password`,`reg_time`,`reg_ip`,`pid`,`path_pid`,`group`,`state`,`manager`,`phone`,`openid`,`phone_country`) values ('".$_GET['username']."','".$_GET['email']."','".$_GET['username']."','".$py."','".$_GET['password']."','$time','$ip','$pid','$path_pid','".$_GET['group']."',$state,$manager,'".$_GET['phone']."','".$openid."','".intval($_GET['phone_country'])."')";
+
+$sql="insert into ".$pdo->index_pre."user (`nickname`,`email`,`username`,`username_py`,`password`,`reg_time`,`reg_ip`,`group`,`state`,`manager`,`phone`,`openid`,`phone_country`) values ('".$_GET['username']."','".$_GET['email']."','".$_GET['username']."','".$py."','".$_GET['password']."','$time','$ip','".$_GET['group']."',$state,$manager,'".$_GET['phone']."','".$openid."','".intval($_GET['phone_country'])."')";
 if(isset($_SESSION['share'])){
 	$sql="select `username`,`group` from ".$pdo->index_pre."user where `id`=".$_SESSION['share'];
 	$r=$pdo->query($sql,2)->fetch(2);

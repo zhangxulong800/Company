@@ -9,7 +9,6 @@ require_once './config/functions.php';
 session_start();
 $_POST=monxin_trim($_POST);
 $_GET=monxin_trim($_GET);
-
 $config=require_once './config.php';
 go_domain($config['web']['domain']);
 $config['server_url']="http://www.monxin.com/";

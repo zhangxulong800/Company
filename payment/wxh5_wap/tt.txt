@@ -1,1 +1,1 @@
-https://wx.tenpay.com/cgi-bin/mmpayweb-bin/checkmweb?prepay_id=wx2915340638528244ae1380063707088509&package=1745074246&redirect_url=http%3A%2F%2Fwww.sanshengshiye.com%2Findex.php%3Fmonxin%3Dmall.pay%26id%3D77%26act%3Donline_payment%26re%3D1535528044
+&redirect_url=

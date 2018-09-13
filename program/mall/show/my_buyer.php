@@ -14,6 +14,19 @@ if(isset($_GET['import_shop_buyer_credits'])){//临时功能 导入店内会员�
 	}
 }
 
+if(isset($_GET['set_py'])){
+	require('plugin/py/py_class.php');
+	$py_class=new py_class();  
+	$sql="select `username`,`id` from ".self::$table_pre."shop_buyer where `username_py` is NULL";
+	$r=$pdo->query($sql,2);
+	foreach($r as $v){
+		echo $v['username'];
+		try { $py=$py_class->str2py($v['username']); } catch(Exception $e) { $py='';}
+		$sql="update ".self::$table_pre."shop_buyer set `username_py`='".$py."' where `id`=".$v['id'];
+		$pdo->exec($sql);
+	}
+}
+
 
 if(isset($_GET['synchronization']) && $_GET['group_id']!=''){
 	$sql="select `username`,`reg_time` from ".$pdo->index_pre."user";
@@ -45,8 +58,9 @@ $sql="select * from ".self::$table_pre."shop_buyer where `shop_id`=".SHOP_ID;
 
 
 $where="";
-if($_GET['search']!=''){$where=" and (`username` like '%".$_GET['search']."%')";}
+if($_GET['search']!=''){$where=" and (`username` like '%".$_GET['search']."%' || `phone` like '%".$_GET['search']."%' ||  `email` like '%".$_GET['search']."%')";}
 if(isset($_GET['group_id']) && $_GET['group_id']!=''){
+	$_GET['group_id']=intval($_GET['group_id']);
 	$where.=" and `group_id`=".$_GET['group_id'];	
 }
 
@@ -75,10 +89,18 @@ $sql=str_replace("_shop_buyer and","_shop_buyer where",$sql);
 $r=$pdo->query($sql,2);
 $list='';
 foreach($r as $v){
-	
+	if(!isset($v['phone'])){
+		$sql="ALTER TABLE  `monxin_mall_shop_buyer` ADD  `phone` VARCHAR( 20 ) NULL COMMENT  '手机号',
+ADD  `email` VARCHAR( 100 ) NULL COMMENT  '邮箱'";
+		$pdo->exec($sql);
+	}
 	
 	$sql="select `phone`,`email` from ".$pdo->index_pre."user where `username`='".$v['username']."' limit 0,1";
 	$user=$pdo->query($sql,2)->fetch(2);
+	
+	$sql="update ".self::$table_pre."shop_buyer set `phone`='".$user['phone']."',`email`='".$user['email']."' where `id`=".$v['id'];
+	$pdo->exec($sql);
+	
 	$list.="<tr id='tr_".$v['id']."'>
 	  <td><span class=username talk='".$v['username']."'>".$v['username']."</span><div>".$user['phone']."</div><div>".$user['email']."</div></td>
 	  <td ><span class=money>".$v['money']."</span></td>

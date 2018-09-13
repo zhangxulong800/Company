@@ -28,7 +28,6 @@ class receive{
 		if(in_array('mall.'.$call,self::$config['program_unlogin_function_power'])){if(self::$config['pay_mode']!='money'){self::$language['yuan']=self::$language['credits_s'];}}
 		$class=__CLASS__;
 		$method=$class."::".$method;
-		//print_r('./program/'.self::$config['class_name'].'/receive/'.$call.'.php');exit;
 		require './program/'.self::$config['class_name'].'/receive/'.$call.'.php';
    }
    

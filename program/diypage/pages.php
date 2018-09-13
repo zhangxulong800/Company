@@ -69,7 +69,7 @@
     'url' => 'diypage.show',
     'layout' => 'right',
     'head' => 'index.top_bar,diymodule.show_121,mall.search,mall.cart,index.navigation,index.visitor_position',
-    'left' => 'diypage.show_list(id:0|field:title|width:100%|height:auto|sequence_field:sequence|sequence_type:desc|quantity:10|target:_self|title:积兑商城|scroll:no|sub_module_width:100%)',
+    'left' => 'diypage.show_list(id:0|field:title|width:100%|height:auto|sequence_field:sequence|sequence_type:desc|quantity:10|target:_self|title:三生荟|scroll:no|sub_module_width:100%)',
     'right' => 'diypage.show(id:undefined|field:title/content)',
     'full' => '',
     'bottom' => 'diypage.foot_six_grid,index.device',

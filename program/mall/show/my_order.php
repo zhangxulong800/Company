@@ -17,9 +17,9 @@ if(isset($_SESSION['monxin_mall_order_id'])){
 		}
 	}
 }
-//检测会员消费订单总额以决定其级别
-require "./program/mall/commission.php";
-//会员级别处理完毕
+
+
+
 if(@$_GET['act']=='show_bank_transfer'){
 	echo '<style>#index_head,#top_bar,#index_user_position,#index_foot,#index_device{display:none;}</style>';
 	$sql="select * from ".self::$table_pre."bank_transfer where `order_id`=".intval($_GET['id'])." and `buyer`='".$_SESSION['monxin']['username']."' limit 0,1";
@@ -212,11 +212,7 @@ foreach($r as $v){
 			$cancel_reason='<div class=cancel_reason>'.$v['cancel_reason'].'</div>';
 			break;
 		case 6:
-			//纠正确认收货后的期限已过仍可申请退货的错误（确保提成的基数正确）
-			if((time()-$v['receipt_time'])/86400<=self::$config['refund_time_limit']){
-				$act="<a href='#' class=apply_refund d_id=".$v['id'].">".self::$language['apply_return']."</a><br />";
-			}
-			else{$act="";}
+			$act="<a href='#' class=apply_refund d_id=".$v['id'].">".self::$language['apply_return']."</a><br />";
 			break;
 		case 7:
 			$act="<a href='#' class=apply_refund d_id=".$v['id'].">".self::$language['edit'].self::$language['return_goods'].self::$language['apply']."</a><br />";

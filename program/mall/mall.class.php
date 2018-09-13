@@ -18,12 +18,13 @@ class mall{
 			self::$one_task=false;
 			if($_COOKIE['monxin_device']=='phone'){self::$one_task=true;}
 			if(isset($_GET['refresh'])){
-				self::update_cart($pdo,self::$table_pre);	
+				self::update_cart($pdo,self::$table_pre);
 			}
 			
 			self::get_shop_id($pdo);
 			$sql="select `username` from ".self::$table_pre."shop where `id`=".SHOP_ID;
 			$r=$pdo->query($sql,2)->fetch(2);
+			
 			define("SHOP_MASTER", $r['username']);
 			
 			if(isset($_SESSION['monxin']['username'])){
