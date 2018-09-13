@@ -619,7 +619,8 @@
 		obj['tag']=$("#<?php echo $module['module_name'];?> #tag").val();	
 		obj['icon']=$("#<?php echo $module['module_name'];?> #icon").val();	
 		obj['multi_angle_img']=$("#<?php echo $module['module_name'];?> #multi_angle_img").val();	
-		obj['free_shipping']=$("#<?php echo $module['module_name'];?> #free_shipping").val();	
+		obj['free_shipping']=$("#<?php echo $module['module_name'];?> #free_shipping").val();
+		obj['goods_type']=$("#<?php echo $module['module_name'];?> #goods_type").val();
 		obj['sales_promotion']=$("#<?php echo $module['module_name'];?> #sales_promotion").val();	
 		obj['logistics_weight']=$("#<?php echo $module['module_name'];?> #logistics_weight").val();	
 		obj['logistics_volume']=$("#<?php echo $module['module_name'];?> #logistics_volume").val();	
@@ -1001,6 +1002,16 @@
         	<span class=m_label><?php echo self::$language['free_shipping'];?></span>
         	<span class=input_span>
             	<select id="free_shipping" name="free_shipping"><option value="0"><?php echo self::$language['no']?></option><option value="1"><?php echo self::$language['yes']?></option></select> <span class=state></span>
+            </span>
+        </div>
+		<div class=line_div>
+        	<span class=m_label>商品类型</span>
+        	<span class=input_span>
+            	<select id="goods_type" name="goods_type">
+				<option value="0">普通商品</option>
+				<option value="1">会员卡商品</option>
+				<option value="2">399(jplus)商品</option>
+				</select> <span class=state></span>
             </span>
         </div>
 		    

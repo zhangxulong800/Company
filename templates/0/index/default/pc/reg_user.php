@@ -136,12 +136,21 @@
 	username=$("#<?php echo $module['module_name'];?>_html #username");
 	if(username.prop('value')=='<?php echo self::$language['username_hint'];?>'){username.prop('value','');}	
     }	
-    
+    var abc=0;
     function exe_check(){
         //表单输入值检测... 如果非法则返回 false
 		is_null=false;
 		$("#<?php echo $module['module_name'];?> input").each(function(index, element) {
-			if($(this).val()==''){$(this).focus();is_null=true; return false;}
+			if($(this).val()==''){
+				$(this).focus();
+				if(this.id=='pid'){abc++;}
+				if(this.id=='pid'){
+					if(abc < 2){
+						is_null=true; 
+						return false;
+					}
+				} else {is_null=true;return false;}
+			}
 		});
 		if(is_null){return false;}
        	group=$("#<?php echo $module['module_name'];?>_html #group");
@@ -280,7 +289,7 @@
                   
                   
                   <div class=line><span class="m_label"><?php echo self::$language['account'];?>：</span><span class=input_span><input class="input_text" type="text" name="username" id="username" title="<?php echo self::$language['username_hint'];?>" value="<?php echo self::$language['username_hint'];?>" onfocus="clear_defaut_value();" /></span><span id=username_state></span></div>
-                  
+                  <div class=line><span class="m_label">推荐人：</span><span class=input_span><input class="input_text" type="text" name="pid" id="pid" /></span><span id=pid_state></span></div>
                   <div class=line><span class="m_label"><?php echo self::$language['password'];?>：</span><span class=input_span><input class="input_text" type="password" name="password" id="password" /></span><span id=password_state></span></div>
                   
                   <div class=line><span class="m_label"><?php echo self::$language['confirm'];?><?php echo self::$language['password'];?>：</span><span class=input_span><input class="input_text" type="password" name="confirm_password" id="confirm_password" /></span><span id=confirm_password_state></span></div>

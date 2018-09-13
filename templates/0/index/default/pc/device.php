@@ -28,7 +28,7 @@ $(document).ready(function(){
 <a href=./sitemap.php class=sitemap></a>
 	<a href="#" id='phone'><?php echo self::$language['phone_device'];?></a>
 	<a href="#" id='pc'><?php echo self::$language['pc_device'];?></a> 
-    <div class=power_by>Powered by 积兑</div>
+    <div class=power_by>Powered by Sanshengshiye</div>
 
 
     </div>

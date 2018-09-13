@@ -32,7 +32,6 @@
 			}
 		}
 		
-		
 		if(s_id){
 			if($("#have_discount").html()){
 				$("#have_discount .discount_price .price_value").html(specifications[s_id]['w_price']*$("#have_discount .discount_number").html()/10);
