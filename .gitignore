@@ -3,7 +3,7 @@ program/mall/attachd
 program/mall/img
 program/mall/img_thumb
 program/mall/snapshot
+program/mall/cache
 cache
 temp
-program/mall/cache
 config/session
