@@ -1,10 +1,11 @@
 <?php echo $module['agency_store'];?>
 <div id=<?php echo $module['module_name'];?>  save_name="<?php echo $module['module_save_name'];?>"  class="portlet light" monxin-module="<?php echo $module['module_name'];?>" align=left  >
 	<script>
+	var	x=<?php echo $module['data']['e_price']?>;
 	var credits_rate=<?php echo $module['credits_rate']?>;
 	function show_yuan(){
 		v=parseFloat($('#<?php echo $module['module_name'];?> .price_value').html())*credits_rate;
-		$("#<?php echo $module['module_name'];?> .price_div >div >span:last").after("<span class=yuan_2>"+v.toFixed(2)+"<?php echo self::$language['yuan_2']?><?php echo self::$language['more_than']?></span>");
+		$("#<?php echo $module['module_name'];?> .price_div >div >span:last").after("<span class=yuan_2>"+v.toFixed(2)+"<?php echo self::$language['yuan_2']?><?php echo self::$language['more_than']?></span>").after("<span class=yuan_2>"+'PLUS价:'+x+"<?php echo self::$language['yuan_2']?></span>");
 	}
 	function set_price_inventory(id){
 		selected_option_id=$("#<?php echo $module['module_name'];?>_html .option_option .selected").attr('id');
@@ -31,6 +32,7 @@
 				$("#<?php echo $module['module_name'];?>_html #s_select_state span span").html(temp);	
 			}
 		}
+		
 		
 		if(s_id){
 			if($("#have_discount").html()){
@@ -930,6 +932,7 @@ div.zoomMask{position:absolute;background:url("<?php echo get_template_dir(__FIL
                 	<div class=price_div>
                     	<?php echo $module['price_div_html'];?>
                     </div>
+                   
                 </div>
                 
                 <div class=fulfil_preferential><span class=fulfil_label><?php echo self::$language['fulfil_preferential'];?></span><span class=fulfil_value><?php echo $module['fulfil_preferential'];?></span></div>
