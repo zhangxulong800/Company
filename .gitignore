@@ -5,6 +5,7 @@ program/mall/img_thumb
 program/mall/snapshot
 program/mall/cache
 program/mall/config.php
+program/mall/order_icon
 cache
 temp
 config/session

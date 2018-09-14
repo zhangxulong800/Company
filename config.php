@@ -68,8 +68,8 @@
   ),
   'credits_set' => 
   array (
-    'rate' => '0.15',
-    'login' => '1',
+    'rate' => '0.1',
+    'login' => '0',
     'share' => '2',
     'introduce' => '1',
   ),

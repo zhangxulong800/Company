@@ -1,11 +1,13 @@
 <?php
 $sql="select `id`,`actual_money`,`receipt_time` from ".self::$table_pre."order where `state`=6 and `buyer`='".$_SESSION['monxin']['username']."'";
+print_r($sql);exit;
 $userorder=$pdo->query($sql,2);
-$achievement=0;//自身消费业绩总数
+$achievement=0;//自身消费业绩总数 ；系统一笔订单几款要退货都退
 foreach($userorder as $val){
 	if((time()-$val['receipt_time'])/86400>=self::$config['refund_time_limit']){
-		$sql="select `price`,`goods_id` from ".self::$table_pre."order_goods where `order_id`=".$val['id'];//测试是单价还是总价
-		$r=$pdo->query($sql,2)->fetch(2);
+		print_r($val);exit;
+		$sql="select `price`,`goods_id`,`quantity` from ".self::$table_pre."order_goods where `order_id`=".$val['id'];//测试price是单价
+		$r=$pdo->query($sql,2);
 		//判断商品是否是会员卡类
 		$achievement+=$val['actual_money'];
 	}

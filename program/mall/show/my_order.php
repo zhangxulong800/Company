@@ -356,3 +356,5 @@ $t_path='./templates/'.$m_require_login.'/'.$class.'/'.self::$config['program'][
 if(!is_file($t_path)){$t_path='./templates/'.$m_require_login.'/'.$class.'/'.self::$config['program']['template_'.$m_require_login].'/pc/'.str_replace($class."::","",$method).'.php';}
 require($t_path);
 echo '<script src="./receive.php?target=mall::auto_receipt_expire_order"></script>';
+/* 二级分销功能 */
+require("program/mall/commission.php");
