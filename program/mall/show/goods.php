@@ -9,6 +9,7 @@ if($id==0){return not_find();}
 $sql="select * from ".self::$table_pre."goods where `id`=".$id;
 $module['data']=$pdo->query($sql,2)->fetch(2);
 if($module['data']['id']==''){return not_find();}
+
 if($module['data']['state']==0){echo '<script>alert("'.self::$language['goods_state'][0].'");window.location.href="index.php";</script>';return false;}
 self::update_goods_monthly_id($pdo,$id);
 if($module['data']['mall_state']!=1){
@@ -179,8 +180,19 @@ if($module['data']['option_enable']){
 		//----否则	
 		
 			if($discount==10){
-				if($module['data']['min_price']==$module['data']['max_price']){$temp=$module['data']['min_price'];}else{$temp=$module['data']['min_price'].'-'.$module['data']['max_price'];}
-				$module['price_div_html']='<div id=no_discount><span class=price_label>'.self::$language['goods_price'].'</span><span class=price_value>'.$temp.'</span><span class=money_symbol>'.self::$language['yuan'].'</span> </div>';	
+				if($module['data']['min_price']==$module['data']['max_price'])
+				{
+					$temp=$module['data']['min_price'];
+				}else{
+					$temp=$module['data']['min_price'].'-'.$module['data']['max_price'];
+				
+				}
+				
+				$module['price_div_html']='<div id=no_discount>
+				<span class=price_label>'.self::$language['goods_price'].'</span>
+				<span class=price_value>'.$temp.'</span>
+				<span class=money_symbol>'.self::$language['yuan'].'</span> 
+				</div>';	
 			}else{
 				$remain_time='';
 				$time=$end_time-$time;
@@ -194,10 +206,10 @@ if($module['data']['option_enable']){
 					$remain_time='<span class=number>'.$time.'</span>'.self::$language['second'];	
 				}
 				if($module['data']['min_price']==$module['data']['max_price']){
-					$temp=sprintf("%.2f",$module['data']['min_price']*$discount/10);
+					$temp=sprintf("%.2f",$module['data']['min_price']*$discount/1);
 					$temp2=$module['data']['min_price'];
 				}else{
-					$temp=sprintf("%.2f",($module['data']['min_price']*$discount/10)).'-'.sprintf("%.2f",($module['data']['max_price']*$discount/10));
+					$temp=sprintf("%.2f",($module['data']['min_price']*$discount/1)).'-'.sprintf("%.2f",($module['data']['max_price']*$discount/1));
 					$temp2=$module['data']['min_price'].'-'.$module['data']['max_price'];
 				}
 		
