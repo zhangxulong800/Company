@@ -77,7 +77,8 @@ class mall{
 		$method=$call_old_method;
 		$call=$method;
 		$method=$class."::".$method;
-		if(in_array($class.'.'.$call,self::$config['program_unlogin_function_power'])){$m_require_login=0;}else{$m_require_login=1;}		
+		if(in_array($class.'.'.$call,self::$config['program_unlogin_function_power'])){$m_require_login=0;}else{$m_require_login=1;}
+		//print_r('./program/'.$class.'/show/'.$call.'.php');exit;
 		require './program/'.$class.'/show/'.$call.'.php';
    }
 
