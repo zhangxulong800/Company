@@ -212,7 +212,9 @@ foreach($r as $v){
 			$cancel_reason='<div class=cancel_reason>'.$v['cancel_reason'].'</div>';
 			break;
 		case 6:
-			$act="<a href='#' class=apply_refund d_id=".$v['id'].">".self::$language['apply_return']."</a><br />";
+			if((time()-$v['receipt_time'])/86400>=self::$config['refund_time_limit']){$act='';} else {
+				$act="<a href='#' class=apply_refund d_id=".$v['id'].">".self::$language['apply_return']."</a><br />";
+			}
 			break;
 		case 7:
 			$act="<a href='#' class=apply_refund d_id=".$v['id'].">".self::$language['edit'].self::$language['return_goods'].self::$language['apply']."</a><br />";
