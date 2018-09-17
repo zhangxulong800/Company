@@ -33,7 +33,7 @@ $module['goods_state']=self::get_goods_state_option($pdo);
 
 
 $sql="select * from ".self::$table_pre."goods where `id`=".$id;
-$module['data']=$pdo->query($sql,2)->fetch(2); 
+$module['data']=$pdo->query($sql,2)->fetch(2);
 $module['data']['cost_price']=self::get_cost_price_new($pdo,$id);
 if($module['data']['shop_id']!=SHOP_ID && !in_array('mall.m_goods_admin',$_SESSION['monxin']['page'])){echo 'id err '; return false;}
 
